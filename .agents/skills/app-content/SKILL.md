@@ -68,8 +68,8 @@ Aufbau leicht → schwer: wählen/zuordnen/ordnen → Lücke → schreiben mit C
 
 - **Satzleiste** (eine SVG-Familie `src/images/satzleiste-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox): Karten Subjekt #2c6fd8, Verb #c0392b, Objekt #138d75, Ort #d35400, Zeit #8e44ad, Helfer #e6b800 (dunkle Schrift), not #7f8c8d, Fragewort #17a2b8. Aussage: Karten von links nach rechts S – V – O – Ort – Zeit. Frage: der Helfer springt (Bogen) vor das Subjekt, das Verb steht ohne Endung. Verneinung: not neben dem Helfer vor dem Verb. Subjektfrage: Subjektkarte wird zur Fragewortkarte, kein Helfer. Question tag: gestrichelte Linie als Spiegel am Satzende. In Aufgaben zeigt die Satzleiste nur die Legende, nie das Ergebnis.
 - Skizzen der Familie: `.vibe/sketches/satzleiste-*.svg`.
-- Geplant: `satzleiste-aussage`, `-imperativ`, `-frage`, `-verneinung`, `-kurzantworten`, `-fragewort`, `-subjektfrage`, `-praeposition`, `-did`, `-tag`, `-ganz` (Rückblick, alle Plätze).
-- Szenen: je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist.
+- Gebaut (je eine Reihe oder mehrere Reihen untereinander): `satzleiste-aussage` (wortstellung), `-imperativ`, `-frage` (Aussage, Frage, Verneinung; do-und-does), `-kurzantworten`, `-fragewort`, `-subjektfrage`, `-praeposition`, `-did`, `-tag`, `-ganz` (Rückblick am Ende von question-tags, alle Plätze). Erzeugt mit einem Skript, das die Karten setzt (Kartenbreite folgt der Wortlänge, Beschriftung unter jeder Karte, Schrift 16 bis 17 im 480er viewBox); ein neues Bild ist eine neue Zeile in diesem Skript oder eine Kopie der SVG mit anderen Wörtern.
+- Szenen (gebaut: `szene-wortstellung`, `-imperativ`, `-do-und-does`, `-kurzantworten`, `-fragewoerter`, `-subjektfragen`, `-praeposition-am-ende`, `-did`, `-question-tags`; Sprechblase zeigt nur die Frage, nie die Antwort): je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb).
 - Poster sind `table`-Blöcke, wachsen von Seite zu Seite.
 
@@ -82,7 +82,7 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 1. Baustein auf der Karte wählen (Kapitel 4: `emphase-do`, `inversion`, Stufe 9-10; keine erfundenen Kinder mehr, Beispiele aus Reden und Literatur, `explainer-age-appropriate`); die Voraussetzungen müssen auf früheren Seiten stehen oder eine Wiederholungsseite bekommen.
 2. Seite `src/<kapitel>/<seite>.yaml` mit den Abschnitten `einstieg`, `neu`, `uebung`, `anwenden`, `weiter` anlegen, in `chapter.yaml` eintragen, Competency-ID setzen.
 3. Satzleiste um den neuen Platz erweitern und das Poster um die Zeilen der Seite.
-4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 in `selfAssessment` (Skill `lernapps-explainer-self-assessment`).
+4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` des Kapitels aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (gebaut: je Seite `…-waehlen`/`…-bilden`, eine Übung ohne Bezug auf Tabelle oder Poster).
 5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz), erzeugt mit dem Skript `regen_audio.py` (aus hello-millbrook, schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir); anhören lassen.
 6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
@@ -98,4 +98,14 @@ Aus #470 und #472 übernommen:
 - Der Merke-Kasten nennt andere Verben als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
 - Hinweise und Meldungen der Selbsteinschätzung nennen weder „Spalte“ noch „Poster“ noch „oben“.
-Aus dieser App: noch keine.
+Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüfung):
+- Die Auswahl der richtigen Antwort darf nicht an der Länge zu erkennen sein; Antwortsätze gleich lang und gleich konkret.
+- Die Farben der Satzkarten sind nicht die Farben der Jacken der Kinder: der Text sagt es einmal.
+- Ein Begriff (Subjekt, Verb, Objekt, not, they) steht auf der Seite, bevor eine Übung ihn braucht.
+- „Wähle das richtige Wort“, nicht „den richtigen Helfer“, wo is/are als Distraktor stehen (be ist kein Helfer).
+- Der Helfer wird auf der Seite des Imperativs (don't) zum ersten Mal gezeigt; spätere Seiten sagen „der gelbe Helfer, den du von don't kennst“.
+- Tabellen-Übungen nehmen andere Verben und Personen als das Poster darüber.
+- Keine `matching`-Aufgabe mit gleichen rechten Einträgen (Subjekt, Objekt): dort `multiple-choice`.
+- Ein Satz auf zwei Absätze verteilt, höchstens drei neue Begriffe je Absatz; ein Merke-Kasten hat zwei bis drei Aussagen.
+- Bei `accepted` mit `?` in der Flow-Liste den Eintrag in Anführungszeichen setzen.
+- Offene Fehler der Vorlage `lernapps/app-templates` (dem Orchestrator gemeldet): `ordering` zeigt Auswahlfelder statt Karten; Tabellen-Übung bricht die Spalte „Person“ bei 360 px; Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei klar falschen Antworten; die Meldung zu Apostroph und Großschreibung nennt falsche Wörter.

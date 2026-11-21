@@ -210,8 +210,8 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
 - [x] Kapitel 3 : (recap simple-past), und mit Satzleiste-SVGs (, , ), Szenen, Übungen, Rückblick und Audio; mit Selbsteinschätzung.
 - [x] Start- und Kapitelseiten: (scope, intro, chapters), Selbsteinschätzung der App, Poster und Schulkalender wachsen über die Seiten; Audio-Liste vollständig.
 <!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
-- [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
+- [x] Update the content guide so that it describes the app as built (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
 - [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
