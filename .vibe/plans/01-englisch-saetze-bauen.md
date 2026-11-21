@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -52,6 +52,7 @@ Ordnung nach `requires`: kurzantworten braucht `to-be` und `simple-present-frage
 - `question-tags`: Aus positiv wird negativ und umgekehrt, der Helfer kommt zurück (You like it, don't you?; She is tired, isn't she?). Fehler: gleiche Polarität, falscher Helfer, falsche Person im Tag.
 **Quellen (geöffnet am 2026-11-21, nur Fakten):** Wikipedia (en) „Do-support“ (do als Hilfsverb für Frage und Verneinung, wenn kein anderes Hilfsverb oder be da ist; danach steht die Grundform ohne Endung; do auch zur Betonung → Kapitel 4) und „Tag question“ (Bildung und Gebrauch von question tags); Lernlandkarte Englisch (Bausteine, `requires`); Grundwortschatz Englisch (A1/A2: do, question, answer, who, what, where, when, why, how, whose, often, always, never, yesterday, tomorrow, pizza, cake gefunden; „does“ und „did“ sind Formen von do). Nicht geprüft: deutsche Wikipedia und Klexikon (kein Artikel nötig), „English auxiliary verbs“ nur überflogen. Beispielsätze sind eigene aus dem Alltag der Figuren. Fehlende Bausteine der Karte: keine bemerkt.
 **Umfang:** In: die neun Bausteine der Stufe 5-6 in drei Kapiteln; Fragen und Verneinung im simple present (do, does, don't, doesn't) und simple past (did, didn't), be wird nur wiederholt (be braucht kein do), Imperativ mit don't, Kurzantworten, die sieben Fragewörter who, what, where, when, why, how, whose, Subjekt- und Objektfragen, Präposition am Ende, question tags mit be, do und did (Beispiele nur mit Verben aus A1/A2). Nicht in diesem Stand und warum: Betonung mit do und Inversion (Kapitel 4, Stufe 9-10, Inkrement), Modalverben und andere Hilfsverben in Fragen und question tags (kein Baustein dieser Stufe), Nebensätze, indirekte Rede und indirekte Fragen (#481), Satzmelodie der Frage (#482), Stellung der Adverbien (#476). Zeiten selbst stehen in #472 und werden nur wiederholt. Datenumfang: simple present und simple past, alle Personen (ich bis sie), Verben aus A1/A2; regelmäßige und die 38 unregelmäßigen Verben aus #472 für did. Sprache: Deutsch (Erklärung), englische Beispiele, britisches Englisch, `languages: [de]`. Audio (Stimme `bf_emma`): Diktat und Nachsprechen, je Seite höchstens sechs ganze Sätze, Namen am Satzende zweisilbig.
+**Seitendateien (zur Klarheit, die Code-Aufgaben nennen sie wegen eines Schreibfehlers beim Anlegen nur teilweise):** `aussage-und-aufforderung/{das-brauchst-du,wortstellung,imperativ}`, `fragen-mit-do/{das-brauchst-du,do-und-does,kurzantworten,fragewoerter,subjektfragen,praeposition-am-ende}`, `did-und-tags/{das-brauchst-du,did,question-tags}`; Bilder `satzleiste-{aussage,imperativ,frage,verneinung,kurzantworten,fragewort,subjektfrage,praeposition,did,tag,ganz}.svg`, Szenen `szene-<seite>.svg`.
 Übungsmuster (Referenz Fremdsprachen): Reihe ordnen (`ordering`, Satzkarten), Form wählen (`language-task` choice mit `distractors`), Form bilden (write mit `cue`), Lücke (`gap`), Entscheiden mit Begründung, Diktat und Nachsprechen (Audio, `bf_emma`), freies Schreiben (`open-task`).
 
 ## Explore
@@ -93,9 +94,10 @@ Ordnung nach `requires`: kurzantworten braucht `to-be` und `simple-present-frage
       off), and which misconception the feedback catches.
 - [x] Write under "Notes" the scope: what is in, what is out and why, the data range (for example "all main-group
       elements", never a silent "1–20"), the languages.
-- [ ] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
+- [x] **Checkpoint:** research. Show in plain words: the strand or why none, the competencies by chapter, the didactic
       approach, the scope, every "(guess)", the sources and what is unchecked, the archetype and its reason. Stop and
       wait. Changes: change them, then ask again.
+      Creator: Ja, du darfst zum Plan übergehen. 9 Bausteine = 9 Seiten + 3 Wiederholungsseiten = 12 Seiten.
 
 ### Answers
 
@@ -121,15 +123,15 @@ Ordnung nach `requires`: kurzantworten braucht `to-be` und `simple-present-frage
 
 ### Tasks
 
-- [ ] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
+- [x] Map the content as "Map the content" of skill `lernapps-explainer-design` says, and write the result under
       "Content method".
-- [ ] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
-- [ ] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
+- [x] Choose a pattern per competency as skill `lernapps-exercise-patterns` says, and add it to "Content method".
+- [x] Add to "Content method" one line per page, as "Engagement" of skill `lernapps-explainer-design` says: the
       opening task, the change of activity, the reward, the story.
-- [ ] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
+- [x] Add the tasks of Code, each one a piece of work that ends in a commit. First the pattern: one complete page or
       screen, `npx --no -- lernapps plan add --at pattern "<task>"`. Then the others, one call each:
       `npx --no -- lernapps plan add --at pages "<task>"`. Each task says what it builds and what it shows.
-- [ ] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
+- [x] Draw a sketch of each screen, component or interactive exercise: a static SVG or image, or the steps with what
       learners see after each. Keep the files in `.vibe/sketches/`.
 - [ ] Show the creator, short: goal, competencies by chapter, the Code tasks, the sketches, and the content method in
       plain words (what learners see and do, what the app cannot do). At most 2 questions.
@@ -138,11 +140,37 @@ Ordnung nach `requires`: kurzantworten braucht `to-be` und `simple-present-frage
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+**Quelle der Wörter:** Grundwortschatz Englisch (https://lernapps.net/apps/map/englisch/grundwortschatz/), A1 und A2; außerhalb der Liste nur, was eine Situation braucht und die Seite erklärt (Satzkarte, Helfer, question tag werden als Begriffe erklärt). Wörter der Übungen stehen vorher auf der Seite (Poster „Wörter dieser Seite“). Anschluss an #472 (`lernapps/englisch-zeiten`, `work`): gleiche Figuren, gleiche Begriffe (Poster, Schulkalender, Ausdruck, simple present, simple past, Zeitstrahl für die Zeiten), die Satzleiste ist das neue, eine Seite lang wachsende Bild.
+**Geschichte:** Mr Hill hängt neben den Zeitstrahl eine Satzleiste mit Karten an die Wand (Millbrook School). Sophie, Ellie, Peter und Amir legen Sätze mit Karten, fragen sich gegenseitig aus und schreiben Fragen für ein Quiz. Figuren und Orte wie in #470 und #472, gezeichnet je Seite als Szene (`szene-<seite>.svg`, `<g id>` kopiert aus `millbrook-klassenzimmer.svg` von hello-millbrook).
+**Das wachsende Bild: die Satzleiste** (eine SVG-Familie `src/images/satzleiste-<seite>.svg`, eigene Zeichnung, CC-BY-4.0, gleiche Farben auf jeder Seite; Hintergrund wie der Zeitstrahl, Schrift mindestens 16 im 480er viewBox). Karten: Subjekt (blau), Verb (rot), Objekt (grün), Ort (orange), Zeit (violett), Helfer do/does/did (gelb, mit kleinem Gepäck-Zeichen), not (grau), Fragewort (türkis). Aussage = Karten von links nach rechts S – V – O – Ort – Zeit; Frage = Helfer springt vor S (Pfeil), das Verb steht danach ohne Endung; Verneinung = not neben dem Helfer vor dem Verb; Subjektfrage = die Subjektkarte wird zur Fragewortkarte, kein Helfer; question tag = Spiegel am Satzende (Farbwechsel positiv/negativ). In Aufgaben zeigt das Bild nur die Legende, nie das Ergebnis.
+**Je Seite dieselben Abschnitte** (wie #472): `einstieg` (Szene, erste leichte Aufgabe, „Das kannst du danach“), `neu` (Satzleiste, Bau-Karte, Merke), `uebung` (mindestens vier, leicht → schwer), `anwenden` (`open-task` oder `speaking-task`), `weiter`. Wiederholungsseiten (`das-brauchst-du`): nur Text und Tabelle (Poster), kein Bild nötig außer wo es hilft, keine Übung, `recap` nennt die Bausteine.
+**Engagement je Seite (Opening / Change / Reward / Story / Repeat):**
+- `das-brauchst-du` K1: Ausdrücke vom Poster (Open the door. Sit down.) als bekannte Befehle; keine Übung; Story: Mr Hill gibt Anweisungen, die Kinder legen sie als Karten.
+- `wortstellung`: Opening: Sophies Satz ist durcheinander, Reihenfolge wählen; dann Karten ordnen (`ordering`), Ort-vor-Zeit-Regel, Satz bauen, Karte für die Satzleiste schreiben; Reward: ein eigener Satz hängt an der Satzleiste.
+- `imperativ`: Opening: Mr Hill sagt „Open the door.“ (wer ist das Subjekt?); Subjektkarte fällt weg; don't als erster Helfer; Sätze vom Poster mit Regel.
+- `das-brauchst-du` K2: simple present (-s bei he/she/it) und to-be (am/is/are) als Poster-Tabelle, kein Übungsteil.
+- `do-und-does` (Musterseite): Opening: Ellie fragt „Does Peter like pizza?“ und Sophie sieht die Karte springen; Satzleiste: Helfer springt nach vorn, Verb ohne -s; Verneinung mit not; Übungen: wählen, ordnen, bilden mit cue, Korrektur, übersetzen, Diktat; Reward: Fragen für das Klassenquiz.
+- `kurzantworten`: Opening: Ja-Nein-Frage, welche Antwort passt; nur der Helfer wird wiederholt; do bei Frage mit do, am/is/are bei Frage mit be; Kurzantworten zuordnen, schreiben, nachsprechen.
+- `fragewoerter`: Fragewort vor den Helfer; sieben Fragewörter zuordnen, Fragen ordnen und bilden; Quiz-Karten schreiben.
+- `subjektfragen`: Opening: Who likes pizza? gegen Who does Peter like?; die Subjektkarte wird zur Frage; unterscheiden und bilden.
+- `praeposition-am-ende`: Opening: Who are you talking to?; Präposition bleibt am Ende, mit dem Deutschen verglichen (Mit wem sprichst du?); ordnen und bilden.
+- `das-brauchst-du` K3: simple past (-ed und die 38 unregelmäßigen Verben aus #472 nur als Verweis, nicht wiederholt); Zeitstrahl-Punkt mit Zeitangabe.
+- `did`: Opening: Did Peter play football yesterday?; did trägt das -ed, das Verb geht ohne („der Helfer trägt das Gepäck“); didn't; Fehler „Did she went“; Frage in der Vergangenheit mit Fragewort.
+- `question-tags`: Opening: „You like it, don't you?“; der Spiegel am Satzende; positiv ↔ negativ; Helfer mit be, do, does, did; wählen, bilden, Diktat. Rückblick: alle Kartenplätze auf einer Satzleiste (`satzleiste-ganz.svg`).
+Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz), nicht dieselben Sätze.
+
+**Muster je Baustein** (Kind der Kompetenz → Muster; Beispiel):
+- Wortstellung, Imperativ → ordnen (`ordering` mit Satzteilen), `choice` mit Distraktoren; Beispiel: park · play · in the · football · on Saturday → „I play football in the park on Saturday.“
+- Fragen und Verneinen (simple present, simple past) → Form bilden (`language-task` `write` mit `cue`), Korrektur („Does she plays …“), `choice` mit Distraktoren, `table` (Person ↔ Helfer ↔ Verb), Übersetzen; Beispiel: cue „Peter · like · pizza“ → „Does Peter like pizza?“.
+- Kurzantworten → Zuordnen (`matching` Frage ↔ Kurzantwort), `gap`, `write`.
+- Fragewörter → zuordnen (Fragewort ↔ Antwort), ordnen, bilden.
+- Subjekt-/Objektfragen → entscheiden (`choice`) mit Begründung in der Rückmeldung, bilden.
+- Präposition am Ende → ordnen und bilden, übersetzen.
+- Question tags → `choice`/`gap` mit Distraktoren, `write` mit cue („Ellie plays football“ → „, doesn't she?“).
+- Alle Seiten: Diktat (`language-task` mit `audio`, höchstens drei ganze Sätze) und Nachsprechen (`speaking-task`, drei Sätze); freies Schreiben (`open-task`) auf den Seiten, wo ein eigener Satz entsteht. Kein Ziehen von Karten (keine Komponente, `prefer-built-in-block`): `ordering` ersetzt es; ein Karten-Ziehen wäre ein Wunsch für ein Inkrement.
+**Audio:** Skill `lernapps-audio`, Stimme `bf_emma` (britisch), ganze Sätze, das Ausklingen mit `regen_audio.py` (aus hello-millbrook) abschneiden, Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir); keine Sätze zwischen Seiten wiederholen; Diktat 3 + Nachsprechen 3 je Seite (Wiederholungsseiten: kein Audio) = 54 Sätze; Liste `audio-texte.json`.
+**Datendateien:** keine (jede Tatsache steht einmal in ihrer Seite). **Komponenten:** keine. **Selbsteinschätzung:** je Kapitel (`selfAssessment` in `chapter.yaml`, zwei Übungen je Seite).
+**Ein späterer Agent** ergänzt Kapitel 4 (`emphase-do`, `inversion`, Stufe 9-10, keine erfundenen Kinder mehr, Beispiele aus Reden und Literatur) als Inkrement `increment/<NN>-<name>` nach dem Inhaltsführer (Abschnitt „Adding a chapter or round“).
 
 ## Code
 
@@ -167,11 +195,16 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: pattern: the one page or screen that is the pattern for the others -->
+- [ ] Musterseite (simple-present-fragen) komplett bauen: App- und Kapitelgerüst (, ), Satzleiste-SVGs (, ), Szene, Abschnitte einstieg bis weiter, mindestens sechs Übungen, Audio (3 Diktat, 3 Nachsprechen); zeigt, wie eine Seite mit dem Helfer do aussieht.
+<!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
-<!-- tasks: pages: the other pages or screens, after the pattern -->
+- [ ] Kapitel 1 : , (recap classroom-phrases), und mit Satzleiste-SVGs (, ), Szenen, Übungen und Audio.
+- [ ] Kapitel 2 : (recap simple-present und to-be), , , , mit Satzleiste-SVGs, Szenen, Übungen und Audio; mit Selbsteinschätzung.
+- [ ] Kapitel 3 : (recap simple-past), und mit Satzleiste-SVGs (, , ), Szenen, Übungen, Rückblick und Audio; mit Selbsteinschätzung.
+- [ ] Start- und Kapitelseiten: (scope, intro, chapters), Selbsteinschätzung der App, Poster und Schulkalender wachsen über die Seiten; Audio-Liste vollständig.
+<!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
