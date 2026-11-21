@@ -27,7 +27,6 @@
   "src/audio/where-do-ellie-and-amir-live.mp3": "Where do Ellie and Amir live?",
   "src/audio/who-likes-pizza-at-school.mp3": "Who likes pizza at school?",
   "src/audio/what-does-amir-like-at-home.mp3": "What does Amir like at home?",
-  "src/audio/who-plays-football-in-the-park.mp3": "Who plays football in the park?",
   "src/audio/who-eats-lunch-with-ellie.mp3": "Who eats lunch with Ellie?",
   "src/audio/what-does-mr-hill-read-at-home.mp3": "What does Mr Hill read at home?",
   "src/audio/who-lives-with-sophie.mp3": "Who lives with Sophie?",
@@ -52,5 +51,6 @@
   "src/audio/ellie-plays-football-at-school-on-friday.mp3": "Ellie plays football at school on Friday.",
   "src/audio/peter-eats-pizza-in-the-park-on-sunday.mp3": "Peter eats pizza in the park on Sunday.",
   "src/audio/amir-reads-a-book-at-home-every-day.mp3": "Amir reads a book at home every day.",
-  "src/audio/do-you-eat-pizza-yes-i-do.mp3": "Do you eat pizza? Yes, I do."
+  "src/audio/do-you-eat-pizza-yes-i-do.mp3": "Do you eat pizza? Yes, I do.",
+  "src/audio/who-watches-a-film-at-school.mp3": "Who watches a film at school?"
 }

@@ -164,6 +164,7 @@ blocks:
         items:
           - cue: You watch a film, do you?
             target: You watch a film, don't you?
+            accepted: ["You don't watch a film, do you?"]
             mistakes:
               - answer: You watch a film, do you?
                 message: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
@@ -171,7 +172,7 @@ blocks:
             target: Ellie reads a book, doesn't she?
             mistakes:
               - answer: Ellie reads a book, don't she?
-                message: Noch nicht ganz. Peter ist „er“. Welcher Helfer gehört zu he?
+                message: Noch nicht ganz. Ellie ist „sie“. Welcher Helfer gehört zu she?
         hint: Prüfe, ob der tag den Satz umdreht und ob der Helfer zur Person passt.
       - type: language-task
         id: tags-uebersetzen

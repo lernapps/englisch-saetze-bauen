@@ -75,6 +75,7 @@ blocks:
           - [window, Fenster]
           - [book, Buch]
           - [name, Name]
+          - [your, dein / euer]
           - [here, hier]
           - [in the classroom, im Klassenzimmer]
           - [please, bitte]
@@ -154,10 +155,10 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
-          - cue: You sit down.
-            target: Sit down.
+          - cue: You write here.
+            target: Write here.
             mistakes:
-              - answer: You sit down.
+              - answer: You write here.
                 message: Noch nicht ganz. Mr Hill braucht für eine Aufforderung keine blaue Karte.
           - cue: Don't to run here.
             target: (Don't|Do not) run here.
@@ -185,6 +186,7 @@ blocks:
                 message: Ein Verbot beginnt mit Don't.
           - source: Schreibt eure Namen.
             target: Write your names.
+            accepted: [Write your name.]
         hint: Sprich den Satz zuerst so, als wärst du Mr Hill.
       - type: language-task
         id: imperativ-hoeren

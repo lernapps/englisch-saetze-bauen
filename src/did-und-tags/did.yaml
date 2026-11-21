@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mr Hill fragt Peter: „Did you play football yesterday?“ Peter denkt an den gestrigen Tag."
+        text: "Mr Hill fragt Peter: „Did you play football yesterday?“ Peter überlegt."
       - type: single-choice
         id: did-start
         text: Was will Mr Hill wissen?
@@ -70,6 +70,7 @@ blocks:
           - [eat – ate, essen – aß]
           - [go – went, gehen – ging]
           - [yesterday, gestern]
+          - [what, was]
           - [football, Fußball]
           - [pizza, Pizza]
           - [film, Film]

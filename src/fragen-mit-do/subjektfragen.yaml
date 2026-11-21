@@ -186,8 +186,8 @@ blocks:
             target: Who likes pizza at school?
           - audio: what-does-amir-like-at-home.mp3
             target: What does Amir like at home?
-          - audio: who-plays-football-in-the-park.mp3
-            target: Who plays football in the park?
+          - audio: who-watches-a-film-at-school.mp3
+            target: Who watches a film at school?
   - type: section
     id: anwenden
     title: Wer tut was?
