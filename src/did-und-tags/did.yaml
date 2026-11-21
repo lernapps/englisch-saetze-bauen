@@ -51,7 +51,7 @@ blocks:
         caption: Klassenzimmer-Poster · Der Helfer did
         header: [Person, Frage, Verneinung]
         rows:
-          - [alle Personen, "**Did** you play?", "You **didn't** play."]
+          - [I / you / we / they, "**Did** you play?", "You **didn't** play."]
           - [he / she / it, "**Did** Ellie play?", "Ellie **didn't** play."]
       - type: note
         title: Merke
@@ -73,6 +73,10 @@ blocks:
           - [film, Film]
           - [English, Englisch]
           - [home, nach Hause]
+          - [walk – walked, gehen – ging zu Fuß]
+          - [at school, in der Schule]
+          - [at home, zu Hause]
+          - [a film, ein Film]
           - [after school, nach der Schule]
           - [did not, nicht (Vergangenheit)]
   - type: section

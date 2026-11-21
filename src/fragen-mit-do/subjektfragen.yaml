@@ -73,6 +73,12 @@ blocks:
           - [pizza, Pizza]
           - [here, hier]
           - [at school, in der Schule]
+          - [at home, zu Hause]
+          - [lunch, Mittagessen]
+          - [read, lesen]
+          - [with, mit / bei]
+          - [in the park, im Park]
+          - [on Saturday, am Samstag]
   - type: section
     id: uebung
     title: Übung
@@ -158,7 +164,7 @@ blocks:
             target: Who plays football?
             mistakes:
               - answer: Who does play football?
-                message: Noch nicht ganz. Wer ist hier das Subjekt. Braucht die Frage dann einen Helfer?
+                message: Noch nicht ganz. Wer ist hier das Subjekt? Braucht die Frage dann einen Helfer?
           - cue: What Peter likes?
             target: What does Peter like?
             mistakes:
@@ -194,7 +200,7 @@ blocks:
         hint: Hör die Frage zuerst. Sprich dann langsam nach. Bei Who lives hörst du das s.
       - type: open-task
         id: subjektfragen-quiz
-        task: "Peter schreibt zwei Quizfragen mit Who. Schreibe eine Frage mit Who ohne Helfer und eine Frage mit What und Helfer. Beide Fragen handeln von Sophie, Ellie, Peter oder Amir."
+        task: "Peter schreibt zwei Quizfragen. Schreibe eine Frage mit Who ohne Helfer und eine Frage mit What und Helfer. Beide Fragen handeln von Sophie, Ellie, Peter oder Amir."
         points:
           - text: Die Frage mit Who hat keinen Helfer, und das Verb hat das s.
             source: /fragen-mit-do/subjektfragen/#neu
@@ -209,4 +215,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Das Quiz läuft. Amir fragt Sophie: „Who do you talk to?“ Das Wort to bleibt am Ende hängen. Warum es dort steht, zeigt die nächste Seite."
+        text: "Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleibt am Ende hängen. Warum es dort steht, zeigt die nächste Seite."

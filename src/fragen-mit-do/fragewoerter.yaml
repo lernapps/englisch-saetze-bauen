@@ -1,21 +1,21 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: "Who, what, where, when, why, how, whose"
-description: "Peter fragt Amir, wo er wohnt. Du lernst, mit sieben Fragewörtern zu fragen und das Fragewort vor den Helfer zu stellen."
+description: "Peter fragt Ellie, wo Amir wohnt. Du lernst, mit sieben Fragewörtern zu fragen und das Fragewort vor den Helfer zu stellen."
 competencies: [fragewoerter]
 scope: "Die Seite zeigt Fragen mit den Fragewörtern who, what, where, when, why, how und whose. Die Reihenfolge ist Fragewort, Helfer, Subjekt, Verb (Where does Amir live?), das Verb steht ohne Endung. Bei be steht is oder are direkt hinter dem Fragewort (Who is he?). Nicht hier, weil sie auf späteren Seiten stehen: Fragen nach dem Subjekt ohne Helfer, Fragen mit Präposition am Ende und Fragen in der Vergangenheit."
 blocks:
   - type: section
     id: einstieg
-    title: Peter fragt Amir
+    title: Peter fragt Ellie
     blocks:
       - type: figure
         image: images/szene-fragewoerter.svg
-        alt: "Peter, Amir, Sophie und Ellie stehen nebeneinander im Klassenzimmer. Peter fragt Amir in einer Sprechblase: „Where does Amir live?“"
-        caption: "Von links: Peter (gelbe Jacke) fragt, daneben Amir (Brille), Sophie (Zöpfe) und Ellie (roter Pferdeschwanz)."
+        alt: "Peter, Amir, Sophie und Ellie stehen nebeneinander im Klassenzimmer. Peter fragt in einer Sprechblase: „Where does Amir live?“"
+        caption: "Von links: Peter (gelbe Jacke) fragt, daneben Amir (Brille), Sophie (Zöpfe) und Ellie (roter Pferdeschwanz). Peter fragt Ellie."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Peter will mehr über Amir wissen. Er fragt: „Where does Amir live?“ Ein Yes oder No reicht als Antwort nicht."
+        text: "Peter will mehr über Amir wissen und fragt Ellie: „Where does Amir live?“ Ein Yes oder No reicht als Antwort nicht."
       - type: single-choice
         id: fragewoerter-start
         text: Was will Peter wissen?
@@ -82,6 +82,10 @@ blocks:
           - [in the park, im Park]
           - [on Friday, am Freitag]
           - [on Sunday, am Sonntag]
+          - [this, dieses / das]
+          - [at home, zu Hause]
+          - [every day, jeden Tag]
+          - [happy, froh]
   - type: section
     id: uebung
     title: Übung

@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Fragen und verneinen mit do
-summary: Der gelbe Helfer, den du von don't kennst, hilft dir jetzt beim Fragen und Verneinen im simple present. Du fragst mit do und does, antwortest kurz und fragst mit Fragewörtern.
+summary: Der gelbe Helfer, den du von don't kennst, hilft dir jetzt beim Fragen und Verneinen im simple present. Du fragst mit do und does, antwortest kurz, fragst mit Fragewörtern, nach dem Subjekt und mit einer Präposition am Ende.
 pages: [das-brauchst-du, do-und-does, kurzantworten, fragewoerter, subjektfragen, praeposition-am-ende]
 selfAssessment:
   pages:

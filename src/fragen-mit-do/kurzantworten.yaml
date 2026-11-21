@@ -2,7 +2,7 @@
 title: "Yes, I do. No, she doesn't."
 description: "Amir stellt Sophie eine Frage. Du lernst, kurz mit Yes oder No zu antworten und nur den Helfer zu wiederholen."
 competencies: [kurzantworten]
-scope: "Die Seite zeigt Kurzantworten auf Ja-Nein-Fragen. Eine Kurzantwort besteht aus Yes oder No, dem Subjekt und dem Helfer der Frage: Do you like tea? – Yes, I do. – No, I don't. Das Verb wird nicht wiederholt. Bei Fragen mit be wiederholt man is, are oder am (Is she happy? – Yes, she is.). Nicht hier, weil sie auf späteren Seiten stehen: Fragewörter, Fragen nach dem Subjekt und did."
+scope: "Die Seite zeigt Kurzantworten auf Ja-Nein-Fragen. Eine Kurzantwort besteht aus Yes oder No, dem Subjekt und dem Helfer der Frage: Do you like tea? – Yes, I do. – No, I don't. Das Verb wird nicht wiederholt. Bei Fragen mit be wiederholt man is oder are (Is she happy? – Yes, she is.). Bei am heißt die Antwort No, I'm not. Nicht hier, weil sie auf späteren Seiten stehen: Fragewörter, Fragen nach dem Subjekt und did."
 blocks:
   - type: section
     id: einstieg
@@ -58,12 +58,14 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "**Yes oder No, Subjekt, Helfer.** Die Antwort wiederholt den Helfer der Frage. Bei Fragen mit **be** wiederholst du is, are oder am. Aus Ellie wird she, aus Peter und Amir wird they."
+            text: "**Yes oder No, Subjekt, Helfer.** Die Antwort wiederholt den Helfer der Frage. Bei Fragen mit **be** wiederholst du is oder are. Aus Ellie wird she, aus Peter und Amir wird they."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Wort oder Ausdruck, Bedeutung]
         rows:
           - [yes, ja]
+          - [eat, essen]
+          - [Mr Hill, Mr Hill (der Englischlehrer)]
           - [no, nein]
           - [like, mögen]
           - [play, spielen]
@@ -192,7 +194,7 @@ blocks:
         hint: Hör die Frage und die Antwort zuerst. Sprich dann beides langsam nach.
       - type: open-task
         id: kurzantworten-spiel
-        task: "Peter spielt mit der Klasse ein Frage-und-Antwort-Spiel. Schreibe zwei Fragen an Sophie oder Amir mit do, does oder is und je eine Kurzantwort mit Yes oder No."
+        task: "Peter spielt mit der Klasse ein Frage-und-Antwort-Spiel. Schreibe zwei Fragen an Sophie oder Amir mit do, does, is oder are und je eine Kurzantwort mit Yes oder No."
         points:
           - text: Die Fragen beginnen mit do, does, is oder are.
             source: /fragen-mit-do/kurzantworten/#neu
@@ -207,4 +209,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Peters Spiel gefällt der Klasse. Ellie ruft: „Where does Amir live?“ Dort reicht ein Yes oder No nicht. Wie du mit Fragewörtern fragst, lernst du auf der nächsten Seite."
+        text: "Peters Spiel gefällt der Klasse. Ellie ruft Peter zu: „Where does Amir live?“ Dort reicht ein Yes oder No nicht. Wie du mit Fragewörtern fragst, lernst du auf der nächsten Seite."

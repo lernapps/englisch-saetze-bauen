@@ -72,6 +72,9 @@ blocks:
           - [who, wer / wen]
           - [where, wo / woher]
           - [book, Buch]
+          - [this, dieses / das]
+          - [at school, in der Schule]
+          - [at, bei / an]
           - [English, Englisch]
           - [lunch, Mittagessen]
   - type: section
@@ -106,7 +109,7 @@ blocks:
             distractors: [[to, for]]
           - cue: Mit wem spricht Ellie?
             target: Who does Ellie talk [to]?
-            distractors: [[with, from]]
+            distractors: [[at, from]]
           - cue: Für wen ist dieses Buch?
             target: Who is this book [for]?
             distractors: [[with, to]]
@@ -174,11 +177,13 @@ blocks:
                 message: Im Englischen bleibt die Präposition am Ende.
           - source: Woher kommt Sophie?
             target: Where does Sophie come from?
+            accepted: [Where is Sophie from?]
             mistakes:
               - answer: Where comes Sophie from?
                 message: Das Verb braucht den Helfer, es darf nicht nach vorn springen.
           - source: Mit wem lernt Ellie Englisch?
             target: Who does Ellie study English with?
+            accepted: [Who does Ellie learn English with?]
             mistakes:
               - answer: Who does Ellie study with English?
                 message: Die Präposition steht ganz am Ende.
@@ -209,7 +214,7 @@ blocks:
             text: Who do you live with, Sophie?
           - audio: who-does-ellie-study-with.mp3
             text: Who does Ellie study with?
-        hint: Hör die Frage zuerst. Sprich dann langsam nach. Das letzte Wort wird nur leicht gesprochen.
+        hint: Hör die Frage zuerst. Sprich dann langsam nach.
       - type: open-task
         id: praeposition-fragen
         task: "Amir interviewt die Klasse. Schreibe drei Fragen, die mit einer Präposition am Ende hängen, zum Beispiel mit to, with oder from."

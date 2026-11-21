@@ -76,6 +76,8 @@ blocks:
           - [happy, froh]
           - [tired, müde]
           - [yesterday, gestern]
+          - [lunch, Mittagessen]
+          - [at school, in der Schule]
           - [question tag, kleine Frage am Satzende]
   - type: section
     id: uebung
@@ -245,4 +247,4 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der gelbe Helfer ist in jeder Reihe zu finden, außer bei der Subjektfrage. Dort ersetzt das Fragewort das Subjekt. Wenn du später Reden und Bücher liest, siehst du ihn noch an einem ganz anderen Platz."
+        text: "In der Aussage fehlt der gelbe Helfer, bei der Subjektfrage auch: Dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."

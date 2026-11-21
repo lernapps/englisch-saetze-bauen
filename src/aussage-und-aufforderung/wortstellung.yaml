@@ -22,7 +22,7 @@ blocks:
         options:
           - text: I play football at home on Monday.
             correct: true
-            info: So sagt Sophie es. Zuerst kommt, wer etwas tut, dann was er tut und was, dann wo und wann.
+            info: So sagt Sophie es. Zuerst kommt, wer etwas tut, dann was er tut, dann was oder wen, dann wo und wann.
           - text: I football play at home on Monday.
             correct: false
             info: Das Verb play muss direkt hinter I stehen. Football kommt erst danach.
@@ -69,6 +69,8 @@ blocks:
           - [eat, essen]
           - [watch, anschauen]
           - [read, lesen]
+          - [teach, unterrichten]
+          - [English, Englisch]
           - [football, Fußball]
           - [pizza, Pizza]
           - [lunch, Mittagessen]
@@ -114,7 +116,7 @@ blocks:
             right: Ort
           - left: on Sunday
             right: Zeit
-        explanation: Jeder Satzteil hat eine Karte. Wer tut etwas, ist das Subjekt, wann es geschieht, ist die Zeit.
+        explanation: Jeder Satzteil hat eine Karte. Wer etwas tut, ist das Subjekt. Wann es geschieht, ist die Zeit.
         links:
           - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
             url: https://lernapps.net/apps/map/englisch/c/wortstellung/
@@ -128,21 +130,21 @@ blocks:
             target: Ellie eats pizza at home on Sunday.
             mistakes:
               - answer: Ellie eats pizza on Sunday at home.
-                message: Die Zeit kommt zuletzt. Der Ort steht vor der Zeit.
+                message: "Wir üben: erst der Ort, dann die Zeit. Die Zeit kommt zuletzt."
               - answer: Ellie pizza eats at home on Sunday.
                 message: Das Verb steht direkt hinter dem Subjekt, dann kommt das Objekt.
           - cue: a book · Mr Hill · reads · in the classroom · on Friday
             target: Mr Hill reads a book in the classroom on Friday.
             mistakes:
               - answer: Mr Hill reads a book on Friday in the classroom.
-                message: Der Ort steht vor der Zeit.
+                message: "Wir üben: erst der Ort, dann die Zeit."
               - answer: Mr Hill a book reads in the classroom on Friday.
                 message: Das Verb steht direkt hinter dem Subjekt.
           - cue: lunch · Peter · eats · at school · every day
             target: Peter eats lunch at school every day.
             mistakes:
               - answer: Peter eats lunch every day at school.
-                message: Der Ort steht vor der Zeit.
+                message: "Wir üben: erst der Ort, dann die Zeit."
         hint: Beginne mit dem Subjekt, dann das Verb, das Objekt, den Ort und zuletzt die Zeit.
       - type: language-task
         id: wortstellung-korrektur
@@ -171,19 +173,19 @@ blocks:
             target: Peter plays football in the park on Saturday.
             mistakes:
               - answer: Peter plays football on Saturday in the park.
-                message: Der Ort steht vor der Zeit.
+                message: "Wir üben: erst der Ort, dann die Zeit."
             accepted: [On Saturday Peter plays football in the park.]
           - source: Ellie isst jeden Tag in der Schule Pizza.
             target: Ellie eats pizza at school every day.
             mistakes:
               - answer: Ellie eats pizza every day at school.
-                message: Der Ort steht vor der Zeit.
+                message: "Wir üben: erst der Ort, dann die Zeit."
           - source: Amir schaut am Sonntag zu Hause einen Film an.
             target: Amir watches a film at home on Sunday.
             mistakes:
               - answer: Amir watches at home a film on Sunday.
                 message: Das Objekt steht direkt hinter dem Verb.
-        hint: Frage dich der Reihe nach, wer, was tut, was, wo und wann.
+        hint: "Frage dich der Reihe nach: Wer tut was, wo und wann?"
       - type: language-task
         id: wortstellung-hoeren
         languages: { source: de, target: en }
@@ -228,4 +230,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ Dieser Satz hat nur zwei Karten. Wo ist das Subjekt geblieben? Das erfährst du auf der nächsten Seite."
+        text: "Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ Dieser Satz hat nur eine Karte, das Verb. Wo ist das Subjekt geblieben? Das erfährst du auf der nächsten Seite."
