@@ -204,9 +204,9 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Open the window, please.
-2. Audio → Don't run in the classroom. (auch richtig: Do not run in the classroom.)
-3. Audio → Listen to Mr Hill, Peter.
+1. Audio → Please read the book, Sophie.
+2. Audio → Don't write here, please. (auch richtig: Do not write here, please.)
+3. Audio → Please listen, Amir.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#imperativ-hoeren](../?via=tutor#imperativ-hoeren)
@@ -216,8 +216,8 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Close the door, please.
-2. Audio → Don't talk here, Amir.
+1. Audio → Read your book, Amir.
+2. Audio → Sit down and listen, Sophie.
 3. Audio → Stand up and sit down.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach, so wie ein Lehrer.
 - Link: [../?via=tutor#imperativ-nachsprechen](../?via=tutor#imperativ-nachsprechen)
@@ -230,6 +230,6 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
   - P1 (Inhalt) Die Aufforderungen haben keine Subjektkarte und beginnen mit dem Verb. Quelle: [/aussage-und-aufforderung/imperativ/#neu](../../../aussage-und-aufforderung/imperativ/#neu)
   - P2 (Inhalt) Die Verbote beginnen mit Don't, danach steht das Verb ohne Endung. Quelle: [/aussage-und-aufforderung/imperativ/#neu](../../../aussage-und-aufforderung/imperativ/#neu)
   - P3 (Form) Es sind ganze Sätze mit Punkt am Ende.
-- Musterantwort: Open your books. Listen, please. Don't run in the classroom. Don't talk here.
+- Musterantwort: Open your books. Listen, please. Don't talk here. Don't read here.
 - So hilfst du: Die App zeigt die Punkte erst nach der Antwort; das Kind hakt selbst ab, welche seine Antwort enthält, und „es fehlen P2, P4“ nennt die anderen. Fehlt dir die Antwort, bitte das Kind, sie einzufügen oder das Foto seines Blatts anzuhängen. Prüf Punkt für Punkt, auch die abgehakten, und sag zuerst, was gelungen ist. Zu einem fehlenden Punkt stell eine Frage, die dorthin führt, und nenn seine Quelle. Verrate die Musterantwort nicht, bevor das Kind es noch einmal versucht hat. Zu einem Punkt der Form zeig an einem Satz des Kindes, wie es besser geht.
 - Link: [../?via=tutor#imperativ-regeln](../?via=tutor#imperativ-regeln)

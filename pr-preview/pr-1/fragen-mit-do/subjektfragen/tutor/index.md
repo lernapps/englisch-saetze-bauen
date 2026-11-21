@@ -135,7 +135,7 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
   - ✓ Who plays football? – Who ersetzt das Subjekt, darum steht kein Helfer da.
   - ✗ What does Amir play? – Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
   - ✓ Who lives here? – Who ersetzt das Subjekt, darum steht kein Helfer da und das Verb hat das s.
-  - ✗ What does Ellie like? – Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
+  - ✗ What does Amir like? – Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
 - Lösung: Who plays football?; Who lives here?
 - Erklärung: Fehlt der Helfer, fragt die Frage nach dem Subjekt. Steht ein Helfer da, fragt sie nach dem Objekt.
 - Link: [../?via=tutor#subjektfragen-zuordnen](../?via=tutor#subjektfragen-zuordnen)
@@ -160,9 +160,9 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. who · play · in the park → Who plays in the park?
-     - Who does play in the park?: Wer ist das Subjekt, darum fehlt der Helfer.
-     - Who play in the park?: Who ist wie he oder she. Das Verb braucht das s.
+1. who · like · football → Who likes football?
+     - Who does like football?: Wer ist das Subjekt, darum fehlt der Helfer.
+     - Who like football?: Who ist wie he oder she. Das Verb braucht das s.
 2. what · Peter · like → What does Peter like?
      - What Peter likes?: Hier fragst du nach dem Objekt. Dann kommt der Helfer.
      - What does Peter likes?: Das Verb geht ohne s, denn does trägt es schon.
@@ -196,7 +196,7 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Einträge (Vorgabe → Lösung):
 1. Audio → Who likes pizza at school?
 2. Audio → What does Amir like at home?
-3. Audio → Who watches a film at school?
+3. Audio → What does Sophie watch at school?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#subjektfragen-hoeren](../?via=tutor#subjektfragen-hoeren)

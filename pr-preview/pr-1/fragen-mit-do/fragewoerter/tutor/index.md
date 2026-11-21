@@ -158,7 +158,7 @@ Mr Hill liest die Quizfragen vor. Bei „Who likes tea?“ stutzt Peter. Dort fe
 1. Wo spielt Peter Fußball? → Where does Peter play football?
 2. Was isst Ellie in der Schule? → What does Ellie eat at school?
 3. Wann schaut Amir einen Film an? → When does Amir watch a film?
-4. Wessen Buch ist das? → Whose book is this?
+4. Wessen Tee ist das? → Whose tea is this?
 - Tipp der App: Frage dich, was die Antwort sagen soll. Ein Ort, eine Zeit, eine Sache oder eine Person?
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#fragewoerter-waehlen](../?via=tutor#fragewoerter-waehlen)

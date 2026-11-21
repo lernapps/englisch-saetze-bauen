@@ -183,7 +183,7 @@ Peters Spiel gefällt der Klasse. Peter fragt Ellie: „Where does Amir live?“
 - Einträge (Vorgabe → Lösung):
 1. Audio → Do you eat pizza? Yes, I do.
 2. Audio → Does Ellie play football? No, she doesn't. (auch richtig: Does Ellie play football? No, she does not.)
-3. Audio → Is Peter tired? Yes, he is.
+3. Audio → Is Ellie happy? Yes, she is.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#kurzantworten-hoeren](../?via=tutor#kurzantworten-hoeren)

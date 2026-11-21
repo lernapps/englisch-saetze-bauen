@@ -116,7 +116,7 @@ Mr Hill hängt zum Schluss alle Karten noch einmal an die Wand. Du hast Aussage,
 
 Bild: Fünf Reihen mit Satzkarten zu einem Satz mit Amir. Aussage, Frage mit gelbem Helfer vorn, Verneinung mit gelbem Helfer vor dem Verb, Subjektfrage mit türkisem Who und question tag am Ende. Bildunterschrift: Alle Plätze der Satzleiste. Der gelbe Helfer wandert: nach vorn, vor das Verb und ans Ende.
 
-Der gelbe Helfer fehlt in der Aussage und bei der Subjektfrage, denn dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen.
+Der gelbe Helfer fehlt in der Aussage, weil das simple present ihn dort nicht braucht, und bei der Subjektfrage, weil dort das Fragewort das Subjekt ersetzt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen.
 
 ### Aufgabe tags-start
 
