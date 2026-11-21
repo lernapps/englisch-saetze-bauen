@@ -171,8 +171,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
-          - audio: do-you-like-tea-yes-i-do.mp3
-            target: Do you like tea? Yes, I do.
+          - audio: do-you-eat-pizza-yes-i-do.mp3
+            target: Do you eat pizza? Yes, I do.
           - audio: does-ellie-play-football-no-she-doesnt.mp3
             target: Does Ellie play football? No, she (doesn't|does not).
           - audio: is-peter-tired-yes-he-is.mp3

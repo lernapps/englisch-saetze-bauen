@@ -5,9 +5,6 @@
   "src/audio/does-sophie-study-english-at-home.mp3": "Does Sophie study English at home?",
   "src/audio/peter-doesnt-eat-pizza-at-school.mp3": "Peter doesn't eat pizza at school.",
   "src/audio/do-ellie-and-amir-play-football.mp3": "Do Ellie and Amir play football?",
-  "src/audio/peter-plays-football-in-the-park-on-saturday.mp3": "Peter plays football in the park on Saturday.",
-  "src/audio/ellie-eats-lunch-at-school-every-day.mp3": "Ellie eats lunch at school every day.",
-  "src/audio/amir-watches-a-film-at-home-on-sunday.mp3": "Amir watches a film at home on Sunday.",
   "src/audio/sophie-reads-a-book-at-home-on-monday.mp3": "Sophie reads a book at home on Monday.",
   "src/audio/mr-hill-teaches-english-at-school-every-day.mp3": "Mr Hill teaches English at school every day.",
   "src/audio/ellie-and-peter-play-football-in-the-park.mp3": "Ellie and Peter play football in the park.",
@@ -17,7 +14,6 @@
   "src/audio/close-the-door-please.mp3": "Close the door, please.",
   "src/audio/dont-talk-here-amir.mp3": "Don't talk here, Amir.",
   "src/audio/stand-up-and-sit-down.mp3": "Stand up and sit down.",
-  "src/audio/do-you-like-tea-yes-i-do.mp3": "Do you like tea? Yes, I do.",
   "src/audio/does-ellie-play-football-no-she-doesnt.mp3": "Does Ellie play football? No, she doesn't.",
   "src/audio/is-peter-tired-yes-he-is.mp3": "Is Peter tired? Yes, he is.",
   "src/audio/do-ellie-and-peter-like-pizza-yes-they-do.mp3": "Do Ellie and Peter like pizza? Yes, they do.",
@@ -52,5 +48,9 @@
   "src/audio/peter-watched-a-film-didnt-he.mp3": "Peter watched a film, didn't he?",
   "src/audio/sophie-is-happy-isnt-she.mp3": "Sophie is happy, isn't she?",
   "src/audio/amir-plays-football-at-school-doesnt-he.mp3": "Amir plays football at school, doesn't he?",
-  "src/audio/you-didnt-eat-lunch-did-you.mp3": "You didn't eat lunch, did you?"
+  "src/audio/you-didnt-eat-lunch-did-you.mp3": "You didn't eat lunch, did you?",
+  "src/audio/ellie-plays-football-at-school-on-friday.mp3": "Ellie plays football at school on Friday.",
+  "src/audio/peter-eats-pizza-in-the-park-on-sunday.mp3": "Peter eats pizza in the park on Sunday.",
+  "src/audio/amir-reads-a-book-at-home-every-day.mp3": "Amir reads a book at home every day.",
+  "src/audio/do-you-eat-pizza-yes-i-do.mp3": "Do you eat pizza? Yes, I do."
 }

@@ -73,6 +73,8 @@ blocks:
           - [pizza, Pizza]
           - [tea, Tee]
           - [film, Film]
+          - [read, lesen]
+          - [book, Buch]
           - [happy, froh]
           - [tired, müde]
           - [yesterday, gestern]
@@ -160,15 +162,15 @@ blocks:
         task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
-          - cue: You like tea, do you?
-            target: You like tea, don't you?
+          - cue: You watch a film, do you?
+            target: You watch a film, don't you?
             mistakes:
-              - answer: You like tea, do you?
+              - answer: You watch a film, do you?
                 message: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
-          - cue: Peter plays football, don't he?
-            target: Peter plays football, doesn't he?
+          - cue: Ellie reads a book, don't she?
+            target: Ellie reads a book, doesn't she?
             mistakes:
-              - answer: Peter plays football, don't he?
+              - answer: Ellie reads a book, don't she?
                 message: Noch nicht ganz. Peter ist „er“. Welcher Helfer gehört zu he?
         hint: Prüfe, ob der tag den Satz umdreht und ob der Helfer zur Person passt.
       - type: language-task
@@ -248,4 +250,4 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In der Aussage fehlt der gelbe Helfer, in der Aufforderung und bei der Subjektfrage auch: Dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."
+        text: "Der gelbe Helfer fehlt in der Aussage und bei der Subjektfrage, denn dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."

@@ -179,23 +179,6 @@ blocks:
                 message: Doesn't gehört in die Gegenwart. Für früher brauchst du didn't.
         hint: Der Helfer didn't steht vor dem Verb. Das Verb geht ohne -ed.
       - type: language-task
-        id: did-korrektur
-        languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: hint, apostrophe: hint }
-        items:
-          - cue: Did Peter played football?
-            target: Did Peter play football?
-            mistakes:
-              - answer: Did Peter played football?
-                message: Noch nicht ganz. Wer trägt in dieser Frage schon die Vergangenheit?
-          - cue: Peter didn't went home.
-            target: Peter (didn't|did not) go home.
-            mistakes:
-              - answer: Peter didn't went home.
-                message: Noch nicht ganz. Welche Form hat das Verb nach didn't?
-        hint: Prüfe, ob did da ist und ob das Verb in der Grundform steht.
-      - type: language-task
         id: did-uebersetzen
         languages: { source: de, target: en }
         task: Schreibe den Satz auf Englisch.

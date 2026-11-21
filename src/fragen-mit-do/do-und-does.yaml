@@ -61,7 +61,7 @@ blocks:
           - type: text
             text: "**Der Helfer trägt das Gepäck, das Verb geht ohne.** Does Mr Hill teach English? Nicht „teaches“. Don't ist **do not**, doesn't ist **does not**."
       - type: text
-        text: "Zwei Namen zusammen sind **they**: Do Peter and Amir live here? Bei **be** brauchst du keinen Helfer, hier springt is selbst nach vorn: Is Peter happy?"
+        text: "Zwei Namen zusammen sind **they**: Do Sophie and Ellie like tea? Bei **be** brauchst du keinen Helfer, hier springt is selbst nach vorn: Is Peter happy?"
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Wort oder Ausdruck, Bedeutung]
@@ -123,20 +123,6 @@ blocks:
             target: "[Do] we play football?"
             distractors: [[Does, Are]]
         hint: Schau, wer etwas tut. Bei he, she und it brauchst du does, sonst do.
-      - type: language-task
-        id: do-und-does-tabelle
-        languages: { source: de, target: en }
-        mode: table
-        task: Ergänze die Helfer in der Tabelle.
-        form: { case: hint, punctuation: hint, apostrophe: hint }
-        table:
-          caption: Helfer · watch
-          header: [Person, Frage, Verneinung]
-          rows:
-            - [we, "[Do] we watch?", "We [don't|do not] watch."]
-            - [Sophie, "[Does] Sophie watch?", "Sophie [doesn't|does not] watch."]
-            - [Peter and Amir, "[Do] Peter and Amir watch?", "Peter and Amir [don't|do not] watch."]
-        hint: Frage dich, ob du he, she oder it sagen kannst. Dann kommt does.
       - type: language-task
         id: do-und-does-fragen
         languages: { source: de, target: en }

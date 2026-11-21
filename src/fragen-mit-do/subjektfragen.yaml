@@ -15,10 +15,10 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Mr Hill fragt die Klasse: „Who likes tea?“ Ellie hebt die Hand."
+        text: "Mr Hill fragt die Klasse: „Who likes tea?“ Die Kinder überlegen."
       - type: single-choice
         id: subjektfragen-start
-        text: Was antwortet Ellie?
+        text: Welche Antwort passt zu Mr Hills Frage?
         options:
           - text: Ellie.
             correct: true
@@ -76,6 +76,11 @@ blocks:
           - [at home, zu Hause]
           - [lunch, Mittagessen]
           - [read, lesen]
+          - [watch, anschauen]
+          - [film, Film]
+          - [study, lernen]
+          - [English, Englisch]
+          - [Mr Hill, Mr Hill (der Englischlehrer)]
           - [with, mit / bei]
           - [in the park, im Park]
           - [on Saturday, am Samstag]
@@ -110,18 +115,18 @@ blocks:
         task: Wähle die richtige Form.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Wer spielt Fußball?
-            target: Who [plays] football?
+          - cue: Wer lernt Englisch?
+            target: Who [studies] English?
+            distractors: [[does study, study]]
+          - cue: Was isst Mr Hill?
+            target: What [does] Mr Hill eat?
+            distractors: [[do, eats]]
+          - cue: Wer spielt im Park Fußball?
+            target: Who [plays] football in the park?
             distractors: [[does play, play]]
-          - cue: Was spielt Amir?
-            target: What [does] Amir play?
-            distractors: [[do, plays]]
-          - cue: Wer wohnt hier?
-            target: Who [lives] here?
-            distractors: [[does live, live]]
-          - cue: Was mag Ellie?
-            target: What [does] Ellie like?
-            distractors: [[do, likes]]
+          - cue: Was lernt Ellie?
+            target: What [does] Ellie study?
+            distractors: [[do, studies]]
         hint: Fragt das Wort nach dem Subjekt, steht kein Helfer da. Fragt es nach dem Objekt, kommt der Helfer.
       - type: language-task
         id: subjektfragen-bilden
@@ -129,12 +134,12 @@ blocks:
         task: Schreibe die ganze Frage.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: who · live · here
-            target: Who lives here?
+          - cue: who · play · in the park
+            target: Who plays in the park?
             mistakes:
-              - answer: Who does live here?
+              - answer: Who does play in the park?
                 message: Wer ist das Subjekt, darum fehlt der Helfer.
-              - answer: Who live here?
+              - answer: Who play in the park?
                 message: Who ist wie he oder she. Das Verb braucht das s.
           - cue: what · Peter · like
             target: What does Peter like?
@@ -160,15 +165,15 @@ blocks:
         task: In jeder Frage steckt ein Fehler. Schreibe die Frage richtig.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: Who does play football?
-            target: Who plays football?
+          - cue: Who does watch a film?
+            target: Who watches a film?
             mistakes:
-              - answer: Who does play football?
+              - answer: Who does watch a film?
                 message: Noch nicht ganz. Wer ist hier das Subjekt? Braucht die Frage dann einen Helfer?
-          - cue: What Peter likes?
-            target: What does Peter like?
+          - cue: What Amir eats?
+            target: What does Amir eat?
             mistakes:
-              - answer: What Peter likes?
+              - answer: What Amir eats?
                 message: Noch nicht ganz. Hier wird nach dem Objekt gefragt. Welche Karte fehlt?
         hint: Zähle, ob in der Frage ein Helfer steht, und frage dich, ob er stehen soll.
       - type: language-task

@@ -10,12 +10,12 @@ blocks:
     blocks:
       - type: figure
         image: images/szene-wortstellung.svg
-        alt: "Sophie, Ellie, Amir und Peter stehen nebeneinander im Klassenzimmer. Sophie spricht in einer Sprechblase: „I play football at home on Monday.“"
+        alt: "Sophie, Ellie, Amir und Peter stehen nebeneinander im Klassenzimmer. Sophie spricht in einer Sprechblase: „I eat lunch at school on Friday.“"
         caption: "Von links: Sophie (Zöpfe) spricht, daneben Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke)."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Montag zu Hause tut: „I play football at home on Monday.“"
+        text: "Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“"
       - type: single-choice
         id: wortstellung-start
         text: "Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?"
@@ -51,16 +51,16 @@ blocks:
         caption: Klassenzimmer-Poster · Die Satzkarten
         header: [Karte, Frage, Beispiel]
         rows:
-          - [Subjekt, Wer?, Ellie]
-          - [Verb, Was tut sie?, reads]
-          - [Objekt, Was?, a book]
-          - [Ort, Wo?, at school]
-          - [Zeit, Wann?, on Friday]
+          - [Subjekt, Wer?, Sophie]
+          - [Verb, Was tut sie?, studies]
+          - [Objekt, Was?, English]
+          - [Ort, Wo?, at home]
+          - [Zeit, Wann?, on Monday]
       - type: note
         title: Merke
         blocks:
           - type: text
-            text: "**Subjekt, Verb, Objekt, Ort, Zeit.** Ellie reads a book at school on Friday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht."
+            text: "**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Wort oder Ausdruck, Bedeutung]
@@ -70,6 +70,7 @@ blocks:
           - [watch, anschauen]
           - [read, lesen]
           - [teach, unterrichten]
+          - [study, lernen]
           - [English, Englisch]
           - [football, Fußball]
           - [pizza, Pizza]
@@ -192,12 +193,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint }
         items:
-          - audio: peter-plays-football-in-the-park-on-saturday.mp3
-            target: Peter plays football in the park on Saturday.
-          - audio: ellie-eats-lunch-at-school-every-day.mp3
-            target: Ellie eats lunch at school every day.
-          - audio: amir-watches-a-film-at-home-on-sunday.mp3
-            target: Amir watches a film at home on Sunday.
+          - audio: ellie-plays-football-at-school-on-friday.mp3
+            target: Ellie plays football at school on Friday.
+          - audio: peter-eats-pizza-in-the-park-on-sunday.mp3
+            target: Peter eats pizza in the park on Sunday.
+          - audio: amir-reads-a-book-at-home-every-day.mp3
+            target: Amir reads a book at home every day.
   - type: section
     id: anwenden
     title: Ein Satz für die Satzleiste
