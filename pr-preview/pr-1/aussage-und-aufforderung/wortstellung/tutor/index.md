@@ -45,9 +45,9 @@ Sophie erzählt, was sie am Montag tut. Du lernst, einen englischen Satz in der 
 
 ### Sophie erzählt von Montag
 
-Bild: Sophie, Ellie, Amir und Peter stehen nebeneinander im Klassenzimmer. Sophie spricht in einer Sprechblase: „I play football at home on Monday.“. Bildunterschrift: Von links: Sophie (Zöpfe) spricht, daneben Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke).
+Bild: Sophie, Ellie, Amir und Peter stehen nebeneinander im Klassenzimmer. Sophie spricht in einer Sprechblase: „I eat lunch at school on Friday.“. Bildunterschrift: Von links: Sophie (Zöpfe) spricht, daneben Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke).
 
-Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Montag zu Hause tut: „I play football at home on Monday.“
+Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“
 
 - Aufgabe `wortstellung-start` (unten)
 
@@ -61,15 +61,15 @@ Bild: Eine Reihe mit fünf Satzkarten von links nach rechts. Blau I, rot play, g
 
 Klassenzimmer-Poster · Die Satzkarten:
 - Karte | Frage | Beispiel
-- Subjekt | Wer? | Ellie
-- Verb | Was tut sie? | reads
-- Objekt | Was? | a book
-- Ort | Wo? | at school
-- Zeit | Wann? | on Friday
+- Subjekt | Wer? | Sophie
+- Verb | Was tut sie? | studies
+- Objekt | Was? | English
+- Ort | Wo? | at home
+- Zeit | Wann? | on Monday
 
 **Merke: Merke**
 
-**Subjekt, Verb, Objekt, Ort, Zeit.** Ellie reads a book at school on Friday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht.
+**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Wort oder Ausdruck | Bedeutung
@@ -78,6 +78,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - watch | anschauen
 - read | lesen
 - teach | unterrichten
+- study | lernen
 - English | Englisch
 - football | Fußball
 - pizza | Pizza
@@ -200,9 +201,9 @@ Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ D
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Peter plays football in the park on Saturday.
-2. Audio → Ellie eats lunch at school every day.
-3. Audio → Amir watches a film at home on Sunday.
+1. Audio → Ellie plays football at school on Friday.
+2. Audio → Peter eats pizza in the park on Sunday.
+3. Audio → Amir reads a book at home every day.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#wortstellung-hoeren](../?via=tutor#wortstellung-hoeren)

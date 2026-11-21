@@ -81,6 +81,8 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - pizza | Pizza
 - tea | Tee
 - film | Film
+- read | lesen
+- book | Buch
 - happy | froh
 - tired | müde
 - yesterday | gestern
@@ -114,7 +116,7 @@ Mr Hill hängt zum Schluss alle Karten noch einmal an die Wand. Du hast Aussage,
 
 Bild: Fünf Reihen mit Satzkarten zu einem Satz mit Amir. Aussage, Frage mit gelbem Helfer vorn, Verneinung mit gelbem Helfer vor dem Verb, Subjektfrage mit türkisem Who und question tag am Ende. Bildunterschrift: Alle Plätze der Satzleiste. Der gelbe Helfer wandert: nach vorn, vor das Verb und ans Ende.
 
-In der Aussage fehlt der gelbe Helfer, in der Aufforderung und bei der Subjektfrage auch: Dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen.
+Der gelbe Helfer fehlt in der Aussage und bei der Subjektfrage, denn dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen.
 
 ### Aufgabe tags-start
 
@@ -178,10 +180,10 @@ In der Aussage fehlt der gelbe Helfer, in der Aufforderung und bei der Subjektfr
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. You like tea, do you? → You like tea, don't you?
-     - You like tea, do you?: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
-2. Peter plays football, don't he? → Peter plays football, doesn't he?
-     - Peter plays football, don't he?: Noch nicht ganz. Peter ist „er“. Welcher Helfer gehört zu he?
+1. You watch a film, do you? → You watch a film, don't you?
+     - You watch a film, do you?: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
+2. Ellie reads a book, don't she? → Ellie reads a book, doesn't she?
+     - Ellie reads a book, don't she?: Noch nicht ganz. Peter ist „er“. Welcher Helfer gehört zu he?
 - Tipp der App: Prüfe, ob der tag den Satz umdreht und ob der Helfer zur Person passt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#tags-korrektur](../?via=tutor#tags-korrektur)

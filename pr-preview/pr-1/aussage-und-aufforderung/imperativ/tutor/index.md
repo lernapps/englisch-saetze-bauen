@@ -63,7 +63,7 @@ Klassenzimmer-Poster · Aufforderung und Verbot:
 - Aufforderung | Verbot
 - Sit down. | Don't sit down.
 - Open the door. | Don't open the door.
-- Write your name. | Don't write here.
+- Stand up. | Don't stand up.
 
 **Merke: Merke**
 

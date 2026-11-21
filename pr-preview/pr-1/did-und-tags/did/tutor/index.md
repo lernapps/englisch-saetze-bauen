@@ -100,8 +100,6 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 
 - Aufgabe `did-verneinen` (unten)
 
-- Aufgabe `did-korrektur` (unten)
-
 - Aufgabe `did-uebersetzen` (unten)
 
 - Aufgabe `did-hoeren` (unten)
@@ -189,20 +187,6 @@ Ellie hat gestern eine Zeichnung von der Millbrook School gemalt und zeigt sie S
 - Tipp der App: Der Helfer didn't steht vor dem Verb. Das Verb geht ohne -ed.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#did-verneinen](../?via=tutor#did-verneinen)
-
-### Aufgabe did-korrektur
-
-- Aufgabe: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-- Antwortformat: die ganze Antwort auf Englisch schreiben
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
-- Einträge (Vorgabe → Lösung):
-1. Did Peter played football? → Did Peter play football?
-     - Did Peter played football?: Noch nicht ganz. Wer trägt in dieser Frage schon die Vergangenheit?
-2. Peter didn't went home. → Peter didn't go home. (auch richtig: Peter did not go home.)
-     - Peter didn't went home.: Noch nicht ganz. Welche Form hat das Verb nach didn't?
-- Tipp der App: Prüfe, ob did da ist und ob das Verb in der Grundform steht.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#did-korrektur](../?via=tutor#did-korrektur)
 
 ### Aufgabe did-uebersetzen
 

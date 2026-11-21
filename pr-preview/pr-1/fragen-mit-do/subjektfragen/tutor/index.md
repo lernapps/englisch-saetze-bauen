@@ -47,7 +47,7 @@ Mr Hill fragt die Klasse. Du lernst, nach dem Subjekt ohne Helfer zu fragen und 
 
 Bild: Mr Hill steht rechts im Klassenzimmer. Links melden sich Ellie, Peter und Amir. Mr Hill fragt in einer Sprechblase: „Who likes tea?“. Bildunterschrift: Von links: Ellie (roter Pferdeschwanz), Peter (gelbe Jacke) und Amir (Brille) melden sich. Rechts fragt Mr Hill (graue Haare).
 
-Mr Hill fragt die Klasse: „Who likes tea?“ Ellie hebt die Hand.
+Mr Hill fragt die Klasse: „Who likes tea?“ Die Kinder überlegen.
 
 - Aufgabe `subjektfragen-start` (unten)
 
@@ -84,6 +84,11 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - at home | zu Hause
 - lunch | Mittagessen
 - read | lesen
+- watch | anschauen
+- film | Film
+- study | lernen
+- English | Englisch
+- Mr Hill | Mr Hill (der Englischlehrer)
 - with | mit / bei
 - in the park | im Park
 - on Saturday | am Samstag
@@ -112,7 +117,7 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 
 ### Aufgabe subjektfragen-start
 
-- Aufgabe: Was antwortet Ellie?
+- Aufgabe: Welche Antwort passt zu Mr Hills Frage?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Ellie. – Gefragt ist, wer Tee mag. Die Antwort nennt die Person.
@@ -141,10 +146,10 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Wer spielt Fußball? → Who plays football?
-2. Was spielt Amir? → What does Amir play?
-3. Wer wohnt hier? → Who lives here?
-4. Was mag Ellie? → What does Ellie like?
+1. Wer lernt Englisch? → Who studies English?
+2. Was isst Mr Hill? → What does Mr Hill eat?
+3. Wer spielt im Park Fußball? → Who plays football in the park?
+4. Was lernt Ellie? → What does Ellie study?
 - Tipp der App: Fragt das Wort nach dem Subjekt, steht kein Helfer da. Fragt es nach dem Objekt, kommt der Helfer.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#subjektfragen-waehlen](../?via=tutor#subjektfragen-waehlen)
@@ -155,9 +160,9 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. who · live · here → Who lives here?
-     - Who does live here?: Wer ist das Subjekt, darum fehlt der Helfer.
-     - Who live here?: Who ist wie he oder she. Das Verb braucht das s.
+1. who · play · in the park → Who plays in the park?
+     - Who does play in the park?: Wer ist das Subjekt, darum fehlt der Helfer.
+     - Who play in the park?: Who ist wie he oder she. Das Verb braucht das s.
 2. what · Peter · like → What does Peter like?
      - What Peter likes?: Hier fragst du nach dem Objekt. Dann kommt der Helfer.
      - What does Peter likes?: Das Verb geht ohne s, denn does trägt es schon.
@@ -175,10 +180,10 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Who does play football? → Who plays football?
-     - Who does play football?: Noch nicht ganz. Wer ist hier das Subjekt? Braucht die Frage dann einen Helfer?
-2. What Peter likes? → What does Peter like?
-     - What Peter likes?: Noch nicht ganz. Hier wird nach dem Objekt gefragt. Welche Karte fehlt?
+1. Who does watch a film? → Who watches a film?
+     - Who does watch a film?: Noch nicht ganz. Wer ist hier das Subjekt? Braucht die Frage dann einen Helfer?
+2. What Amir eats? → What does Amir eat?
+     - What Amir eats?: Noch nicht ganz. Hier wird nach dem Objekt gefragt. Welche Karte fehlt?
 - Tipp der App: Zähle, ob in der Frage ein Helfer steht, und frage dich, ob er stehen soll.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#subjektfragen-korrektur](../?via=tutor#subjektfragen-korrektur)

@@ -181,7 +181,7 @@ Peters Spiel gefällt der Klasse. Peter fragt Ellie: „Where does Amir live?“
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Do you like tea? Yes, I do.
+1. Audio → Do you eat pizza? Yes, I do.
 2. Audio → Does Ellie play football? No, she doesn't. (auch richtig: Does Ellie play football? No, she does not.)
 3. Audio → Is Peter tired? Yes, he is.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.

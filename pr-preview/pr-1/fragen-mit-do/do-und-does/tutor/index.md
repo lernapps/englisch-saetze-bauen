@@ -70,7 +70,7 @@ Klassenzimmer-Poster · Der Helfer im simple present:
 
 **Der Helfer trägt das Gepäck, das Verb geht ohne.** Does Mr Hill teach English? Nicht „teaches“. Don't ist **do not**, doesn't ist **does not**.
 
-Zwei Namen zusammen sind **they**: Do Peter and Amir live here? Bei **be** brauchst du keinen Helfer, hier springt is selbst nach vorn: Is Peter happy?
+Zwei Namen zusammen sind **they**: Do Sophie and Ellie like tea? Bei **be** brauchst du keinen Helfer, hier springt is selbst nach vorn: Is Peter happy?
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Wort oder Ausdruck | Bedeutung
@@ -101,8 +101,6 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - Aufgabe `do-und-does-karten` (unten)
 
 - Aufgabe `do-und-does-helfer` (unten)
-
-- Aufgabe `do-und-does-tabelle` (unten)
 
 - Aufgabe `do-und-does-fragen` (unten)
 
@@ -155,19 +153,6 @@ Im Klassenzimmer hängt jetzt der gelbe Helfer an der Satzleiste. Amir hat das Q
 - Tipp der App: Schau, wer etwas tut. Bei he, she und it brauchst du does, sonst do.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#do-und-does-helfer](../?via=tutor#do-und-does-helfer)
-
-### Aufgabe do-und-does-tabelle
-
-- Aufgabe: Ergänze die Helfer in der Tabelle.
-- Antwortformat: die Lücken der Tabelle auf Englisch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
-- Einträge (Vorgabe → Lösung):
-1. we · Do we watch? · We don't watch. (auch richtig: Do; don't | do not)
-2. Sophie · Does Sophie watch? · Sophie doesn't watch. (auch richtig: Does; doesn't | does not)
-3. Peter and Amir · Do Peter and Amir watch? · Peter and Amir don't watch. (auch richtig: Do; don't | do not)
-- Tipp der App: Frage dich, ob du he, she oder it sagen kannst. Dann kommt does.
-- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
-- Link: [../?via=tutor#do-und-does-tabelle](../?via=tutor#do-und-does-tabelle)
 
 ### Aufgabe do-und-does-fragen
 
