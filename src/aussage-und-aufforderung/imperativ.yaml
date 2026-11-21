@@ -194,12 +194,12 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
-          - audio: open-the-window-please.mp3
-            target: Open the window, please.
-          - audio: dont-run-in-the-classroom.mp3
-            target: (Don't|Do not) run in the classroom.
-          - audio: listen-to-mr-hill-peter.mp3
-            target: Listen to Mr Hill, Peter.
+          - audio: please-read-the-book-sophie.mp3
+            target: Please read the book, Sophie.
+          - audio: dont-write-here-please.mp3
+            target: (Don't|Do not) write here, please.
+          - audio: please-listen-amir.mp3
+            target: Please listen, Amir.
   - type: section
     id: anwenden
     title: Regeln für die Klasse
@@ -208,10 +208,10 @@ blocks:
         id: imperativ-nachsprechen
         language: en
         items:
-          - audio: close-the-door-please.mp3
-            text: Close the door, please.
-          - audio: dont-talk-here-amir.mp3
-            text: Don't talk here, Amir.
+          - audio: read-your-book-amir.mp3
+            text: Read your book, Amir.
+          - audio: sit-down-and-listen-sophie.mp3
+            text: Sit down and listen, Sophie.
           - audio: stand-up-and-sit-down.mp3
             text: Stand up and sit down.
         hint: Hör den Satz zuerst. Sprich dann langsam nach, so wie ein Lehrer.
@@ -226,7 +226,7 @@ blocks:
           - text: Es sind ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
-          Open your books. Listen, please. Don't run in the classroom. Don't talk here.
+          Open your books. Listen, please. Don't talk here. Don't read here.
   - type: section
     id: weiter
     title: Wie es weitergeht

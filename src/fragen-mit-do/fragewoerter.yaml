@@ -134,8 +134,8 @@ blocks:
           - cue: Wann schaut Amir einen Film an?
             target: "[When] does Amir watch a film?"
             distractors: [[Where, Why]]
-          - cue: Wessen Buch ist das?
-            target: "[Whose] book is this?"
+          - cue: Wessen Tee ist das?
+            target: "[Whose] tea is this?"
             distractors: [[Who, What]]
         hint: Frage dich, was die Antwort sagen soll. Ein Ort, eine Zeit, eine Sache oder eine Person?
       - type: language-task

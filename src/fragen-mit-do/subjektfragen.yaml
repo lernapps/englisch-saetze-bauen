@@ -101,7 +101,7 @@ blocks:
           - text: Who lives here?
             correct: true
             info: Who ersetzt das Subjekt, darum steht kein Helfer da und das Verb hat das s.
-          - text: What does Ellie like?
+          - text: What does Amir like?
             correct: false
             info: Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
         explanation: Fehlt der Helfer, fragt die Frage nach dem Subjekt. Steht ein Helfer da, fragt sie nach dem Objekt.
@@ -134,12 +134,12 @@ blocks:
         task: Schreibe die ganze Frage.
         form: { case: hint, punctuation: hint }
         items:
-          - cue: who · play · in the park
-            target: Who plays in the park?
+          - cue: who · like · football
+            target: Who likes football?
             mistakes:
-              - answer: Who does play in the park?
+              - answer: Who does like football?
                 message: Wer ist das Subjekt, darum fehlt der Helfer.
-              - answer: Who play in the park?
+              - answer: Who like football?
                 message: Who ist wie he oder she. Das Verb braucht das s.
           - cue: what · Peter · like
             target: What does Peter like?
@@ -186,8 +186,8 @@ blocks:
             target: Who likes pizza at school?
           - audio: what-does-amir-like-at-home.mp3
             target: What does Amir like at home?
-          - audio: who-watches-a-film-at-school.mp3
-            target: Who watches a film at school?
+          - audio: what-does-sophie-watch-at-school.mp3
+            target: What does Sophie watch at school?
   - type: section
     id: anwenden
     title: Wer tut was?

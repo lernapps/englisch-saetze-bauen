@@ -251,4 +251,4 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der gelbe Helfer fehlt in der Aussage und bei der Subjektfrage, denn dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."
+        text: "Der gelbe Helfer fehlt in der Aussage, weil das simple present ihn dort nicht braucht, und bei der Subjektfrage, weil dort das Fragewort das Subjekt ersetzt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."

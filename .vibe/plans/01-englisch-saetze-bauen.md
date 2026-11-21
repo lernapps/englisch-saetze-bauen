@@ -261,11 +261,11 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
 
 ### Phases reached
 
-Commit, bis zum Checkpoint „Veröffentlichen“ (Vorschau-Pull-Request offen, nicht veröffentlicht, nicht gelistet, wie im Auftrag). Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite; Veröffentlichen wartet auf die Auflagen aus der unabhängigen Prüfung.
+Commit, bis zum Checkpoint „Veröffentlichen“: Vorschau-Pull-Request offen und grün, nicht veröffentlicht, nicht gelistet (wie im Auftrag). Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite; die Prüfung vor „Veröffentlichen“ hat der Orchestrator mit Auflagen beantwortet, die umgesetzt sind; die Prüfung der Ersteller:in folgt.
 
 ### Creator turns after the plan
 
-Zwei bis jetzt: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen mit eigenen Sätzen, zwei Übungen weniger, Retrospektive).
+Drei: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen mit eigenen Sätzen, zwei Übungen weniger, Retrospektive), (3) kleine Reste vor der Prüfung der Ersteller:in (Diktate ohne Wiederholungen, Beispiele nicht wörtlich im Merke, Begründung zum Helfer im Rückblick).
 
 ### Where I had to guess
 

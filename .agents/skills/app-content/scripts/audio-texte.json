@@ -8,14 +8,8 @@
   "src/audio/sophie-reads-a-book-at-home-on-monday.mp3": "Sophie reads a book at home on Monday.",
   "src/audio/mr-hill-teaches-english-at-school-every-day.mp3": "Mr Hill teaches English at school every day.",
   "src/audio/ellie-and-peter-play-football-in-the-park.mp3": "Ellie and Peter play football in the park.",
-  "src/audio/open-the-window-please.mp3": "Open the window, please.",
-  "src/audio/dont-run-in-the-classroom.mp3": "Don't run in the classroom.",
-  "src/audio/listen-to-mr-hill-peter.mp3": "Listen to Mr Hill, Peter.",
-  "src/audio/close-the-door-please.mp3": "Close the door, please.",
-  "src/audio/dont-talk-here-amir.mp3": "Don't talk here, Amir.",
   "src/audio/stand-up-and-sit-down.mp3": "Stand up and sit down.",
   "src/audio/does-ellie-play-football-no-she-doesnt.mp3": "Does Ellie play football? No, she doesn't.",
-  "src/audio/is-peter-tired-yes-he-is.mp3": "Is Peter tired? Yes, he is.",
   "src/audio/do-ellie-and-peter-like-pizza-yes-they-do.mp3": "Do Ellie and Peter like pizza? Yes, they do.",
   "src/audio/is-mr-hill-happy-yes-he-is.mp3": "Is Mr Hill happy? Yes, he is.",
   "src/audio/does-sophie-eat-pizza-no-she-doesnt.mp3": "Does Sophie eat pizza? No, she doesn't.",
@@ -52,5 +46,11 @@
   "src/audio/peter-eats-pizza-in-the-park-on-sunday.mp3": "Peter eats pizza in the park on Sunday.",
   "src/audio/amir-reads-a-book-at-home-every-day.mp3": "Amir reads a book at home every day.",
   "src/audio/do-you-eat-pizza-yes-i-do.mp3": "Do you eat pizza? Yes, I do.",
-  "src/audio/who-watches-a-film-at-school.mp3": "Who watches a film at school?"
+  "src/audio/please-read-the-book-sophie.mp3": "Please read the book, Sophie.",
+  "src/audio/dont-write-here-please.mp3": "Don't write here, please.",
+  "src/audio/please-listen-amir.mp3": "Please listen, Amir.",
+  "src/audio/read-your-book-amir.mp3": "Read your book, Amir.",
+  "src/audio/sit-down-and-listen-sophie.mp3": "Sit down and listen, Sophie.",
+  "src/audio/is-ellie-happy-yes-she-is.mp3": "Is Ellie happy? Yes, she is.",
+  "src/audio/what-does-sophie-watch-at-school.mp3": "What does Sophie watch at school?"
 }
