@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Das simple past noch einmal kurz, bevor der Helfer in die Vergangenheit geht.
+recap: englisch/simple-past
+scope: "Die Seite wiederholt nur das simple past mit regelmäßigen Verben (-ed) aus dem Explainer „Zeiten auf dem Zeitstrahl“. Auf dem Zeitstrahl ist das simple past ein Punkt links von now, mit einer Zeitangabe wie yesterday. Neue Inhalte gibt es nicht, auch keine Übung. Fragen und Verneinung mit did kommen auf der nächsten Seite."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann im simple past mit regelmäßigen Verben (-ed) von abgeschlossenen Ereignissen erzählen.** Das ist der Baustein „Simple past“. Auf dem Zeitstrahl liegt ein einzelner Punkt links von now, dazu gehört eine Zeitangabe wie yesterday. Lies die Tabelle und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Das simple past mit -ed
+        header: [Grundform, simple past, Beispiel]
+        rows:
+          - [walk, walked, Ellie walked to school yesterday.]
+          - [watch, watched, Amir watched a film last week.]
+          - [study, studied, Sophie studied English yesterday.]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der [Seite zum simple past](https://lernapps.net/apps/map/englisch/c/simple-past/) der Lernlandkarte.
+  - type: section
+    id: weiter
+    title: Was tat die Klasse gestern?
+    blocks:
+      - type: text
+        text: "Das Klassenquiz war gestern. Heute will Mr Hill wissen, was die Kinder dabei getan haben. Er fragt in der Vergangenheit. Dafür braucht der gelbe Helfer eine neue Form."

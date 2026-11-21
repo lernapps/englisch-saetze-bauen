@@ -207,7 +207,7 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
       Creator: Ja, die anderen Seiten dürfen nach diesem Muster folgen, wenn die Auflagen A bis F auf do-und-does und dann auf alle Seiten gleich umgesetzt werden.
 - [x] Kapitel 1 : , (recap classroom-phrases), und mit Satzleiste-SVGs (, ), Szenen, Übungen und Audio.
 - [x] Kapitel 2 : (recap simple-present und to-be), , , , mit Satzleiste-SVGs, Szenen, Übungen und Audio; mit Selbsteinschätzung.
-- [ ] Kapitel 3 : (recap simple-past), und mit Satzleiste-SVGs (, , ), Szenen, Übungen, Rückblick und Audio; mit Selbsteinschätzung.
+- [x] Kapitel 3 : (recap simple-past), und mit Satzleiste-SVGs (, , ), Szenen, Übungen, Rückblick und Audio; mit Selbsteinschätzung.
 - [ ] Start- und Kapitelseiten: (scope, intro, chapters), Selbsteinschätzung der App, Poster und Schulkalender wachsen über die Seiten; Audio-Liste vollständig.
 <!-- tasks: pages (4 added): the other pages or screens, after the pattern -->
 - [ ] Update the content guide so that it describes the app as built (`app-content-matches`).

@@ -1,0 +1,260 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Did you play football yesterday?"
+description: "Mr Hill fragt nach gestern. Du lernst, im simple past mit did zu fragen und mit didn't zu verneinen, und weißt, wohin das -ed wandert."
+competencies: [simple-past-fragen]
+scope: "Die Seite zeigt Fragen und Verneinung im simple past. Der Helfer heißt did, für alle Personen gleich, und trägt die Vergangenheit: Did Peter play football yesterday? Das Verb steht danach in der Grundform, ohne -ed. Die Verneinung ist did not oder didn't (Peter didn't play football). Das gilt auch für unregelmäßige Verben (ate, went): Did she go home? Nicht hier, weil sie auf späteren Seiten stehen: question tags und die Betonung mit did."
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill fragt nach gestern
+    blocks:
+      - type: figure
+        image: images/szene-did.svg
+        alt: "Mr Hill steht rechts im Klassenzimmer. Links stehen Peter, Sophie und Amir. Mr Hill fragt in einer Sprechblase: „Did you play football yesterday?“"
+        caption: "Von links: Peter (gelbe Jacke), Sophie (Zöpfe) und Amir (Brille) hören zu. Rechts fragt Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill fragt Peter: „Did you play football yesterday?“ Peter denkt an den gestrigen Tag."
+      - type: single-choice
+        id: did-start
+        text: Was will Mr Hill wissen?
+        options:
+          - text: Ob Peter gestern Fußball gespielt hat.
+            correct: true
+            info: Yesterday heißt „gestern“. Did zeigt, dass es um etwas Vergangenes geht.
+          - text: Ob Peter jeden Tag Fußball spielt.
+            correct: false
+            info: Dann würde Mr Hill Do you play football every day fragen.
+          - text: Ob Peter morgen Fußball spielt.
+            correct: false
+            info: Morgen heißt tomorrow, nicht yesterday.
+        explanation: Did und yesterday sagen beide, dass es um die Vergangenheit geht.
+        links:
+          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
+            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
+      - type: text
+        text: "**Das kannst du danach:** Du fragst und verneinst in der Vergangenheit und weißt, warum das Verb dabei kein -ed hat."
+  - type: section
+    id: neu
+    title: Der Helfer geht in die Vergangenheit
+    blocks:
+      - type: text
+        text: "Der gelbe Helfer hat eine neue Form: **did**. Er sagt, dass es um früher geht, und trägt das **-ed**. Darum bleibt das Verb in der Grundform. Did gilt für **alle Personen**, auch für he, she und it."
+      - type: figure
+        image: images/satzleiste-did.svg
+        alt: Drei Reihen mit Satzkarten. Oben die Aussage Peter played football mit der Verbform played. In der Mitte die Frage Did Peter play football mit gelbem Helfer Did vor Peter und dem Verb play. Unten die Verneinung Peter did not play football.
+        caption: "Aussage, Frage und Verneinung im simple past. Das -ed wandert zum Helfer did."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Der Helfer did
+        header: [Person, Frage, Verneinung]
+        rows:
+          - [alle Personen, "**Did** you play?", "You **didn't** play."]
+          - [he / she / it, "**Did** Ellie play?", "Ellie **didn't** play."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Did trägt das -ed, das Verb geht ohne.** Did Ellie walk to school? Nicht „walked“. Didn't ist **did not**. Das gilt auch bei unregelmäßigen Verben: Did Sophie go home? Nicht „went“."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [play – played, spielen – spielte]
+          - [watch – watched, anschauen – schaute an]
+          - [study – studied, lernen – lernte]
+          - [eat – ate, essen – aß]
+          - [go – went, gehen – ging]
+          - [yesterday, gestern]
+          - [football, Fußball]
+          - [pizza, Pizza]
+          - [film, Film]
+          - [English, Englisch]
+          - [home, nach Hause]
+          - [after school, nach der Schule]
+          - [did not, nicht (Vergangenheit)]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: did-karten
+        text: Mr Hill fragt Amir etwas. Lege die Karten zu einer Frage.
+        items:
+          - Did
+          - Amir
+          - watch
+          - a film
+          - yesterday
+        explanation: Der Helfer Did kommt zuerst, dann das Subjekt, dann das Verb in der Grundform, das Objekt und die Zeit.
+        links:
+          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
+            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
+      - type: language-task
+        id: did-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den Helfer und die Form des Verbs.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Hat Peter gestern Fußball gespielt?
+            target: "[Did] Peter [play] football yesterday?"
+            distractors: [[Does, Was], [played, plays]]
+          - cue: Hast du gestern Pizza gegessen?
+            target: "[Did] you [eat] pizza yesterday?"
+            distractors: [[Do, Are], [ate, eats]]
+          - cue: Hat Ellie gestern gelernt?
+            target: "[Did] Ellie [study] yesterday?"
+            distractors: [[Does, Is], [studied, studies]]
+        hint: Der Helfer did trägt die Vergangenheit. Das Verb steht danach in der Grundform.
+      - type: language-task
+        id: did-bilden
+        languages: { source: de, target: en }
+        task: Schreibe die ganze Frage. Denke an den Helfer.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Sophie · go · home · after school
+            target: Did Sophie go home after school?
+            mistakes:
+              - answer: Did Sophie went home after school?
+                message: Did trägt die Vergangenheit. Das Verb geht in der Grundform, also go.
+              - answer: Does Sophie go home after school?
+                message: Does gehört in die Gegenwart. Für gestern brauchst du did.
+              - answer: Sophie did go home after school?
+                message: Der Helfer muss vor das Subjekt springen.
+          - cue: you · watch · a film · yesterday
+            target: Did you watch a film yesterday?
+            mistakes:
+              - answer: Did you watched a film yesterday?
+                message: Did trägt das -ed. Das Verb geht ohne und heißt watch.
+              - answer: Do you watch a film yesterday?
+                message: Mit yesterday brauchst du did, nicht do.
+          - cue: Ellie · eat · pizza · yesterday
+            target: Did Ellie eat pizza yesterday?
+            mistakes:
+              - answer: Did Ellie ate pizza yesterday?
+                message: Did trägt die Vergangenheit. Das Verb heißt eat, nicht ate.
+              - answer: Did Ellie eats pizza yesterday?
+                message: Das Verb hat kein s. Nach did steht die Grundform.
+          - cue: Amir · study · English · yesterday
+            target: Did Amir study English yesterday?
+            mistakes:
+              - answer: Did Amir studied English yesterday?
+                message: Did trägt das -ed. Das Verb heißt study.
+        hint: Schreibe did, dann das Subjekt, dann das Verb in der Grundform.
+      - type: language-task
+        id: did-verneinen
+        languages: { source: de, target: en }
+        task: Verneine den Satz mit didn't.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: Amir played football.
+            target: Amir (didn't|did not) play football.
+            mistakes:
+              - answer: Amir didn't played football.
+                message: Didn't trägt das -ed schon. Das Verb heißt play.
+              - answer: Amir not played football.
+                message: Not allein reicht nicht. Du brauchst den Helfer didn't oder did not.
+          - cue: I ate pizza.
+            target: I (didn't|did not) eat pizza.
+            mistakes:
+              - answer: I didn't ate pizza.
+                message: Didn't trägt die Vergangenheit. Das Verb heißt eat.
+              - answer: I don't eat pizza.
+                message: Don't gehört in die Gegenwart. Für gestern brauchst du didn't.
+          - cue: Ellie went home.
+            target: Ellie (didn't|did not) go home.
+            mistakes:
+              - answer: Ellie didn't went home.
+                message: Didn't trägt die Vergangenheit. Das Verb heißt go.
+              - answer: Ellie doesn't go home.
+                message: Doesn't gehört in die Gegenwart. Für früher brauchst du didn't.
+        hint: Der Helfer didn't steht vor dem Verb. Das Verb geht ohne -ed.
+      - type: language-task
+        id: did-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: Did Peter played football?
+            target: Did Peter play football?
+            mistakes:
+              - answer: Did Peter played football?
+                message: Noch nicht ganz. Wer trägt in dieser Frage schon die Vergangenheit?
+          - cue: Peter didn't went home.
+            target: Peter (didn't|did not) go home.
+            mistakes:
+              - answer: Peter didn't went home.
+                message: Noch nicht ganz. Welche Form hat das Verb nach didn't?
+        hint: Prüfe, ob did da ist und ob das Verb in der Grundform steht.
+      - type: language-task
+        id: did-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - source: Hat Amir gestern gelernt?
+            target: Did Amir study yesterday?
+            mistakes:
+              - answer: Did Amir studied yesterday?
+                message: Did trägt das -ed. Das Verb geht ohne.
+          - source: Ellie hat gestern nicht Fußball gespielt.
+            target: Ellie (didn't|did not) play football yesterday.
+            mistakes:
+              - answer: Ellie didn't played football yesterday.
+                message: Didn't trägt das -ed. Das Verb heißt play.
+          - source: Was hast du gestern gegessen?
+            target: What did you eat yesterday?
+            mistakes:
+              - answer: What you ate yesterday?
+                message: Hinter dem Fragewort braucht die Frage den Helfer did.
+              - answer: What did you ate yesterday?
+                message: Did trägt die Vergangenheit. Das Verb heißt eat.
+        hint: Frag dich, ob es um früher geht. Dann kommt did, und das Verb bleibt in der Grundform.
+      - type: language-task
+        id: did-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - audio: did-peter-eat-pizza-at-school-yesterday.mp3
+            target: Did Peter eat pizza at school yesterday?
+          - audio: sophie-didnt-watch-a-film-yesterday.mp3
+            target: Sophie (didn't|did not) watch a film yesterday.
+          - audio: what-did-amir-study-after-school.mp3
+            target: What did Amir study after school?
+  - type: section
+    id: anwenden
+    title: Was habt ihr gestern gemacht?
+    blocks:
+      - type: speaking-task
+        id: did-nachsprechen
+        language: en
+        items:
+          - audio: did-ellie-and-peter-go-home-yesterday.mp3
+            text: Did Ellie and Peter go home yesterday?
+          - audio: amir-didnt-play-football-at-school.mp3
+            text: Amir didn't play football at school.
+          - audio: what-did-sophie-eat-at-home.mp3
+            text: What did Sophie eat at home?
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Achte darauf, dass das Verb nach did ohne -ed bleibt.
+      - type: open-task
+        id: did-gestern
+        task: "Mr Hill will wissen, was die Klasse gestern getan hat. Schreibe zwei Fragen mit Did an Sophie, Ellie, Peter oder Amir und einen Satz mit didn't über eine der Personen."
+        points:
+          - text: Beide Fragen beginnen mit Did, und das Verb steht in der Grundform.
+            source: /did-und-tags/did/#neu
+          - text: Der Satz mit didn't hat das Verb in der Grundform.
+            source: /did-und-tags/did/#neu
+          - text: Es sind ganze Sätze mit Fragezeichen oder Punkt am Ende.
+            kind: form
+        solution: |
+          Did Peter play football yesterday? Did you watch a film? Amir didn't eat pizza at school.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Ellie hört zu und sagt zu Sophie: „You liked the quiz, didn't you?“ Am Ende des Satzes hängt eine kleine Frage. Wie sie gebaut ist, zeigt die nächste Seite."
