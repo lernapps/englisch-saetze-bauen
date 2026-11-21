@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Ellie zeigt Sophie ihre Zeichnung und sagt: „You like it, don't you?“ Sophie lächelt und nickt."
+        text: "Ellie zeigt Sophie ihre neue Zeichnung der Schule und sagt: „You like it, don't you?“ Sophie lächelt und nickt."
       - type: single-choice
         id: tags-start
         text: Was will Ellie mit der kleinen Frage am Ende?
@@ -40,7 +40,7 @@ blocks:
     title: Der Spiegel am Satzende
     blocks:
       - type: text
-        text: "Ein **question tag** ist wie ein kleiner **Spiegel** am Ende des Satzes. Er dreht den Satz um: Aus **positiv** wird **negativ**, aus **negativ** wird **positiv**. Der Helfer kommt dabei zurück, und danach steht das Subjekt als Pronomen: aus Peter wird he."
+        text: "Ein **question tag** ist wie ein kleiner **Spiegel** am Ende des Satzes. Er dreht den Satz um: Aus **positiv** wird **negativ**, aus **negativ** wird **positiv**. Der Helfer kommt dabei zurück, und danach steht das Subjekt als Pronomen, also als kurzes Wort wie he, she oder they: aus Peter wird he."
       - type: figure
         image: images/satzleiste-tag.svg
         alt: Zwei Reihen mit Satzkarten. Oben You like it mit dem Spiegel don't you am Ende. Unten You don't like it mit dem Spiegel do you am Ende. Der Helfer wechselt zwischen positiv und negativ.
@@ -184,6 +184,7 @@ blocks:
                 message: Die Aussage ist positiv, darum ist der tag negativ.
           - source: Ellie ist müde, oder?
             target: Ellie is tired, isn't she?
+            accepted: ["Ellie's tired, isn't she?"]
             mistakes:
               - answer: Ellie is tired, doesn't she?
                 message: Bei is kommt is zurück, nicht does.
@@ -207,7 +208,7 @@ blocks:
             target: Peter watched a film, didn't he?
   - type: section
     id: anwenden
-    title: Wie heißt der Spiegel?
+    title: Spiegel für eine Postkarte
     blocks:
       - type: speaking-task
         id: tags-nachsprechen
@@ -239,7 +240,7 @@ blocks:
     title: Alles zusammen an der Satzleiste
     blocks:
       - type: text
-        text: "Mr Hill hängt zum Schluss alle Karten noch einmal an die Wand. Du hast Aussage, Aufforderung, Frage, Verneinung, Subjektfrage und question tag gesehen. Schau, welche Plätze es gibt:"
+        text: "Mr Hill hängt zum Schluss alle Karten noch einmal an die Wand. Du hast Aussage, Frage, Verneinung, Subjektfrage und question tag gesehen. Schau, welche Plätze es gibt:"
       - type: figure
         image: images/satzleiste-ganz.svg
         alt: Fünf Reihen mit Satzkarten zu einem Satz mit Amir. Aussage, Frage mit gelbem Helfer vorn, Verneinung mit gelbem Helfer vor dem Verb, Subjektfrage mit türkisem Who und question tag am Ende.
@@ -247,4 +248,4 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "In der Aussage fehlt der gelbe Helfer, bei der Subjektfrage auch: Dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."
+        text: "In der Aussage fehlt der gelbe Helfer, in der Aufforderung und bei der Subjektfrage auch: Dort ersetzt das Fragewort das Subjekt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."

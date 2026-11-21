@@ -57,7 +57,9 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "**Did trägt das -ed, das Verb geht ohne.** Did Ellie walk to school? Nicht „walked“. Didn't ist **did not**. Das gilt auch bei unregelmäßigen Verben: Did Sophie go home? Nicht „went“."
+            text: "**Did trägt das -ed, das Verb geht ohne.** Did Ellie walk to school? Nicht „walked“. Didn't ist **did not**."
+      - type: text
+        text: "Einige Verben haben eine eigene Form, zum Beispiel ate (von eat) und went (von go). Auch dann geht das Verb nach did in die Grundform: Did Sophie go home? Nicht „went“. Die Kurzantwort nimmt did mit: Yes, I did. No, he didn't."
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Wort oder Ausdruck, Bedeutung]
@@ -201,11 +203,13 @@ blocks:
         items:
           - source: Hat Amir gestern gelernt?
             target: Did Amir study yesterday?
+            accepted: [Did Amir learn yesterday?]
             mistakes:
               - answer: Did Amir studied yesterday?
                 message: Did trägt das -ed. Das Verb geht ohne.
           - source: Ellie hat gestern nicht Fußball gespielt.
             target: Ellie (didn't|did not) play football yesterday.
+            accepted: [Yesterday Ellie didn't play football., Yesterday Ellie did not play football.]
             mistakes:
               - answer: Ellie didn't played football yesterday.
                 message: Didn't trägt das -ed. Das Verb heißt play.
@@ -261,4 +265,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Ellie hört zu und sagt zu Sophie: „You liked the quiz, didn't you?“ Am Ende des Satzes hängt eine kleine Frage. Wie sie gebaut ist, zeigt die nächste Seite."
+        text: "Ellie hat gestern eine Zeichnung von der Millbrook School gemalt und zeigt sie Sophie. Sie sagt etwas mit einer kleinen Frage am Ende des Satzes. Wie sie gebaut ist, zeigt die nächste Seite."

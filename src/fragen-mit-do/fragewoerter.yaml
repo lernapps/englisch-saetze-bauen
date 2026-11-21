@@ -205,6 +205,7 @@ blocks:
                 message: Das Verb darf nicht nach vorn springen. Es braucht den Helfer.
           - source: Was isst du in der Schule?
             target: What do you eat at school?
+            accepted: [What do you eat in school?]
             mistakes:
               - answer: What does you eat at school?
                 message: Bei you heißt der Helfer do.

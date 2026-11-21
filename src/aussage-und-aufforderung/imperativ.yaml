@@ -179,7 +179,7 @@ blocks:
                 message: Du brauchst keine Subjektkarte.
           - source: Sprich nicht, Peter.
             target: (Don't|Do not) talk, Peter.
-            accepted: [Peter, (don't|do not) talk.]
+            accepted: ["Peter, don't talk.", "Peter, do not talk."]
             mistakes:
               - answer: Not talk, Peter.
                 message: Ein Verbot beginnt mit Don't.
@@ -230,4 +230,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe Karte. Peter fragt: „Does Ellie like pizza?“ Auch hier springt der gelbe Helfer ins Spiel. Wie, zeigt das nächste Kapitel."
+        text: "Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe Karte. Ellie fragt Sophie: „Does Peter like pizza?“ Auch hier springt der gelbe Helfer ins Spiel. Wie, zeigt das nächste Kapitel."

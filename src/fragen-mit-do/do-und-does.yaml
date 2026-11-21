@@ -219,6 +219,7 @@ blocks:
                 message: "Das Verb geht ohne s, denn does trägt es schon."
               - answer: Do Amir play football every Saturday?
                 message: Amir ist „er“. Der Helfer heißt does.
+            accepted: [Does Amir play football on Saturdays?]
           - source: Ellie isst keine Pizza.
             target: Ellie (doesn't|does not) eat pizza.
             mistakes:
@@ -226,7 +227,7 @@ blocks:
                 message: Du brauchst den Helfer doesn't oder does not, und das Verb geht ohne s.
               - answer: Ellie not eat pizza.
                 message: Not allein reicht nicht. Du brauchst den Helfer doesn't oder does not.
-            accepted: ["Ellie (doesn't|does not) eat any pizza."]
+            accepted: ["Ellie doesn't eat any pizza.", "Ellie does not eat any pizza."]
           - source: Lernst du zu Hause Englisch?
             target: Do you study English at home?
             mistakes:

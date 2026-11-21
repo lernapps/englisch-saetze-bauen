@@ -4,7 +4,7 @@
 # Archetype, null until chosen in Explore. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -56,6 +56,7 @@ Ordnung nach `requires`: kurzantworten braucht `to-be` und `simple-present-frage
 **Umfang:** In: die neun Bausteine der Stufe 5-6 in drei Kapiteln; Fragen und Verneinung im simple present (do, does, don't, doesn't) und simple past (did, didn't), be wird nur wiederholt (be braucht kein do), Imperativ mit don't, Kurzantworten, die sieben Fragewörter who, what, where, when, why, how, whose, Subjekt- und Objektfragen, Präposition am Ende, question tags mit be, do und did (Beispiele nur mit Verben aus A1/A2). Nicht in diesem Stand und warum: Betonung mit do und Inversion (Kapitel 4, Stufe 9-10, Inkrement), Modalverben und andere Hilfsverben in Fragen und question tags (kein Baustein dieser Stufe), Nebensätze, indirekte Rede und indirekte Fragen (#481), Satzmelodie der Frage (#482), Stellung der Adverbien (#476). Zeiten selbst stehen in #472 und werden nur wiederholt. Datenumfang: simple present und simple past, alle Personen (ich bis sie), Verben aus A1/A2; regelmäßige und die 38 unregelmäßigen Verben aus #472 für did. Sprache: Deutsch (Erklärung), englische Beispiele, britisches Englisch, `languages: [de]`. Audio (Stimme `bf_emma`): Diktat und Nachsprechen, je Seite höchstens sechs ganze Sätze, Namen am Satzende zweisilbig.
 **Seitendateien (zur Klarheit, die Code-Aufgaben nennen sie wegen eines Schreibfehlers beim Anlegen nur teilweise):** `aussage-und-aufforderung/{das-brauchst-du,wortstellung,imperativ}`, `fragen-mit-do/{das-brauchst-du,do-und-does,kurzantworten,fragewoerter,subjektfragen,praeposition-am-ende}`, `did-und-tags/{das-brauchst-du,did,question-tags}`; Bilder `satzleiste-{aussage,imperativ,frage,verneinung,kurzantworten,fragewort,subjektfrage,praeposition,did,tag,ganz}.svg`, Szenen `szene-<seite>.svg`.
 **Prüfung der Musterseite `do-und-does` (Lerner-Check mit Sub-Agent, Kind Klasse 5/6; Sprachprüfung Englisch/Deutsch mit Sub-Agent), behoben:** Lernziel ohne unerklärtes „s bleibt“; Auswahl nicht mehr an der Länge erkennbar; Farben der Karten von den Jacken der Kinder getrennt erklärt; Subjekt, Verb, Objekt und not erklärt; „Peter und Amir zusammen sind they“ vor der Übung; Überschrift ehrlich („kommt ins Spiel“); „Die erste Karte ist der Helfer“ entfernt; Aufgabe „Wähle das richtige Wort“ (is/are sind keine Helfer); don't/do not auch in der Tabelle; mehr `mistakes` (Do Ellie play, Ellie don't, not allein); `accepted` ergänzt (on Saturdays, learn, any pizza); doesn't statt don't im Quiz-Auftrag; Wörter-Tabelle (happy, home, Mr Hill). Nicht behebbar im Inhalt (Vorlage `lernapps/app-templates`, dem Orchestrator gemeldet): `ordering` zeigt Auswahlfelder statt Karten; Tabellen-Übung bricht Spalte „Person“ bei 360 px; allgemeine Meldung „Deine Fassung kann trotzdem richtig sein“ bei klar falschen Antworten; Meldung zu Apostroph und Großschreibung nennt falsche Wörter; die Selbstprüfung der `open-task` prüft nichts.
+**Gesamtcheck der fertigen App (Sub-Agent als Kind Klasse 5/6, 12 Seiten, 360 und 1280 px, alle Übungen, Selbsteinschätzungen) und Sprachprüfung Englisch/Deutsch (Sub-Agent), behoben:** falsche oder doppelt zählende Antworten (broken `accepted`-Listen bei „any pizza“ und „Peter, don't talk“, Distraktor with bei talk, weitere richtige Varianten: on Saturdays, Where is … from?, in school, Ellie's tired, Yesterday Ellie …, learn); Übergänge zwischen Seiten („Wie es weitergeht“) stimmen jetzt mit der nächsten Seite überein (Ellie fragt Sophie, Peter fragt Ellie, Mr Hill fragt nach gestern, Ellies Zeichnung); die Figuren stehen vor dem ersten Gebrauch (Sophie, Ellie, Mr Hill auf `wortstellung`, Ellies Bruder auf der Startseite); Sprechblase der Szene `kurzantworten` zeigt auf Amir; Satzleisten `tag` und `ganz` beschriften Helfer und tag richtig; Wörter-Tabellen ergänzt; Merke/Text zu Gepäck, they, Pronomen, unregelmäßigen Verben und Kurzantwort mit did ergänzt; mehrere ungenaue Sätze der Texte geglättet. Nach den Korrekturen keine zweite vollständige Sprachprüfung, sondern Build, `lernapps check` (keine Fehler; zwei Hinweise je zu `explainer-repetition` und `explainer-text-load` auf `do-und-does` und `did`, absichtlich: das Gepäck-Bild kehrt in Text, Merke und Tipps wieder) und Stichproben. Offen und nur gemeldet: Seiten sind 11 bis 14 Bildschirme lang bei 8 bis 10 Übungen; „Das brauchst du hier“ heißt dreimal gleich (Konvention aus #472).
 Übungsmuster (Referenz Fremdsprachen): Reihe ordnen (`ordering`, Satzkarten), Form wählen (`language-task` choice mit `distractors`), Form bilden (write mit `cue`), Lücke (`gap`), Entscheiden mit Begründung, Diktat und Nachsprechen (Audio, `bf_emma`), freies Schreiben (`open-task`).
 
 ## Explore
@@ -214,7 +215,7 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
 - [x] Run `npx --no -- lernapps check` until it passes.
 - [x] Look at every screen and state, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
       Compare each with its sketch.
-- [ ] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
+- [x] Do the whole-app check of skill `lernapps-learner-check`. Fix what it finds and write under "Notes" what you
       fixed.
 
 ## Commit
@@ -227,7 +228,7 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
 
 ### Tasks
 
-- [ ] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
+- [x] Load skill `lernapps-explainer-self-assessment`. Add the self-assessment as it says, or write under "Key
       decisions" why the app has none. Commit.
 - [ ] Load skill `lernapps-github`. Set up the repository and Pages as it says. Ask for the repository's name and
       every click only the creator can make, in one message.

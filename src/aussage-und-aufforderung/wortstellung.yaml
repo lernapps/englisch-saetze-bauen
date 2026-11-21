@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie sagt, was sie am Montag zu Hause tut: „I play football at home on Monday.“ Ellie will es nachsagen."
+        text: "Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Montag zu Hause tut: „I play football at home on Monday.“"
       - type: single-choice
         id: wortstellung-start
         text: "Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?"

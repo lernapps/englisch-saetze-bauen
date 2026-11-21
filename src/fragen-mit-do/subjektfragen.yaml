@@ -20,9 +20,9 @@ blocks:
         id: subjektfragen-start
         text: Was antwortet Ellie?
         options:
-          - text: "Ellie does. Oder: I do."
+          - text: Ellie.
             correct: true
-            info: Gefragt ist, wer Tee mag. Ellie sagt, dass sie es ist. Mit dem Helfer does oder do klappt die Kurzantwort.
+            info: Gefragt ist, wer Tee mag. Die Antwort nennt die Person.
           - text: In the classroom.
             correct: false
             info: Das wäre eine Antwort auf where. Gefragt ist aber, wer etwas tut.
@@ -40,7 +40,7 @@ blocks:
     title: Das Fragewort ersetzt das Subjekt
     blocks:
       - type: text
-        text: "Peter wundert sich: In „Who likes tea?“ fehlt der Helfer! Das Fragewort **Who** liegt dort, wo sonst das **Subjekt** liegt. Die blaue Karte wird selbst zur Frage. Dann braucht der Satz keinen Helfer. Fragst du dagegen nach dem **Objekt**, bleibt der Helfer: **What does Ellie like?**"
+        text: "Peter wundert sich: In „Who likes tea?“ fehlt der Helfer! Das Fragewort **Who** liegt dort, wo sonst das **Subjekt** liegt. Die blaue Subjektkarte wird zur türkisen Fragewortkarte. Dann braucht der Satz keinen Helfer. Fragst du dagegen nach dem **Objekt**, bleibt der Helfer: **What does Ellie like?**"
       - type: figure
         image: images/satzleiste-subjektfrage.svg
         alt: Zwei Reihen mit Satzkarten. Oben die Frage nach dem Objekt Who does Ellie like mit Fragewort, gelbem Helfer, Subjekt und Verb. Unten die Frage nach dem Subjekt Who likes tea mit Fragewort, Verb und Objekt, ohne Helfer.
@@ -215,4 +215,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleibt am Ende hängen. Warum es dort steht, zeigt die nächste Seite."
+        text: "Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleibt am Ende hängen. Wie das geht, zeigt die nächste Seite."

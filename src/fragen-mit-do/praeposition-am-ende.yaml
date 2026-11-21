@@ -129,6 +129,7 @@ blocks:
                 message: Der Helfer fehlt, und das Verb geht ohne s.
           - cue: where · Peter · come · from
             target: Where does Peter come from?
+            accepted: [Where is Peter from?]
             mistakes:
               - answer: From where does Peter come?
                 message: Im Englischen bleibt from am Ende.
@@ -232,4 +233,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Die Klasse hat viele Fragen gestellt. Mr Hill fragt zum Schluss: „Did you like the quiz?“ Hier steht did statt do. Warum, zeigt das nächste Kapitel."
+        text: "Die Klasse hat viele Fragen gestellt. Am nächsten Tag will Mr Hill wissen, was die Kinder gestern getan haben. Er fragt: „Did you play football yesterday?“ Hier steht did statt do. Warum, zeigt das nächste Kapitel."

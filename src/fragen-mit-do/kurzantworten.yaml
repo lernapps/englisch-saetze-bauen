@@ -119,7 +119,7 @@ blocks:
       - type: language-task
         id: kurzantworten-bilden
         languages: { source: de, target: en }
-        task: Antworte kurz. Das Wort hinter dem Punkt sagt, ob die Antwort Yes oder No ist.
+        task: Antworte kurz. Das letzte Wort der Aufgabe sagt, ob die Antwort Yes oder No ist.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
           - cue: Do you play football? · yes
@@ -209,4 +209,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Peters Spiel gefällt der Klasse. Ellie ruft Peter zu: „Where does Amir live?“ Dort reicht ein Yes oder No nicht. Wie du mit Fragewörtern fragst, lernst du auf der nächsten Seite."
+        text: "Peters Spiel gefällt der Klasse. Peter fragt Ellie: „Where does Amir live?“ Dort reicht ein Yes oder No nicht. Wie du mit Fragewörtern fragst, lernst du auf der nächsten Seite."

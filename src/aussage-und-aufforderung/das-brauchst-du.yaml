@@ -9,7 +9,7 @@ blocks:
     title: Das solltest du schon können
     blocks:
       - type: text
-        text: "Kannst du das schon? **Ich kann im Unterricht auf Englisch um Hilfe bitten, nachfragen und Anweisungen verstehen.** Das ist der Baustein „Classroom phrases“. Gleich geht es um Sätze, die Mr Hill dir zuruft. Lies die Tabelle und prüfe in Gedanken, ob du alle Anweisungen kennst."
+        text: "Kannst du das schon? **Ich kann im Unterricht auf Englisch um Hilfe bitten, nachfragen und Anweisungen verstehen.** Das ist der Baustein „Classroom phrases“. Gleich baust du Sätze mit bunten Karten, und Mr Hill gibt Anweisungen. Lies die Tabelle und prüfe in Gedanken, ob du alle Anweisungen kennst."
       - type: table
         caption: Klassenzimmer-Poster · Das sagt dein Lehrer
         header: [Anweisung, Bedeutung]
