@@ -29,6 +29,8 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Key decisions
 
+- `scope` in `src/app.yaml` und auf jeder Seite: ja, weil die App `open-task` nutzt (der Tutor beurteilt freie Antworten nach dem `scope`), wie in #472.
+- Musterseite: `fragen-mit-do/do-und-does` (Herzstück, Helfer am deutlichsten), auf Anregung der Orchestrator-Antwort bestätigt.
 - Archetyp `explainer`: Lernende lesen Seiten mit Erklärung und üben je Seite; so sind Format 2 und das Issue vorgegeben. `quiz` (keine Erklärseiten) und `interactive` (Spiel, Zeitdruck) passen nicht. Der Explainer kann Text, Tabellen, Bilder, Übungen, Sprachaufgaben mit Audio; er kann kein Spiel und keinen Sprachvergleich (niemand bewertet das Sprechen), kein Ziehen von Karten ohne Komponente (die Satzkarten sind Bilder und `ordering`).
 
 ## Notes
@@ -189,14 +191,14 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
       `npx --no -- lernapps create --archetype explainer`.
 - [x] Fill the content guide `.agents/skills/app-content/SKILL.md` from "Notes" and "Content method": every heading,
       no "FILL IN" left. Commit it before any content.
-- [ ] Load skill `lernapps-explainer`.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer`.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Musterseite (simple-present-fragen) komplett bauen: App- und Kapitelgerüst (, ), Satzleiste-SVGs (, ), Szene, Abschnitte einstieg bis weiter, mindestens sechs Übungen, Audio (3 Diktat, 3 Nachsprechen); zeigt, wie eine Seite mit dem Helfer do aussieht.
+- [x] Musterseite (simple-present-fragen) komplett bauen: App- und Kapitelgerüst (, ), Satzleiste-SVGs (, ), Szene, Abschnitte einstieg bis weiter, mindestens sechs Übungen, Audio (3 Diktat, 3 Nachsprechen); zeigt, wie eine Seite mit dem Helfer do aussieht.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
 - [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
