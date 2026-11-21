@@ -21,13 +21,13 @@ blocks:
         id: do-und-does-start
         text: Vergleiche Ellies Frage mit Sophies Satz. Was ist in der Frage anders?
         options:
-          - text: Vor Peter steht Does, und like hat kein s mehr.
+          - text: Vor Peter steht Does, und das Verb hat kein s mehr.
             correct: true
             info: In der Frage steht Does vor Peter. Das s von likes ist verschwunden, das Verb heißt jetzt like.
-          - text: Das Verb steht ganz vorne.
+          - text: Das Verb steht ganz vorne, vor dem Namen.
             correct: false
             info: Das Verb like steht hinter Peter, so wie im Satz. Vorne steht ein anderes Wort.
-          - text: Das Wort pizza steht am Anfang.
+          - text: Das Wort pizza steht jetzt am Satzanfang.
             correct: false
             info: Pizza steht am Ende, genau wie im Satz von Sophie.
         explanation: Zum Fragen kommt ein Helfer nach vorn. Er heißt hier does. Das Verb braucht dann kein s mehr.
@@ -35,13 +35,13 @@ blocks:
           - title: "Lernlandkarte Englisch · Simple present: Fragen und Verneinung"
             url: https://lernapps.net/apps/map/englisch/c/simple-present-fragen/
       - type: text
-        text: "**Das kannst du danach:** Du stellst im simple present (der Gegenwart) Fragen und sagst, was jemand nicht tut. Und du weißt, wo das s bleibt."
+        text: "**Das kannst du danach:** Du stellst im simple present (der Gegenwart) Fragen und sagst, was jemand nicht tut. Und du weißt, was dabei mit dem Verb passiert."
   - type: section
     id: neu
-    title: Der Helfer springt nach vorn
+    title: Der Helfer kommt ins Spiel
     blocks:
       - type: text
-        text: "Mr Hill hat neben den Zeitstrahl eine **Satzleiste** gehängt. Darauf liegen **Satzkarten**: Das Subjekt ist blau, das Verb rot, das Objekt grün. Eine neue Karte ist gelb. Sie heißt **Helfer**. Die meisten englischen Verben dürfen nicht allein nach vorn springen (nur be darf das, dazu unten mehr). Wer fragen oder verneinen will, holt sich den Helfer **do**. Bei he, she und it heißt er **does**."
+        text: "Mr Hill hat neben den Zeitstrahl eine **Satzleiste** gehängt. Darauf liegen **Satzkarten**: Das **Subjekt** (wer etwas tut) ist blau, das **Verb** (was jemand tut) rot, das **Objekt** (was getan wird) grün. Die Farben gehören zu den Karten, nicht zu den Kindern. Eine neue Karte ist gelb. Sie heißt **Helfer**. Eine graue Karte heißt **not**, das bedeutet „nicht“. Die meisten englischen Verben dürfen nicht allein nach vorn springen (nur be darf das, dazu unten mehr). Wer fragen oder verneinen will, holt sich den Helfer **do**. Bei he, she und it heißt er **does**."
       - type: figure
         image: images/satzleiste-frage.svg
         alt: Drei Reihen mit Satzkarten. Oben steht die Aussage Peter likes pizza. In der Mitte steht die Frage mit der gelben Helferkarte Does vor Peter und dem Verb like. Unten steht die Verneinung Peter does not like pizza.
@@ -49,7 +49,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der Helfer trägt das Gepäck: das **s** von likes. Weil does es schon trägt, geht das Verb ohne. Es heißt dann **like**, nicht likes. Bei I, you, we und they gibt es kein s zu tragen."
+        text: "Schau in der Satzleiste von oben nach unten: Peter und pizza bleiben, der Helfer kommt dazu. Der Helfer trägt das Gepäck: das **s** von likes. Weil does es schon trägt, geht das Verb ohne. Es heißt dann **like**, nicht likes. Bei I, you, we und they gibt es kein s zu tragen."
       - type: table
         caption: Klassenzimmer-Poster · Der Helfer im simple present
         header: [Person, Frage, Verneinung]
@@ -61,7 +61,7 @@ blocks:
         blocks:
           - type: text
             text: |
-              **Der Helfer trägt das Gepäck, das Verb geht ohne.** Does Ellie watch a film? Nicht „watches“: Die Endung sitzt schon bei does. Don't ist **do not**, doesn't ist **does not**. Bei **be** brauchst du keinen Helfer: Is Peter happy? Hier springt is selbst nach vorn.
+              **Der Helfer trägt das Gepäck, das Verb geht ohne.** Does Ellie watch a film? Nicht „watches“: Die Endung sitzt schon bei does. Don't ist **do not**, doesn't ist **does not**. Peter, Ellie und Amir sind he oder she, **Peter und Amir zusammen sind they**. Bei **be** brauchst du keinen Helfer: Is Peter happy? Hier springt is selbst nach vorn.
       - type: table
         caption: Klassenzimmer-Poster · Wörter dieser Seite
         header: [Wort oder Ausdruck, Bedeutung]
@@ -93,7 +93,7 @@ blocks:
     blocks:
       - type: ordering
         id: do-und-does-karten
-        text: Ellie fragt Amir etwas. Lege die Karten zu einer Frage. Die erste Karte ist der Helfer.
+        text: Ellie fragt Amir etwas. Lege die Karten zu einer Frage.
         items:
           - Does
           - Amir
@@ -199,6 +199,10 @@ blocks:
             mistakes:
               - answer: Ellie doesn't lives here.
                 message: "Das s ist beim Helfer: Aus lives wird live."
+              - answer: Ellie don't live here.
+                message: Ellie ist „sie“. Der Helfer heißt does, also doesn't.
+              - answer: Ellie not live here.
+                message: Not allein reicht nicht. Du brauchst den Helfer doesn't oder does not vor dem Verb.
         hint: Der Helfer und not stehen vor dem Verb. Das Verb geht ohne Endung.
       - type: language-task
         id: do-und-does-korrektur
@@ -209,6 +213,8 @@ blocks:
           - cue: Does Ellie plays football?
             target: Does Ellie play football?
             mistakes:
+              - answer: Do Ellie play football?
+                message: Der Helfer passt noch nicht zu Ellie. Ellie ist „sie“. Schau in die Tabelle auf dem Klassenzimmer-Poster.
               - answer: Does Ellie plays football?
                 message: Noch nicht ganz. Schau, wo das s bei does sitzt, und was das Verb dann braucht.
           - cue: Do Peter study English?
@@ -219,6 +225,8 @@ blocks:
           - cue: Amir like tea?
             target: Does Amir like tea?
             mistakes:
+              - answer: Do Amir like tea?
+                message: Amir ist „er“. Der Helfer muss does heißen.
               - answer: Amir like tea?
                 message: Ohne Helfer ist das keine Frage. Setze die gelbe Karte an den Anfang.
         hint: Prüfe, ob vorn der Helfer steht, ob er zur Person passt und ob das Verb ohne s dasteht.
@@ -239,6 +247,9 @@ blocks:
             mistakes:
               - answer: Ellie not eats pizza.
                 message: Du brauchst den Helfer doesn't oder does not, und das Verb geht ohne s.
+              - answer: Ellie not eat pizza.
+                message: Not allein reicht nicht. Du brauchst den Helfer doesn't oder does not.
+            accepted: [Ellie (doesn't|does not) eat any pizza.]
           - source: Lernst du zu Hause Englisch?
             target: Do you study English at home?
             mistakes:
