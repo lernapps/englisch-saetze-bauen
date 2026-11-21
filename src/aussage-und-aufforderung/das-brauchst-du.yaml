@@ -1,0 +1,29 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Die Anweisungen aus dem Klassenzimmer noch einmal kurz, bevor Mr Hill die Satzleiste aufhängt.
+recap: englisch/classroom-phrases
+scope: Die Seite wiederholt nur die Ausdrücke für den Unterricht (Classroom phrases) aus dem ersten Explainer, vor allem die Anweisungen des Lehrers (Open your books. Sit down.). Neue Inhalte gibt es nicht, auch keine Übung. Die Satzleiste mit den Karten kommt erst auf der nächsten Seite.
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann im Unterricht auf Englisch um Hilfe bitten, nachfragen und Anweisungen verstehen.** Das ist der Baustein „Classroom phrases“. Gleich geht es um Sätze, die Mr Hill dir zuruft. Lies die Tabelle und prüfe in Gedanken, ob du alle Anweisungen kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Das sagt dein Lehrer
+        header: [Anweisung, Bedeutung]
+        rows:
+          - [Open your books., Schlagt eure Bücher auf.]
+          - [Listen., Hört zu.]
+          - [Repeat after me., Sprecht mir nach.]
+          - [Stand up., Steht auf.]
+          - [Sit down., Setzt euch hin.]
+      - type: text
+        text: Nicht sicher? Wiederhole es auf der [Seite zu den Classroom phrases](https://lernapps.net/apps/map/englisch/c/classroom-phrases/) der Lernlandkarte.
+  - type: section
+    id: kinder
+    title: Wer legt die Karten?
+    blocks:
+      - type: text
+        text: "In der Millbrook School hängt neben dem Zeitstrahl bald eine Wand mit bunten Karten. **Sophie** (11) wohnt bei der Familie Parker. **Ellie Parker** (11) ist ihre Gastschwester, **Peter** (9) Ellies Bruder und **Amir** (11) ein Freund. **Mr Hill** ist der Englischlehrer. Sie legen damit Sätze. Das Klassenzimmer-Poster und der Schulkalender hängen noch an ihrem Platz."

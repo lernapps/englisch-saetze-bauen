@@ -1,0 +1,231 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Wer tut was, wo und wann?"
+description: "Sophie erzählt, was sie am Montag tut. Du lernst, einen englischen Satz in der richtigen Reihenfolge zu bauen: Subjekt, Verb, Objekt, Ort, Zeit."
+competencies: [wortstellung]
+scope: "Die Seite führt die Satzleiste mit fünf Satzkarten ein: Subjekt (wer), Verb (was tut er), Objekt (was), Ort (wo) und Zeit (wann). Ein englischer Aussagesatz steht in dieser Reihenfolge, und der Ort steht vor der Zeit (at home on Monday). Das Verb steht direkt hinter dem Subjekt. Nicht hier, weil sie auf späteren Seiten stehen: Aufforderungen, Fragen, Verneinung und die Stellung der Häufigkeitswörter."
+blocks:
+  - type: section
+    id: einstieg
+    title: Sophie erzählt von Montag
+    blocks:
+      - type: figure
+        image: images/szene-wortstellung.svg
+        alt: "Sophie, Ellie, Amir und Peter stehen nebeneinander im Klassenzimmer. Sophie spricht in einer Sprechblase: „I play football at home on Monday.“"
+        caption: "Von links: Sophie (Zöpfe) spricht, daneben Ellie (roter Pferdeschwanz), Amir (Brille) und Peter (gelbe Jacke)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Sophie sagt, was sie am Montag zu Hause tut: „I play football at home on Monday.“ Ellie will es nachsagen."
+      - type: single-choice
+        id: wortstellung-start
+        text: "Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?"
+        options:
+          - text: I play football at home on Monday.
+            correct: true
+            info: So sagt Sophie es. Zuerst kommt, wer etwas tut, dann was er tut und was, dann wo und wann.
+          - text: I football play at home on Monday.
+            correct: false
+            info: Das Verb play muss direkt hinter I stehen. Football kommt erst danach.
+          - text: I play on Monday football at home.
+            correct: false
+            info: Die Wörter sind richtig, aber die Reihenfolge nicht. Football gehört direkt hinter das Verb.
+        explanation: Im Englischen hat jeder Teil des Satzes seinen festen Platz.
+        links:
+          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
+            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
+      - type: text
+        text: "**Das kannst du danach:** Du baust englische Aussagesätze in der richtigen Reihenfolge und stellst den Ort vor die Zeit."
+  - type: section
+    id: neu
+    title: Die Satzleiste mit den fünf Karten
+    blocks:
+      - type: text
+        text: "Mr Hill hängt neben den Zeitstrahl eine **Satzleiste**. Auf ihr liegen **Satzkarten**, jede mit einer eigenen Farbe. Das **Subjekt** (blau) sagt, wer etwas tut. Das **Verb** (rot) sagt, was er tut. Das **Objekt** (grün) sagt, was oder wen. Der **Ort** (orange) sagt, wo, und die **Zeit** (violett) sagt, wann. Die Farben gehören zu den Karten, nicht zu den Kindern."
+      - type: figure
+        image: images/satzleiste-aussage.svg
+        alt: Eine Reihe mit fünf Satzkarten von links nach rechts. Blau I, rot play, grün football, orange at home, violett on Monday. Unter jeder Karte steht ihr Name.
+        caption: "Ein Aussagesatz in einer Reihe. Der Ort (at home) liegt vor der Zeit (on Monday)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die Satzkarten
+        header: [Karte, Frage, Beispiel]
+        rows:
+          - [Subjekt, Wer?, Ellie]
+          - [Verb, Was tut sie?, reads]
+          - [Objekt, Was?, a book]
+          - [Ort, Wo?, at school]
+          - [Zeit, Wann?, on Friday]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Subjekt, Verb, Objekt, Ort, Zeit.** Ellie reads a book at school on Friday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [play, spielen]
+          - [eat, essen]
+          - [watch, anschauen]
+          - [read, lesen]
+          - [football, Fußball]
+          - [pizza, Pizza]
+          - [lunch, Mittagessen]
+          - [a book, ein Buch]
+          - [a film, ein Film]
+          - [in the park, im Park]
+          - [at home, zu Hause]
+          - [at school, in der Schule]
+          - [in the classroom, im Klassenzimmer]
+          - [on Monday, am Montag]
+          - [on Friday, am Freitag]
+          - [on Saturday, am Samstag]
+          - [on Sunday, am Sonntag]
+          - [every day, jeden Tag]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: wortstellung-karten
+        text: Amir erzählt von Samstag. Lege die Karten zu einem Satz.
+        items:
+          - Amir
+          - plays
+          - football
+          - in the park
+          - on Saturday
+        explanation: "Subjekt, Verb, Objekt, Ort, Zeit: Der Ort steht vor der Zeit."
+        links:
+          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
+            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
+      - type: matching
+        id: wortstellung-zuordnen
+        text: Sophie legt einen Satz. Welche Karte gehört zu welchem Satzteil?
+        pairs:
+          - left: Sophie
+            right: Subjekt
+          - left: watches
+            right: Verb
+          - left: a film
+            right: Objekt
+          - left: at home
+            right: Ort
+          - left: on Sunday
+            right: Zeit
+        explanation: Jeder Satzteil hat eine Karte. Wer tut etwas, ist das Subjekt, wann es geschieht, ist die Zeit.
+        links:
+          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
+            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
+      - type: language-task
+        id: wortstellung-bilden
+        languages: { source: de, target: en }
+        task: Die Karten liegen durcheinander. Schreibe den ganzen Satz in der richtigen Reihenfolge.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: pizza · Ellie · eats · at home · on Sunday
+            target: Ellie eats pizza at home on Sunday.
+            mistakes:
+              - answer: Ellie eats pizza on Sunday at home.
+                message: Die Zeit kommt zuletzt. Der Ort steht vor der Zeit.
+              - answer: Ellie pizza eats at home on Sunday.
+                message: Das Verb steht direkt hinter dem Subjekt, dann kommt das Objekt.
+          - cue: a book · Mr Hill · reads · in the classroom · on Friday
+            target: Mr Hill reads a book in the classroom on Friday.
+            mistakes:
+              - answer: Mr Hill reads a book on Friday in the classroom.
+                message: Der Ort steht vor der Zeit.
+              - answer: Mr Hill a book reads in the classroom on Friday.
+                message: Das Verb steht direkt hinter dem Subjekt.
+          - cue: lunch · Peter · eats · at school · every day
+            target: Peter eats lunch at school every day.
+            mistakes:
+              - answer: Peter eats lunch every day at school.
+                message: Der Ort steht vor der Zeit.
+        hint: Beginne mit dem Subjekt, dann das Verb, das Objekt, den Ort und zuletzt die Zeit.
+      - type: language-task
+        id: wortstellung-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz stehen die Karten falsch. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: I play football on Saturday in the park.
+            target: I play football in the park on Saturday.
+            mistakes:
+              - answer: I play football on Saturday in the park.
+                message: Noch nicht ganz. Welche Karte muss vor die andere, der Ort oder die Zeit?
+          - cue: Sophie a film watches at home.
+            target: Sophie watches a film at home.
+            mistakes:
+              - answer: Sophie a film watches at home.
+                message: Noch nicht ganz. Welche Karte steht direkt hinter dem Subjekt?
+        hint: Lege die Satzleiste im Kopf, Karte für Karte.
+      - type: language-task
+        id: wortstellung-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Peter spielt am Samstag im Park Fußball.
+            target: Peter plays football in the park on Saturday.
+            mistakes:
+              - answer: Peter plays football on Saturday in the park.
+                message: Der Ort steht vor der Zeit.
+            accepted: [On Saturday Peter plays football in the park.]
+          - source: Ellie isst jeden Tag in der Schule Pizza.
+            target: Ellie eats pizza at school every day.
+            mistakes:
+              - answer: Ellie eats pizza every day at school.
+                message: Der Ort steht vor der Zeit.
+          - source: Amir schaut am Sonntag zu Hause einen Film an.
+            target: Amir watches a film at home on Sunday.
+            mistakes:
+              - answer: Amir watches at home a film on Sunday.
+                message: Das Objekt steht direkt hinter dem Verb.
+        hint: Frage dich der Reihe nach, wer, was tut, was, wo und wann.
+      - type: language-task
+        id: wortstellung-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: peter-plays-football-in-the-park-on-saturday.mp3
+            target: Peter plays football in the park on Saturday.
+          - audio: ellie-eats-lunch-at-school-every-day.mp3
+            target: Ellie eats lunch at school every day.
+          - audio: amir-watches-a-film-at-home-on-sunday.mp3
+            target: Amir watches a film at home on Sunday.
+  - type: section
+    id: anwenden
+    title: Ein Satz für die Satzleiste
+    blocks:
+      - type: speaking-task
+        id: wortstellung-nachsprechen
+        language: en
+        items:
+          - audio: sophie-reads-a-book-at-home-on-monday.mp3
+            text: Sophie reads a book at home on Monday.
+          - audio: mr-hill-teaches-english-at-school-every-day.mp3
+            text: Mr Hill teaches English at school every day.
+          - audio: ellie-and-peter-play-football-in-the-park.mp3
+            text: Ellie and Peter play football in the park.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach und lege dabei im Kopf die Karten.
+      - type: open-task
+        id: wortstellung-satz
+        task: "Mr Hill hängt die Sätze der Klasse an die Wand. Schreibe zwei Sätze über Sophie, Ellie, Peter oder Amir. In jedem Satz soll stehen, wer was tut, wo und wann."
+        points:
+          - text: In jedem Satz steht zuerst das Subjekt, direkt dahinter das Verb.
+            source: /aussage-und-aufforderung/wortstellung/#neu
+          - text: Der Ort steht vor der Zeit.
+            source: /aussage-und-aufforderung/wortstellung/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Sophie plays football in the park on Saturday. Peter eats pizza at home on Sunday.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ Dieser Satz hat nur zwei Karten. Wo ist das Subjekt geblieben? Das erfährst du auf der nächsten Seite."
