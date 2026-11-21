@@ -196,7 +196,7 @@ Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleib
 - Einträge (Vorgabe → Lösung):
 1. Audio → Who likes pizza at school?
 2. Audio → What does Amir like at home?
-3. Audio → Who plays football in the park?
+3. Audio → Who watches a film at school?
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#subjektfragen-hoeren](../?via=tutor#subjektfragen-hoeren)

@@ -47,7 +47,7 @@ Mr Hill fragt nach gestern. Du lernst, im simple past mit did zu fragen und mit 
 
 Bild: Mr Hill steht rechts im Klassenzimmer. Links stehen Peter, Sophie und Amir. Mr Hill fragt in einer Sprechblase: „Did you play football yesterday?“. Bildunterschrift: Von links: Peter (gelbe Jacke), Sophie (Zöpfe) und Amir (Brille) hören zu. Rechts fragt Mr Hill (graue Haare).
 
-Mr Hill fragt Peter: „Did you play football yesterday?“ Peter denkt an den gestrigen Tag.
+Mr Hill fragt Peter: „Did you play football yesterday?“ Peter überlegt.
 
 - Aufgabe `did-start` (unten)
 
@@ -78,6 +78,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - eat – ate | essen – aß
 - go – went | gehen – ging
 - yesterday | gestern
+- what | was
 - football | Fußball
 - pizza | Pizza
 - film | Film

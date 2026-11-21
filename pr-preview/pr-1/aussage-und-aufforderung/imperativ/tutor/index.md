@@ -83,6 +83,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - window | Fenster
 - book | Buch
 - name | Name
+- your | dein / euer
 - here | hier
 - in the classroom | im Klassenzimmer
 - please | bitte
@@ -174,8 +175,8 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. You sit down. → Sit down.
-     - You sit down.: Noch nicht ganz. Mr Hill braucht für eine Aufforderung keine blaue Karte.
+1. You write here. → Write here.
+     - You write here.: Noch nicht ganz. Mr Hill braucht für eine Aufforderung keine blaue Karte.
 2. Don't to run here. → Don't run here. (auch richtig: Do not run here.)
      - Don't to run here.: Noch nicht ganz. Was steht nach der gelben Karte Don't zwischen dem Helfer und dem Verb?
 - Tipp der App: Zähle die Karten. Eine Aufforderung hat keine blaue Karte, und nach Don't kommt das Verb sofort.
@@ -192,7 +193,7 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
      - You close the door, please.: Du brauchst keine Subjektkarte.
 2. Sprich nicht, Peter. → Don't talk, Peter. (auch richtig: Do not talk, Peter.; Peter, don't talk.; Peter, do not talk.)
      - Not talk, Peter.: Ein Verbot beginnt mit Don't.
-3. Schreibt eure Namen. → Write your names.
+3. Schreibt eure Namen. → Write your names. (auch richtig: Write your name.)
 - Tipp der App: Sprich den Satz zuerst so, als wärst du Mr Hill.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#imperativ-uebersetzen](../?via=tutor#imperativ-uebersetzen)

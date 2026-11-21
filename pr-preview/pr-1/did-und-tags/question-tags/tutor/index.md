@@ -180,10 +180,10 @@ Der gelbe Helfer fehlt in der Aussage und bei der Subjektfrage, denn dort ersetz
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. You watch a film, do you? → You watch a film, don't you?
+1. You watch a film, do you? → You watch a film, don't you? (auch richtig: You don't watch a film, do you?)
      - You watch a film, do you?: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
 2. Ellie reads a book, don't she? → Ellie reads a book, doesn't she?
-     - Ellie reads a book, don't she?: Noch nicht ganz. Peter ist „er“. Welcher Helfer gehört zu he?
+     - Ellie reads a book, don't she?: Noch nicht ganz. Ellie ist „sie“. Welcher Helfer gehört zu she?
 - Tipp der App: Prüfe, ob der tag den Satz umdreht und ob der Helfer zur Person passt.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#tags-korrektur](../?via=tutor#tags-korrektur)

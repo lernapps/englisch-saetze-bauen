@@ -55,7 +55,7 @@ Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr 
 
 ### Die Satzleiste mit den fünf Karten
 
-Mr Hill hängt neben den Zeitstrahl eine **Satzleiste**. Auf ihr liegen **Satzkarten**, jede mit einer eigenen Farbe. Das **Subjekt** (blau) sagt, wer etwas tut. Das **Verb** (rot) sagt, was er tut. Das **Objekt** (grün) sagt, was oder wen. Der **Ort** (orange) sagt, wo, und die **Zeit** (violett) sagt, wann. Die Farben gehören zu den Karten, nicht zu den Kindern.
+Mr Hill hängt eine **Satzleiste** an die Wand. Auf ihr liegen **Satzkarten**, jede mit einer eigenen Farbe. Das **Subjekt** (blau) sagt, wer etwas tut. Das **Verb** (rot) sagt, was er tut. Das **Objekt** (grün) sagt, was oder wen. Der **Ort** (orange) sagt, wo, und die **Zeit** (violett) sagt, wann. Die Farben gehören zu den Karten, nicht zu den Kindern.
 
 Bild: Eine Reihe mit fünf Satzkarten von links nach rechts. Blau I, rot play, grün football, orange at home, violett on Monday. Unter jeder Karte steht ihr Name. Bildunterschrift: Ein Aussagesatz in einer Reihe. Der Ort (at home) liegt vor der Zeit (on Monday).
 
@@ -69,7 +69,7 @@ Klassenzimmer-Poster · Die Satzkarten:
 
 **Merke: Merke**
 
-**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen nicht.
+**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen ist die Reihenfolge fester. Bei he, she und it hängt ein **s** am Verb: plays.
 
 Klassenzimmer-Poster · Wörter dieser Seite:
 - Wort oder Ausdruck | Bedeutung
@@ -124,7 +124,7 @@ Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ D
 - Aufgabe: Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ I play football at home on Monday. – So sagt Sophie es. Zuerst kommt, wer etwas tut, dann was er tut, dann was oder wen, dann wo und wann.
+  - ✓ I play football at home on Monday. – So lautet der Satz. Zuerst kommt, wer etwas tut, dann was er tut, dann was oder wen, dann wo und wann.
   - ✗ I football play at home on Monday. – Das Verb play muss direkt hinter I stehen. Football kommt erst danach.
   - ✗ I play on Monday football at home. – Die Wörter sind richtig, aber die Reihenfolge nicht. Football gehört direkt hinter das Verb.
 - Lösung: I play football at home on Monday.
@@ -186,8 +186,10 @@ Die Sätze der Klasse hängen an der Satzleiste. Mr Hill ruft: „Stand up!“ D
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
 1. Peter spielt am Samstag im Park Fußball. → Peter plays football in the park on Saturday. (auch richtig: On Saturday Peter plays football in the park.)
+     - Peter play football in the park on Saturday.: He, she, it – das s muss mit. Peter ist „er“, also plays.
      - Peter plays football on Saturday in the park.: Wir üben: erst der Ort, dann die Zeit.
 2. Ellie isst jeden Tag in der Schule Pizza. → Ellie eats pizza at school every day.
+     - Ellie eat pizza at school every day.: He, she, it – das s muss mit. Ellie ist „sie“, also eats.
      - Ellie eats pizza every day at school.: Wir üben: erst der Ort, dann die Zeit.
 3. Amir schaut am Sonntag zu Hause einen Film an. → Amir watches a film at home on Sunday.
      - Amir watches at home a film on Sunday.: Das Objekt steht direkt hinter dem Verb.
