@@ -261,15 +261,15 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
 
 ### Phases reached
 
-Commit, bis zum Checkpoint „Veröffentlichen“: Vorschau-Pull-Request offen und grün, nicht veröffentlicht, nicht gelistet (wie im Auftrag). Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite; die Prüfung vor „Veröffentlichen“ hat der Orchestrator mit Auflagen beantwortet, die umgesetzt sind; die Prüfung der Ersteller:in folgt.
+Commit, bis zum Checkpoint „Veröffentlichen“: Vorschau-Pull-Request offen und grün, nicht veröffentlicht, nicht gelistet (wie im Auftrag). Bestanden: Recherche, Plan und Inhaltsmethode, Musterseite; die Prüfung vor „Veröffentlichen“ hat der Orchestrator mit Auflagen beantwortet, die umgesetzt sind; die Prüfung durch die Ersteller:in (Mensch) folgt noch.
 
 ### Creator turns after the plan
 
-Drei: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen mit eigenen Sätzen, zwei Übungen weniger, Retrospektive), (3) kleine Reste vor der Prüfung der Ersteller:in (Diktate ohne Wiederholungen, Beispiele nicht wörtlich im Merke, Begründung zum Helfer im Rückblick).
+Menschliche Rückmeldungen nach dem Plan: keine bei mir angekommen. Die Antworten der Checkpoints kamen von der Orchestrator-Session (in der Rolle der Ersteller:in), dreimal nach der Bestätigung des Plans: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen mit eigenen Sätzen, zwei Übungen weniger, Retrospektive), (3) kleine Reste vor der Prüfung durch die Ersteller:in (Diktate ohne Wiederholungen, Beispiele nicht wörtlich im Merke, Begründung im Rückblick); dazu eine Korrektur dieser Retrospektive.
 
 ### Where I had to guess
 
-- Suchbegriffe für den Katalogeintrag: (guess), wie vom Ersteller vorgegeben (Eintrag noch nicht geschrieben).
+- Suchbegriffe für den Katalogeintrag: (guess), wie von der Orchestrator-Session (in der Rolle der Ersteller:in) vorgegeben (Eintrag noch nicht geschrieben).
 - Farben der Satzkarten (Subjekt blau, Verb rot, Objekt grün, Ort orange, Zeit violett, Helfer gelb, not grau, Fragewort türkis, Präposition braun) und die Begriffe Satzleiste, Helfer, Gepäck, Spiegel: eigene Wahl auf Grundlage des Issues, im Inhaltsführer festgehalten.
 - Eine Seite je Baustein und drei Wiederholungsseiten (12 Seiten): eigene Aufteilung innerhalb des Issues.
 - Das Schreiben der Aufgaben im Plan ging durch die Shell, die Backticks verschluckte: einige Code-Aufgaben nennen Dateinamen unvollständig; die Dateinamen stehen vollständig in den Notes.
