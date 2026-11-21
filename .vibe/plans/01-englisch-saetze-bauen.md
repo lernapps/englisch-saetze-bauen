@@ -264,7 +264,7 @@ Commit, bis zum Checkpoint „Veröffentlichen“ (Vorschau-Pull-Request offen, 
 
 ### Creator turns after the plan
 
-Drei: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen nicht gleich, zwei Übungen weniger, Retrospektive), (3) Anschluss an die Zeiten und Reihenfolge der Checkpoints.
+Zwei bis jetzt: (1) Musterseite freigegeben mit Auflagen (Helfer von don't, kürzere Texte, Tabelle, scope-Satz), (2) Prüfung vor „Veröffentlichen“ mit Auflagen (Lösung nicht im Text über der Übung, Poster und Übungen mit eigenen Sätzen, zwei Übungen weniger, Retrospektive).
 
 ### Where I had to guess
 
