@@ -201,9 +201,10 @@ Repeat nur mit Absicht: dieselbe Regel in anderem Gewand (Karte, Tabelle, Satz),
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Musterseite (simple-present-fragen) komplett bauen: App- und Kapitelgerüst (, ), Satzleiste-SVGs (, ), Szene, Abschnitte einstieg bis weiter, mindestens sechs Übungen, Audio (3 Diktat, 3 Nachsprechen); zeigt, wie eine Seite mit dem Helfer do aussieht.
 <!-- tasks: pattern (1 added): the one page or screen that is the pattern for the others -->
-- [ ] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
+- [x] **Checkpoint:** the pattern page. Load skill `lernapps-learner-check` and do its learner check on the page. Fix
       what it finds. Then show the creator the page and ask whether the others may follow it. Stop and wait. A
       change: change the pattern first.
+      Creator: Ja, die anderen Seiten dürfen nach diesem Muster folgen, wenn die Auflagen A bis F auf do-und-does und dann auf alle Seiten gleich umgesetzt werden.
 - [ ] Kapitel 1 : , (recap classroom-phrases), und mit Satzleiste-SVGs (, ), Szenen, Übungen und Audio.
 - [ ] Kapitel 2 : (recap simple-present und to-be), , , , mit Satzleiste-SVGs, Szenen, Übungen und Audio; mit Selbsteinschätzung.
 - [ ] Kapitel 3 : (recap simple-past), und mit Satzleiste-SVGs (, , ), Szenen, Übungen, Rückblick und Audio; mit Selbsteinschätzung.

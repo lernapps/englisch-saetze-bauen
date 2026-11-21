@@ -1,4 +1,4 @@
 # yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
 title: Fragen und verneinen mit do
-summary: Mr Hill hängt den gelben Helfer an die Satzleiste. Du fragst und verneinst im simple present mit do und does.
+summary: Der gelbe Helfer, den du von don't kennst, hilft dir jetzt beim Fragen und Verneinen im simple present. Du fragst mit do und does, antwortest kurz und fragst mit Fragewörtern.
 pages: [do-und-does]
