@@ -1,0 +1,210 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Yes, I do. No, she doesn't."
+description: "Amir stellt Sophie eine Frage. Du lernst, kurz mit Yes oder No zu antworten und nur den Helfer zu wiederholen."
+competencies: [kurzantworten]
+scope: "Die Seite zeigt Kurzantworten auf Ja-Nein-Fragen. Eine Kurzantwort besteht aus Yes oder No, dem Subjekt und dem Helfer der Frage: Do you like tea? – Yes, I do. – No, I don't. Das Verb wird nicht wiederholt. Bei Fragen mit be wiederholt man is, are oder am (Is she happy? – Yes, she is.). Nicht hier, weil sie auf späteren Seiten stehen: Fragewörter, Fragen nach dem Subjekt und did."
+blocks:
+  - type: section
+    id: einstieg
+    title: Amir fragt Sophie
+    blocks:
+      - type: figure
+        image: images/szene-kurzantworten.svg
+        alt: "Amir, Sophie und Ellie stehen nebeneinander im Klassenzimmer. Amir stellt Sophie in einer Sprechblase die Frage: „Do you like tea?“"
+        caption: "Von links: Amir (Brille) fragt, daneben Sophie (Zöpfe) und Ellie (roter Pferdeschwanz)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Amir fragt Sophie: „Do you like tea?“ Sophie mag Tee und will kurz antworten, ohne den ganzen Satz zu wiederholen."
+      - type: single-choice
+        id: kurzantworten-start
+        text: Welche kurze Antwort passt zu Amirs Frage?
+        options:
+          - text: Yes, I do.
+            correct: true
+            info: Sophie sagt Yes, dann das Subjekt I und dann den Helfer do aus der Frage.
+          - text: Yes, I like.
+            correct: false
+            info: Das Verb like wird in der Kurzantwort nicht wiederholt. Es bleibt nur der Helfer.
+          - text: Yes, do.
+            correct: false
+            info: Es fehlt das Subjekt. Nach Yes kommt I und dann der Helfer.
+        explanation: Die Kurzantwort nimmt nur den Helfer der Frage mit.
+        links:
+          - title: Lernlandkarte Englisch · Kurzantworten
+            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
+      - type: text
+        text: "**Das kannst du danach:** Du antwortest auf Ja-Nein-Fragen kurz und richtig."
+  - type: section
+    id: neu
+    title: Nur der Helfer kommt mit
+    blocks:
+      - type: text
+        text: "Eine **Kurzantwort** hat drei Karten: **Yes** oder **No**, das **Subjekt** und den **Helfer** der Frage. Das Verb und alles andere bleiben weg. Bei **no** kommt **not** dazu: don't, doesn't."
+      - type: figure
+        image: images/satzleiste-kurzantworten.svg
+        alt: Zwei Reihen mit Satzkarten. Oben die Frage Does Ellie like tea mit gelbem Helfer Does. Unten die Kurzantwort Yes, she, does mit grauer Karte Yes, blauem she und gelbem does.
+        caption: "Frage und Kurzantwort. Aus Does wird in der Antwort does, aus Ellie wird she."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Frage und Kurzantwort
+        header: [Frage, Ja, Nein]
+        rows:
+          - [Do you play?, "Yes, I do.", "No, I don't."]
+          - [Does he play?, "Yes, he does.", "No, he doesn't."]
+          - [Is she happy?, "Yes, she is.", "No, she isn't."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Yes oder No, Subjekt, Helfer.** Die Antwort wiederholt den Helfer der Frage. Bei Fragen mit **be** wiederholst du is, are oder am. Aus Ellie wird she, aus Peter und Amir wird they."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [yes, ja]
+          - [no, nein]
+          - [like, mögen]
+          - [play, spielen]
+          - [tea, Tee]
+          - [pizza, Pizza]
+          - [football, Fußball]
+          - [happy, froh]
+          - [tired, müde]
+          - [isn't, ist nicht]
+          - [aren't, sind nicht]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: kurzantworten-zuordnen
+        text: Welche Kurzantwort passt zu welcher Frage?
+        pairs:
+          - left: Do you like pizza?
+            right: Yes, I do.
+          - left: Does Peter play football?
+            right: No, he doesn't.
+          - left: Is Ellie tired?
+            right: Yes, she is.
+          - left: Are Sophie and Amir happy?
+            right: No, they aren't.
+        explanation: Die Antwort wiederholt den Helfer der Frage, bei Fragen mit be das Wort is oder are.
+        links:
+          - title: Lernlandkarte Englisch · Kurzantworten
+            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
+      - type: language-task
+        id: kurzantworten-helfer
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort für die Kurzantwort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Does Amir like tea?
+            target: Yes, he [does].
+            distractors: [[is, likes]]
+          - cue: Do you play football?
+            target: No, I [don't].
+            distractors: [[doesn't, aren't]]
+          - cue: Is Peter tired?
+            target: Yes, he [is].
+            distractors: [[does, am]]
+          - cue: Does Ellie like pizza?
+            target: No, she [doesn't].
+            distractors: [[don't, isn't]]
+        hint: Schau auf das erste Wort der Frage. Der Helfer oder das Wort be kommt in der Antwort zurück.
+      - type: language-task
+        id: kurzantworten-bilden
+        languages: { source: de, target: en }
+        task: Antworte kurz. Das Wort hinter dem Punkt sagt, ob die Antwort Yes oder No ist.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: Do you play football? · yes
+            target: Yes, I do.
+            mistakes:
+              - answer: Yes, I play.
+                message: Das Verb bleibt weg. Es kommt nur der Helfer aus der Frage zurück.
+              - answer: Yes, do.
+                message: Nach Yes fehlt das Subjekt.
+          - cue: Does Ellie like tea? · no
+            target: No, she (doesn't|does not).
+            mistakes:
+              - answer: No, she don't.
+                message: Ellie ist „sie“. Der Helfer heißt does, also doesn't.
+              - answer: No, she isn't.
+                message: Die Frage beginnt mit Does, nicht mit Is. Es kommt does zurück.
+          - cue: Is Peter happy? · yes
+            target: Yes, he is.
+            mistakes:
+              - answer: Yes, he does.
+                message: Die Frage beginnt mit Is. Bei be kommt is zurück, nicht does.
+          - cue: Are Sophie and Ellie tired? · no
+            target: No, they (aren't|are not).
+            accepted: ["No, they're not."]
+            mistakes:
+              - answer: No, they don't.
+                message: Die Frage beginnt mit Are. Bei be kommt are zurück.
+        hint: Welches Wort steht in der Frage vorn? Dieses Wort kommt in der Antwort zurück.
+      - type: language-task
+        id: kurzantworten-korrektur
+        languages: { source: de, target: en }
+        task: In jeder Antwort steckt ein Fehler. Schreibe nur die richtige Antwort.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: "Do you like pizza? Yes, I like."
+            target: Yes, I do.
+            mistakes:
+              - answer: Yes, I like.
+                message: Noch nicht ganz. Welches Wort der Frage kommt in der Antwort zurück?
+          - cue: "Does Peter play football? No, he don't."
+            target: No, he (doesn't|does not).
+            mistakes:
+              - answer: No, he don't.
+                message: Noch nicht ganz. Peter ist „er“, also braucht die Antwort den Helfer does.
+        hint: Vergleiche das erste Wort der Frage mit dem Helfer in der Antwort.
+      - type: language-task
+        id: kurzantworten-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - audio: do-you-like-tea-yes-i-do.mp3
+            target: Do you like tea? Yes, I do.
+          - audio: does-ellie-play-football-no-she-doesnt.mp3
+            target: Does Ellie play football? No, she (doesn't|does not).
+          - audio: is-peter-tired-yes-he-is.mp3
+            target: Is Peter tired? Yes, he is.
+  - type: section
+    id: anwenden
+    title: Ein Frage-und-Antwort-Spiel
+    blocks:
+      - type: speaking-task
+        id: kurzantworten-nachsprechen
+        language: en
+        items:
+          - audio: do-ellie-and-peter-like-pizza-yes-they-do.mp3
+            text: Do Ellie and Peter like pizza? Yes, they do.
+          - audio: is-mr-hill-happy-yes-he-is.mp3
+            text: Is Mr Hill happy? Yes, he is.
+          - audio: does-sophie-eat-pizza-no-she-doesnt.mp3
+            text: Does Sophie eat pizza? No, she doesn't.
+        hint: Hör die Frage und die Antwort zuerst. Sprich dann beides langsam nach.
+      - type: open-task
+        id: kurzantworten-spiel
+        task: "Peter spielt mit der Klasse ein Frage-und-Antwort-Spiel. Schreibe zwei Fragen an Sophie oder Amir mit do, does oder is und je eine Kurzantwort mit Yes oder No."
+        points:
+          - text: Die Fragen beginnen mit do, does, is oder are.
+            source: /fragen-mit-do/kurzantworten/#neu
+          - text: Die Kurzantworten haben Yes oder No, das Subjekt und den Helfer der Frage, aber nicht das Verb.
+            source: /fragen-mit-do/kurzantworten/#neu
+          - text: Es sind ganze Sätze mit Fragezeichen oder Punkt am Ende.
+            kind: form
+        solution: |
+          Do you like tea, Amir? Yes, I do. Is Sophie tired? No, she isn't.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Peters Spiel gefällt der Klasse. Ellie ruft: „Where does Amir live?“ Dort reicht ein Yes oder No nicht. Wie du mit Fragewörtern fragst, lernst du auf der nächsten Seite."

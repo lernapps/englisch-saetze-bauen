@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" role="img">
-  <title>Sophie telefoniert; Ellie fragt sie etwas</title>
+  <title>Ellie fragt Sophie etwas</title>
   <defs>
     <g id="sophie" stroke="#333" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
       <path d="M14 168 C8 120 22 88 50 84 C78 88 92 120 86 168 C70 178 30 178 14 168 Z" fill="#3a9a5b"/>
@@ -50,5 +50,5 @@
   <rect x="20" y="14" width="330" height="50" rx="14" fill="#fff" stroke="#333" stroke-width="2"/>
   <path d="M96 64 l14 22 l14 -22" fill="#fff" stroke="#333" stroke-width="2"/>
   <rect x="98" y="60" width="24" height="6" fill="#fff"/>
-  <text x="185.0" y="36" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#222">Who are you talking to?</text>
+  <text x="185.0" y="36" text-anchor="middle" font-family="sans-serif" font-size="19" fill="#222">Who do you talk to?</text>
 </svg>
