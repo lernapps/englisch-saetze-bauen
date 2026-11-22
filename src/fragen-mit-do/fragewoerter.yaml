@@ -69,6 +69,7 @@ blocks:
         rows:
           - [play, spielen]
           - [live, wohnen]
+          - [here, hier]
           - [eat, essen]
           - [like, mögen]
           - [watch, anschauen]
@@ -236,8 +237,8 @@ blocks:
             text: Why does Peter like football?
           - audio: what-does-sophie-eat-at-home.mp3
             text: What does Sophie eat at home?
-          - audio: where-do-ellie-and-amir-live-peter.mp3
-            text: Where do Ellie and Amir live, Peter?
+          - audio: do-ellie-and-amir-live-here.mp3
+            text: Do Ellie and Amir live here?
         hint: Hör die Frage zuerst. Sprich dann langsam nach und betone das Fragewort.
       - type: open-task
         id: fragewoerter-quiz

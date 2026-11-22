@@ -194,8 +194,8 @@ blocks:
         task: Hör zu und schreibe, was du hörst.
         form: { case: hint, punctuation: hint, apostrophe: hint }
         items:
-          - audio: please-read-the-book-sophie.mp3
-            target: Please read the book, Sophie.
+          - audio: please-read-the-book.mp3
+            target: Please read the book.
           - audio: dont-write-here-please.mp3
             target: (Don't|Do not) write here, please.
           - audio: please-listen-amir.mp3
@@ -208,10 +208,10 @@ blocks:
         id: imperativ-nachsprechen
         language: en
         items:
-          - audio: read-your-book-amir.mp3
-            text: Read your book, Amir.
-          - audio: sit-down-and-listen-sophie.mp3
-            text: Sit down and listen, Sophie.
+          - audio: read-your-book.mp3
+            text: Read your book.
+          - audio: sit-down-and-listen.mp3
+            text: Sit down and listen.
           - audio: stand-up-and-sit-down.mp3
             text: Stand up and sit down.
         hint: Hör den Satz zuerst. Sprich dann langsam nach, so wie ein Lehrer.

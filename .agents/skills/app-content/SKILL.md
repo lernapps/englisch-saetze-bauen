@@ -94,7 +94,7 @@ Aus #470 und #472 übernommen:
 - Englische Aufgaben und Cues enthalten kein deutsches Wort.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; Kurzformen zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
 - Audio: das Ausklingen der Stimme am Satzende abschneiden, Namen am Satzende zweisilbig.
-- Audio: das Verb live am Satzende spricht die Stimme wie das Adjektiv („leive“): live nie ans Satzende, ein Name oder Wort dahinter (Where do Ellie and Amir live, Peter?).
+- Audio: ein Hörsatz bleibt der natürliche Satz, ein Name am Ende nur als Anrede (Please listen, Amir.), nie wegen des Klangs; das Verb live am Satzende spricht die Stimme wie das Adjektiv („leive“): live nie ans Satzende, ein Name oder Wort dahinter (Where do Ellie and Amir live, Peter?).
 - Bilder: Beschriftungen innerhalb des `viewBox`; die Bildunterschrift nennt, wer wer ist; das `alt` verrät nie die Lösung.
 - Der Merke-Kasten nennt andere Verben als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
@@ -110,3 +110,48 @@ Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüf
 - Ein Satz auf zwei Absätze verteilt, höchstens drei neue Begriffe je Absatz; ein Merke-Kasten hat zwei bis drei Aussagen.
 - Bei `accepted` mit `?` in der Flow-Liste den Eintrag in Anführungszeichen setzen.
 - Offene Fehler der Vorlage `lernapps/app-templates` (dem Orchestrator gemeldet): `ordering` zeigt Auswahlfelder statt Karten; Tabellen-Übung bricht die Spalte „Person“ bei 360 px; Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei klar falschen Antworten; die Meldung zu Apostroph und Großschreibung nennt falsche Wörter.
+
+## Hörliste
+
+Hörsätze, die auf ein einsilbiges Wort enden und deshalb gezielt angehört werden sollen (Fehllaut am Ende möglich; das Ausklingen schneidet `regen_audio.py` ab). Satz und Datei in `src/audio/`:
+
+- Amir didn't play football at school. (`amir-didnt-play-football-at-school.mp3`)
+- Amir doesn't live here. (`amir-doesnt-live-here.mp3`)
+- Amir plays football at school, doesn't he? (`amir-plays-football-at-school-doesnt-he.mp3`)
+- Amir reads a book at home every day. (`amir-reads-a-book-at-home-every-day.mp3`)
+- Do Ellie and Amir live here? (`do-ellie-and-amir-live-here.mp3`)
+- Do Ellie and Peter like pizza? Yes, they do. (`do-ellie-and-peter-like-pizza-yes-they-do.mp3`)
+- Do you eat pizza? Yes, I do. (`do-you-eat-pizza-yes-i-do.mp3`)
+- Does Ellie play football? No, she doesn't. (`does-ellie-play-football-no-she-doesnt.mp3`)
+- Does Mr Hill go home after school? (`does-mr-hill-go-home-after-school.mp3`)
+- Does Sophie eat pizza? No, she doesn't. (`does-sophie-eat-pizza-no-she-doesnt.mp3`)
+- Does Sophie study English at home? (`does-sophie-study-english-at-home.mp3`)
+- Don't write here, please. (`dont-write-here-please.mp3`)
+- Ellie and Peter play football in the park. (`ellie-and-peter-play-football-in-the-park.mp3`)
+- Ellie eats pizza, doesn't she? (`ellie-eats-pizza-doesnt-she.mp3`)
+- Is Ellie happy? Yes, she is. (`is-ellie-happy-yes-she-is.mp3`)
+- Is Mr Hill happy? Yes, he is. (`is-mr-hill-happy-yes-he-is.mp3`)
+- Mr Hill teaches English at school every day. (`mr-hill-teaches-english-at-school-every-day.mp3`)
+- Peter doesn't eat pizza at school. (`peter-doesnt-eat-pizza-at-school.mp3`)
+- Peter watched a film, didn't he? (`peter-watched-a-film-didnt-he.mp3`)
+- Please read the book. (`please-read-the-book.mp3`)
+- Read your book. (`read-your-book.mp3`)
+- Sophie is happy, isn't she? (`sophie-is-happy-isnt-she.mp3`)
+- Stand up and sit down. (`stand-up-and-sit-down.mp3`)
+- What did Amir study after school? (`what-did-amir-study-after-school.mp3`)
+- What did Sophie eat at home? (`what-did-sophie-eat-at-home.mp3`)
+- What do you eat at school every day? (`what-do-you-eat-at-school-every-day.mp3`)
+- What does Amir like at home? (`what-does-amir-like-at-home.mp3`)
+- What does Mr Hill read at home? (`what-does-mr-hill-read-at-home.mp3`)
+- What does Sophie eat at home? (`what-does-sophie-eat-at-home.mp3`)
+- What does Sophie watch at school? (`what-does-sophie-watch-at-school.mp3`)
+- When does Ellie read a book? (`when-does-ellie-read-a-book.mp3`)
+- Where does Mr Hill come from? (`where-does-mr-hill-come-from.mp3`)
+- Who do you eat lunch with? (`who-do-you-eat-lunch-with.mp3`)
+- Who do you live with? (`who-do-you-live-with.mp3`)
+- Who does Amir talk to at school? (`who-does-amir-talk-to-at-school.mp3`)
+- Who does Ellie study with? (`who-does-ellie-study-with.mp3`)
+- Who does Peter play with? (`who-does-peter-play-with.mp3`)
+- Who likes pizza at school? (`who-likes-pizza-at-school.mp3`)
+- You didn't eat lunch, did you? (`you-didnt-eat-lunch-did-you.mp3`)
+- You don't like tea, do you? (`you-dont-like-tea-do-you.mp3`)

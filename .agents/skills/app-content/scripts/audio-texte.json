@@ -27,7 +27,6 @@
   "src/audio/who-does-amir-talk-to-at-school.mp3": "Who does Amir talk to at school?",
   "src/audio/where-does-mr-hill-come-from.mp3": "Where does Mr Hill come from?",
   "src/audio/who-does-peter-play-with.mp3": "Who does Peter play with?",
-  "src/audio/who-do-you-live-with-sophie.mp3": "Who do you live with, Sophie?",
   "src/audio/who-does-ellie-study-with.mp3": "Who does Ellie study with?",
   "src/audio/did-peter-eat-pizza-at-school-yesterday.mp3": "Did Peter eat pizza at school yesterday?",
   "src/audio/sophie-didnt-watch-a-film-yesterday.mp3": "Sophie didn't watch a film yesterday.",
@@ -45,12 +44,13 @@
   "src/audio/peter-eats-pizza-in-the-park-on-sunday.mp3": "Peter eats pizza in the park on Sunday.",
   "src/audio/amir-reads-a-book-at-home-every-day.mp3": "Amir reads a book at home every day.",
   "src/audio/do-you-eat-pizza-yes-i-do.mp3": "Do you eat pizza? Yes, I do.",
-  "src/audio/please-read-the-book-sophie.mp3": "Please read the book, Sophie.",
   "src/audio/dont-write-here-please.mp3": "Don't write here, please.",
   "src/audio/please-listen-amir.mp3": "Please listen, Amir.",
-  "src/audio/read-your-book-amir.mp3": "Read your book, Amir.",
-  "src/audio/sit-down-and-listen-sophie.mp3": "Sit down and listen, Sophie.",
   "src/audio/is-ellie-happy-yes-she-is.mp3": "Is Ellie happy? Yes, she is.",
   "src/audio/what-does-sophie-watch-at-school.mp3": "What does Sophie watch at school?",
-  "src/audio/where-do-ellie-and-amir-live-peter.mp3": "Where do Ellie and Amir live, Peter?"
+  "src/audio/who-do-you-live-with.mp3": "Who do you live with?",
+  "src/audio/please-read-the-book.mp3": "Please read the book.",
+  "src/audio/read-your-book.mp3": "Read your book.",
+  "src/audio/sit-down-and-listen.mp3": "Sit down and listen.",
+  "src/audio/do-ellie-and-amir-live-here.mp3": "Do Ellie and Amir live here?"
 }

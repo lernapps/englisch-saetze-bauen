@@ -211,8 +211,8 @@ blocks:
         items:
           - audio: who-does-peter-play-with.mp3
             text: Who does Peter play with?
-          - audio: who-do-you-live-with-sophie.mp3
-            text: Who do you live with, Sophie?
+          - audio: who-do-you-live-with.mp3
+            text: Who do you live with?
           - audio: who-does-ellie-study-with.mp3
             text: Who does Ellie study with?
         hint: Hör die Frage zuerst. Sprich dann langsam nach.
