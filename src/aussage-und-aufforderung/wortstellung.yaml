@@ -61,31 +61,52 @@ blocks:
         blocks:
           - type: text
             text: "**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen ist die Reihenfolge fester. Bei he, she und it hängt ein **s** am Verb: plays."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [eat, essen]
-          - [watch, anschauen]
-          - [read, lesen]
-          - [teach, unterrichten]
-          - [study, lernen]
-          - [English, Englisch]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [lunch, Mittagessen]
-          - [a book, ein Buch]
-          - [a film, ein Film]
-          - [in the park, im Park]
-          - [at home, zu Hause]
-          - [at school, in der Schule]
-          - [in the classroom, im Klassenzimmer]
-          - [on Monday, am Montag]
-          - [on Friday, am Freitag]
-          - [on Saturday, am Samstag]
-          - [on Sunday, am Sonntag]
-          - [every day, jeden Tag]
+        languages: { source: de, target: en }
+        entries:
+          - target: "play"
+            source: "spielen"
+          - target: "eat"
+            source: "essen"
+          - target: "watch"
+            source: "anschauen"
+          - target: "read"
+            source: "lesen"
+          - target: "teach"
+            source: "unterrichten"
+          - target: "study"
+            source: "lernen"
+          - target: "English"
+            source: "Englisch"
+          - target: "football"
+            source: "Fußball"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "lunch"
+            source: "Mittagessen"
+          - target: "a book"
+            source: "ein Buch"
+          - target: "a film"
+            source: "ein Film"
+          - target: "in the park"
+            source: "im Park"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "in the classroom"
+            source: "im Klassenzimmer"
+          - target: "on Monday"
+            source: "am Montag"
+          - target: "on Friday"
+            source: "am Freitag"
+          - target: "on Saturday"
+            source: "am Samstag"
+          - target: "on Sunday"
+            source: "am Sonntag"
+          - target: "every day"
+            source: "jeden Tag"
   - type: section
     id: uebung
     title: Übung

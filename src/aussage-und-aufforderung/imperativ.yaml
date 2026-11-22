@@ -59,28 +59,46 @@ blocks:
         blocks:
           - type: text
             text: "**Aufforderung: Verb am Anfang, keine Subjektkarte. Verbot: Don't und das Verb.** Mit **please** wird es höflich: Close the window, please. Don't ist die Kurzform von do not."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [open, öffnen / aufmachen]
-          - [close, schließen / zumachen]
-          - [run, rennen]
-          - [talk, sprechen / reden]
-          - [write, schreiben]
-          - [listen, zuhören]
-          - [listen to, zuhören bei]
-          - [read, lesen]
-          - [door, Tür]
-          - [window, Fenster]
-          - [book, Buch]
-          - [name, Name]
-          - [your, dein / euer]
-          - [here, hier]
-          - [in the classroom, im Klassenzimmer]
-          - [please, bitte]
-          - [stand up, aufstehen]
-          - [sit down, sich hinsetzen]
+        languages: { source: de, target: en }
+        entries:
+          - target: "open"
+            source: "öffnen / aufmachen"
+          - target: "close"
+            source: "schließen / zumachen"
+          - target: "run"
+            source: "rennen"
+          - target: "talk"
+            source: "sprechen / reden"
+          - target: "write"
+            source: "schreiben"
+          - target: "listen"
+            source: "zuhören"
+          - target: "listen to"
+            source: "zuhören bei"
+          - target: "read"
+            source: "lesen"
+          - target: "door"
+            source: "Tür"
+          - target: "window"
+            source: "Fenster"
+          - target: "book"
+            source: "Buch"
+          - target: "name"
+            source: "Name"
+          - target: "your"
+            source: "dein / euer"
+          - target: "here"
+            source: "hier"
+          - target: "in the classroom"
+            source: "im Klassenzimmer"
+          - target: "please"
+            source: "bitte"
+          - target: "stand up"
+            source: "aufstehen"
+          - target: "sit down"
+            source: "sich hinsetzen"
   - type: section
     id: uebung
     title: Übung
