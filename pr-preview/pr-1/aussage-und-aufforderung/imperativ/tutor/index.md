@@ -204,7 +204,7 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
 - Antwortformat: die ganze Antwort auf Englisch schreiben
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph richtig mit Hinweis, Satzzeichen richtig mit Hinweis
 - Einträge (Vorgabe → Lösung):
-1. Audio → Please read the book, Sophie.
+1. Audio → Please read the book.
 2. Audio → Don't write here, please. (auch richtig: Do not write here, please.)
 3. Audio → Please listen, Amir.
 - Die Lernenden hören bei den Items mit Audio eine Datei mit einer KI-Stimme. Du kannst sie nicht abspielen; was gesprochen wird, steht in der Lösung.
@@ -216,8 +216,8 @@ Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe
 - Aufgabe: Hör zu, sprich nach und nimm dich auf. Vergleiche dann mit dem Original.
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
-1. Audio → Read your book, Amir.
-2. Audio → Sit down and listen, Sophie.
+1. Audio → Read your book.
+2. Audio → Sit down and listen.
 3. Audio → Stand up and sit down.
 - Tipp der App: Hör den Satz zuerst. Sprich dann langsam nach, so wie ein Lehrer.
 - Link: [../?via=tutor#imperativ-nachsprechen](../?via=tutor#imperativ-nachsprechen)

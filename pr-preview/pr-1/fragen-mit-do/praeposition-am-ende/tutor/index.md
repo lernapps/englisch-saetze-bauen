@@ -214,7 +214,7 @@ Die Klasse hat viele Fragen gestellt. Am nächsten Tag will Mr Hill wissen, was 
 - Die Lernenden hören das Original, nehmen sich auf und bewerten selbst, wie ihre Aussprache klingt. Du kannst weder das Original noch die Aufnahme hören. Frage, welche Laute schwer waren, und beschreibe, wie man sie bildet.
 - Sätze:
 1. Audio → Who does Peter play with?
-2. Audio → Who do you live with, Sophie?
+2. Audio → Who do you live with?
 3. Audio → Who does Ellie study with?
 - Tipp der App: Hör die Frage zuerst. Sprich dann langsam nach.
 - Link: [../?via=tutor#praeposition-nachsprechen](../?via=tutor#praeposition-nachsprechen)

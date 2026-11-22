@@ -77,6 +77,7 @@ Klassenzimmer-Poster · Wörter dieser Seite:
 - Wort oder Ausdruck | Bedeutung
 - play | spielen
 - live | wohnen
+- here | hier
 - eat | essen
 - like | mögen
 - watch | anschauen
@@ -235,7 +236,7 @@ Mr Hill liest die Quizfragen vor. Bei „Who likes tea?“ stutzt Peter. Dort fe
 - Sätze:
 1. Audio → Why does Peter like football?
 2. Audio → What does Sophie eat at home?
-3. Audio → Where do Ellie and Amir live, Peter?
+3. Audio → Do Ellie and Amir live here?
 - Tipp der App: Hör die Frage zuerst. Sprich dann langsam nach und betone das Fragewort.
 - Link: [../?via=tutor#fragewoerter-nachsprechen](../?via=tutor#fragewoerter-nachsprechen)
 
