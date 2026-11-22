@@ -1,0 +1,223 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Who likes tea? Wer fragt ohne Helfer?"
+description: "Mr Hill fragt die Klasse. Du lernst, nach dem Subjekt ohne Helfer zu fragen und die Frage nach dem Objekt davon zu unterscheiden."
+competencies: [subjektfragen]
+scope: "Die Seite zeigt den Unterschied zwischen Fragen nach dem Subjekt und Fragen nach dem Objekt. Fragt man nach dem Subjekt, wird die Subjektkarte selbst zum Fragewort, der Helfer bleibt weg und das Verb steht wie im Aussagesatz mit -s bei he, she, it (Who likes tea?). Fragt man nach dem Objekt, bleibt der Helfer (What does Ellie like?). Nicht hier, weil sie auf späteren Seiten stehen: Fragen mit Präposition am Ende und Fragen in der Vergangenheit."
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill fragt die Klasse
+    blocks:
+      - type: figure
+        image: images/szene-subjektfragen.svg
+        alt: "Mr Hill steht rechts im Klassenzimmer. Links melden sich Ellie, Peter und Amir. Mr Hill fragt in einer Sprechblase: „Who likes tea?“"
+        caption: "Von links: Ellie (roter Pferdeschwanz), Peter (gelbe Jacke) und Amir (Brille) melden sich. Rechts fragt Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill fragt die Klasse: „Who likes tea?“ Die Kinder überlegen."
+      - type: single-choice
+        id: subjektfragen-start
+        text: Welche Antwort passt zu Mr Hills Frage?
+        options:
+          - text: Ellie.
+            correct: true
+            info: Gefragt ist, wer Tee mag. Die Antwort nennt die Person.
+          - text: In the classroom.
+            correct: false
+            info: Das wäre eine Antwort auf where. Gefragt ist aber, wer etwas tut.
+          - text: On Friday.
+            correct: false
+            info: Das wäre eine Antwort auf when. Gefragt ist aber, wer etwas tut.
+        explanation: Who fragt nach einer Person. Die Antwort nennt die Person.
+        links:
+          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
+            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
+      - type: text
+        text: "**Das kannst du danach:** Du fragst nach dem Subjekt ohne do und unterscheidest solche Fragen von Fragen nach dem Objekt."
+  - type: section
+    id: neu
+    title: Das Fragewort ersetzt das Subjekt
+    blocks:
+      - type: text
+        text: "Peter wundert sich: In „Who likes tea?“ fehlt der Helfer! Das Fragewort **Who** liegt dort, wo sonst das **Subjekt** liegt. Die blaue Subjektkarte wird zur türkisen Fragewortkarte. Dann braucht der Satz keinen Helfer. Fragst du dagegen nach dem **Objekt**, bleibt der Helfer: **What does Ellie like?**"
+      - type: figure
+        image: images/satzleiste-subjektfrage.svg
+        alt: Zwei Reihen mit Satzkarten. Oben die Frage nach dem Objekt Who does Ellie like mit Fragewort, gelbem Helfer, Subjekt und Verb. Unten die Frage nach dem Subjekt Who likes tea mit Fragewort, Verb und Objekt, ohne Helfer.
+        caption: "Frage nach dem Objekt mit Helfer und Frage nach dem Subjekt ohne Helfer."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Subjekt oder Objekt?
+        header: [Aussage, Frage nach dem Subjekt, Frage nach dem Objekt]
+        rows:
+          - [Peter eats pizza., Who eats pizza?, What does Peter eat?]
+          - [Sophie reads a book., Who reads a book?, What does Sophie read?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Wer tut etwas? Kein Helfer, das Verb mit -s: Who likes tea?** Was oder wen? Der Helfer bleibt, das Verb geht ohne Endung: What does Ellie like?"
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [who, wer]
+          - [what, was]
+          - [play, spielen]
+          - [like, mögen]
+          - [live, wohnen]
+          - [eat, essen]
+          - [football, Fußball]
+          - [tea, Tee]
+          - [pizza, Pizza]
+          - [here, hier]
+          - [at school, in der Schule]
+          - [at home, zu Hause]
+          - [lunch, Mittagessen]
+          - [read, lesen]
+          - [watch, anschauen]
+          - [film, Film]
+          - [study, lernen]
+          - [English, Englisch]
+          - [Mr Hill, Mr Hill (der Englischlehrer)]
+          - [with, mit / bei]
+          - [in the park, im Park]
+          - [on Saturday, am Samstag]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: multiple-choice
+        id: subjektfragen-zuordnen
+        text: Welche Fragen fragen nach dem Subjekt? Wähle alle aus.
+        options:
+          - text: Who plays football?
+            correct: true
+            info: Who ersetzt das Subjekt, darum steht kein Helfer da.
+          - text: What does Amir play?
+            correct: false
+            info: Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
+          - text: Who lives here?
+            correct: true
+            info: Who ersetzt das Subjekt, darum steht kein Helfer da und das Verb hat das s.
+          - text: What does Amir like?
+            correct: false
+            info: Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
+        explanation: Fehlt der Helfer, fragt die Frage nach dem Subjekt. Steht ein Helfer da, fragt sie nach dem Objekt.
+        links:
+          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
+            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
+      - type: language-task
+        id: subjektfragen-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Form.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Wer lernt Englisch?
+            target: Who [studies] English?
+            distractors: [[does study, study]]
+          - cue: Was isst Mr Hill?
+            target: What [does] Mr Hill eat?
+            distractors: [[do, eats]]
+          - cue: Wer spielt im Park Fußball?
+            target: Who [plays] football in the park?
+            distractors: [[does play, play]]
+          - cue: Was lernt Ellie?
+            target: What [does] Ellie study?
+            distractors: [[do, studies]]
+        hint: Fragt das Wort nach dem Subjekt, steht kein Helfer da. Fragt es nach dem Objekt, kommt der Helfer.
+      - type: language-task
+        id: subjektfragen-bilden
+        languages: { source: de, target: en }
+        task: Schreibe die ganze Frage.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: who · like · football
+            target: Who likes football?
+            mistakes:
+              - answer: Who does like football?
+                message: Wer ist das Subjekt, darum fehlt der Helfer.
+              - answer: Who like football?
+                message: Who ist wie he oder she. Das Verb braucht das s.
+          - cue: what · Peter · like
+            target: What does Peter like?
+            mistakes:
+              - answer: What Peter likes?
+                message: Hier fragst du nach dem Objekt. Dann kommt der Helfer.
+              - answer: What does Peter likes?
+                message: Das Verb geht ohne s, denn does trägt es schon.
+          - cue: who · eat · lunch · at school
+            target: Who eats lunch at school?
+            mistakes:
+              - answer: Who does eat lunch at school?
+                message: Wer ist das Subjekt, darum fehlt der Helfer.
+          - cue: what · Sophie · eat · at home
+            target: What does Sophie eat at home?
+            mistakes:
+              - answer: What Sophie eats at home?
+                message: Hier fragst du nach dem Objekt. Dann kommt der Helfer.
+        hint: Wer tut etwas? Dann ohne Helfer. Was oder wen? Dann mit Helfer.
+      - type: language-task
+        id: subjektfragen-korrektur
+        languages: { source: de, target: en }
+        task: In jeder Frage steckt ein Fehler. Schreibe die Frage richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Who does watch a film?
+            target: Who watches a film?
+            mistakes:
+              - answer: Who does watch a film?
+                message: Noch nicht ganz. Wer ist hier das Subjekt? Braucht die Frage dann einen Helfer?
+          - cue: What Amir eats?
+            target: What does Amir eat?
+            mistakes:
+              - answer: What Amir eats?
+                message: Noch nicht ganz. Hier wird nach dem Objekt gefragt. Welche Karte fehlt?
+        hint: Zähle, ob in der Frage ein Helfer steht, und frage dich, ob er stehen soll.
+      - type: language-task
+        id: subjektfragen-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: who-likes-pizza-at-school.mp3
+            target: Who likes pizza at school?
+          - audio: what-does-amir-like-at-home.mp3
+            target: What does Amir like at home?
+          - audio: what-does-sophie-watch-at-school.mp3
+            target: What does Sophie watch at school?
+  - type: section
+    id: anwenden
+    title: Wer tut was?
+    blocks:
+      - type: speaking-task
+        id: subjektfragen-nachsprechen
+        language: en
+        items:
+          - audio: who-eats-lunch-with-ellie.mp3
+            text: Who eats lunch with Ellie?
+          - audio: what-does-mr-hill-read-at-home.mp3
+            text: What does Mr Hill read at home?
+          - audio: who-lives-with-sophie.mp3
+            text: Who lives with Sophie?
+        hint: Hör die Frage zuerst. Sprich dann langsam nach. Bei Who lives hörst du das s.
+      - type: open-task
+        id: subjektfragen-quiz
+        task: "Peter schreibt zwei Quizfragen. Schreibe eine Frage mit Who ohne Helfer und eine Frage mit What und Helfer. Beide Fragen handeln von Sophie, Ellie, Peter oder Amir."
+        points:
+          - text: Die Frage mit Who hat keinen Helfer, und das Verb hat das s.
+            source: /fragen-mit-do/subjektfragen/#neu
+          - text: Die Frage mit What hat den Helfer do oder does, und das Verb geht ohne Endung.
+            source: /fragen-mit-do/subjektfragen/#neu
+          - text: Es sind ganze Fragen mit Fragezeichen am Ende.
+            kind: form
+        solution: |
+          Who plays football on Saturday? What does Ellie eat at school?
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Das Quiz läuft. Ellie fragt Sophie: „Who do you talk to?“ Das Wort to bleibt am Ende hängen. Wie das geht, zeigt die nächste Seite."

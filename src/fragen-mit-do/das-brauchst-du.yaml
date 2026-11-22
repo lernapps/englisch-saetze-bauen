@@ -1,0 +1,33 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Das brauchst du hier
+description: Das simple present und das Verb be noch einmal kurz, bevor der gelbe Helfer zum Fragen kommt.
+recap: [englisch/simple-present, englisch/to-be]
+scope: "Die Seite wiederholt nur zwei Bausteine aus dem Explainer „Zeiten auf dem Zeitstrahl“: das simple present (das -s bei he, she, it) und das Verb be (am, is, are) in Aussagen. Neue Inhalte gibt es nicht, auch keine Übung. Fragen und Verneinung mit do kommen auf den nächsten Seiten."
+blocks:
+  - type: section
+    id: einstieg
+    title: Das solltest du schon können
+    blocks:
+      - type: text
+        text: "Kannst du das schon? **Ich kann im simple present über Gewohnheiten und Tatsachen sprechen und das -s bei he, she, it anhängen.** Das ist der Baustein „Simple present“. Und: **Ich kann die Formen von „to be“ (am, is, are) in Aussagen, Verneinungen und Fragen verwenden.** Das ist der Baustein „Verb to be“. Beide brauchst du gleich bei jeder Frage. Lies die Tabellen und prüfe in Gedanken, ob du alles kennst."
+      - type: table
+        caption: Klassenzimmer-Poster · Das simple present mit like
+        header: [Person, Form]
+        rows:
+          - [I / you / we / they, like]
+          - [he / she / it, likes]
+      - type: table
+        caption: Klassenzimmer-Poster · Das Verb be
+        header: [Person, Form]
+        rows:
+          - [I, am]
+          - [he / she / it, is]
+          - [you / we / they, are]
+      - type: text
+        text: "Nicht sicher? Wiederhole es auf den Seiten der Lernlandkarte: [Simple present](https://lernapps.net/apps/map/englisch/c/simple-present/) und [Verb to be](https://lernapps.net/apps/map/englisch/c/to-be/)."
+  - type: section
+    id: weiter
+    title: Wer fragt?
+    blocks:
+      - type: text
+        text: "Mr Hill hat am Montag die Satzleiste mit den bunten Karten aufgehängt. Jetzt fragen sich Sophie, Ellie, Peter und Amir gegenseitig aus. Mr Hill sagt: „Der gelbe Helfer hilft euch dabei.“"

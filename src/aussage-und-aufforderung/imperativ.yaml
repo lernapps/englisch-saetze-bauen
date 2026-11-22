@@ -1,0 +1,235 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Open the book! Don't run!"
+description: "Mr Hill gibt Anweisungen. Du lernst, Aufforderungen ohne Subjekt zu sagen und mit don't etwas zu verbieten."
+competencies: [imperativ]
+scope: "Die Seite zeigt den Imperativ. Eine Aufforderung ist ein Satz ohne Subjektkarte: Das Verb steht am Anfang und hat keine Endung (Open the door.). Ein Verbot beginnt mit don't, der gelben Helferkarte, und danach steht das Verb ohne Endung (Don't run.). Mit please wird es höflicher. Nicht hier, weil sie auf späteren Seiten stehen: Fragen, die Verneinung im Aussagesatz mit do und does und let's."
+blocks:
+  - type: section
+    id: einstieg
+    title: Mr Hill gibt Anweisungen
+    blocks:
+      - type: figure
+        image: images/szene-imperativ.svg
+        alt: "Mr Hill steht rechts im Klassenzimmer. Links stehen Sophie, Amir und Peter. Mr Hill sagt in einer Sprechblase: „Open the book, Peter.“"
+        caption: "Von links: Sophie (Zöpfe), Amir (Brille) und Peter (gelbe Jacke) hören zu. Rechts spricht Mr Hill (graue Haare)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Mr Hill ruft Peter etwas zu: „Open the book, Peter.“ Das kennst du schon vom Klassenzimmer-Poster, Anweisungen wie „Stand up.“ und „Sit down.“"
+      - type: single-choice
+        id: imperativ-start
+        text: "Vergleiche „You open the book.“ mit Mr Hills „Open the book.“. Was fehlt bei Mr Hill?"
+        options:
+          - text: Das Wort you, also das Subjekt.
+            correct: true
+            info: Mr Hill spricht Peter direkt an. Er sagt nicht you, es ist ja klar, wer gemeint ist.
+          - text: Das Wort open, also das Verb.
+            correct: false
+            info: Open steht in beiden Sätzen und ist das Verb. Es steht bei Mr Hill sogar ganz vorne.
+          - text: Das Wort book, also das Objekt.
+            correct: false
+            info: The book steht in beiden Sätzen, es ist das Objekt.
+        explanation: Wenn man jemanden direkt auffordert, braucht man keine Subjektkarte.
+        links:
+          - title: Lernlandkarte Englisch · Imperativ
+            url: https://lernapps.net/apps/map/englisch/c/imperativ/
+      - type: text
+        text: "**Das kannst du danach:** Du sagst auf Englisch, was jemand tun soll und was er nicht tun soll."
+  - type: section
+    id: neu
+    title: Ohne Subjekt, und mit don't
+    blocks:
+      - type: text
+        text: "Eine **Aufforderung** hat auf der Satzleiste keine blaue Karte. Das Verb steht ganz vorn, ohne Endung: **Read** the book. Ein **Verbot** beginnt mit der gelben Karte **don't**. Das ist dein erster **Helfer**. Danach geht das Verb ohne Endung weiter: **Don't read** the book."
+      - type: figure
+        image: images/satzleiste-imperativ.svg
+        alt: Drei Reihen mit Satzkarten. Oben ein Aussagesatz You read the book mit blauem Subjekt. In der Mitte Read the book ohne Subjektkarte. Unten Don't read the book mit der gelben Helferkarte Don't vor dem Verb.
+        caption: "Aussage, Aufforderung und Verbot. In der Aufforderung fehlt die blaue Karte. Im Verbot kommt die gelbe dazu."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Aufforderung und Verbot
+        header: [Aufforderung, Verbot]
+        rows:
+          - [Sit down., Don't sit down.]
+          - [Open the door., Don't open the door.]
+          - [Stand up., Don't stand up.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Aufforderung: Verb am Anfang, keine Subjektkarte. Verbot: Don't und das Verb.** Mit **please** wird es höflich: Close the window, please. Don't ist die Kurzform von do not."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [open, öffnen / aufmachen]
+          - [close, schließen / zumachen]
+          - [run, rennen]
+          - [talk, sprechen / reden]
+          - [write, schreiben]
+          - [listen, zuhören]
+          - [listen to, zuhören bei]
+          - [read, lesen]
+          - [door, Tür]
+          - [window, Fenster]
+          - [book, Buch]
+          - [name, Name]
+          - [your, dein / euer]
+          - [here, hier]
+          - [in the classroom, im Klassenzimmer]
+          - [please, bitte]
+          - [stand up, aufstehen]
+          - [sit down, sich hinsetzen]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: imperativ-karten
+        text: Mr Hill verbietet etwas. Lege die Karten zu seinem Satz.
+        items:
+          - Don't
+          - run
+          - in the classroom
+        explanation: Die gelbe Karte Don't steht vorn, dann das Verb ohne Endung und dann der Ort.
+        links:
+          - title: Lernlandkarte Englisch · Imperativ
+            url: https://lernapps.net/apps/map/englisch/c/imperativ/
+      - type: language-task
+        id: imperativ-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Wort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Mach bitte das Fenster auf.
+            target: "[Open] the window, please."
+            distractors: [[You open, Opens]]
+          - cue: Renn nicht im Klassenzimmer.
+            target: "[Don't] run in the classroom."
+            distractors: [[Not, No]]
+          - cue: Hört zu.
+            target: "[Listen]."
+            distractors: [[You listen, Listens]]
+          - cue: Sprich hier nicht.
+            target: "[Don't] talk here."
+            distractors: [[Not, Doesn't]]
+        hint: Bei einer Aufforderung steht das Verb ganz vorn. Ein Verbot beginnt mit Don't.
+      - type: language-task
+        id: imperativ-bilden
+        languages: { source: de, target: en }
+        task: Schreibe die ganze Aufforderung oder das ganze Verbot.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: close · the door
+            target: Close the door.
+            mistakes:
+              - answer: You close the door.
+                message: Mr Hill spricht dich direkt an. Du brauchst keine Subjektkarte.
+              - answer: Closes the door.
+                message: Das Verb hat bei einer Aufforderung keine Endung.
+          - cue: write · your name
+            target: Write your name.
+            mistakes:
+              - answer: You write your name.
+                message: Du brauchst keine Subjektkarte. Das Verb steht ganz vorn.
+          - cue: don't · open · the window
+            target: (Don't|Do not) open the window.
+            mistakes:
+              - answer: Not open the window.
+                message: Ein Verbot beginnt mit der gelben Karte Don't, nicht mit not.
+              - answer: Don't opens the window.
+                message: Nach Don't geht das Verb ohne Endung weiter.
+              - answer: Don't to open the window.
+                message: Nach Don't steht das Verb sofort, ohne to.
+          - cue: don't · run · here
+            target: (Don't|Do not) run here.
+            mistakes:
+              - answer: No run here.
+                message: Ein Verbot beginnt mit der gelben Karte Don't.
+        hint: Fange mit dem Verb an. Bei einem Verbot kommt vorher die gelbe Karte Don't.
+      - type: language-task
+        id: imperativ-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: You write here.
+            target: Write here.
+            mistakes:
+              - answer: You write here.
+                message: Noch nicht ganz. Mr Hill braucht für eine Aufforderung keine blaue Karte.
+          - cue: Don't to run here.
+            target: (Don't|Do not) run here.
+            mistakes:
+              - answer: Don't to run here.
+                message: Noch nicht ganz. Was steht nach der gelben Karte Don't zwischen dem Helfer und dem Verb?
+        hint: Zähle die Karten. Eine Aufforderung hat keine blaue Karte, und nach Don't kommt das Verb sofort.
+      - type: language-task
+        id: imperativ-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - source: Mach bitte die Tür zu.
+            target: Close the door, please.
+            accepted: [Please close the door.]
+            mistakes:
+              - answer: You close the door, please.
+                message: Du brauchst keine Subjektkarte.
+          - source: Sprich nicht, Peter.
+            target: (Don't|Do not) talk, Peter.
+            accepted: ["Peter, don't talk.", "Peter, do not talk."]
+            mistakes:
+              - answer: Not talk, Peter.
+                message: Ein Verbot beginnt mit Don't.
+          - source: Schreibt eure Namen.
+            target: Write your names.
+            accepted: [Write your name.]
+        hint: Sprich den Satz zuerst so, als wärst du Mr Hill.
+      - type: language-task
+        id: imperativ-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - audio: please-read-the-book.mp3
+            target: Please read the book.
+          - audio: dont-write-here-please.mp3
+            target: (Don't|Do not) write here, please.
+          - audio: please-listen-amir.mp3
+            target: Please listen, Amir.
+  - type: section
+    id: anwenden
+    title: Regeln für die Klasse
+    blocks:
+      - type: speaking-task
+        id: imperativ-nachsprechen
+        language: en
+        items:
+          - audio: read-your-book.mp3
+            text: Read your book.
+          - audio: sit-down-and-listen.mp3
+            text: Sit down and listen.
+          - audio: stand-up-and-sit-down.mp3
+            text: Stand up and sit down.
+        hint: Hör den Satz zuerst. Sprich dann langsam nach, so wie ein Lehrer.
+      - type: open-task
+        id: imperativ-regeln
+        task: "Mr Hill macht ein Plakat mit Klassenregeln. Schreibe zwei Aufforderungen und zwei Verbote für das Klassenzimmer."
+        points:
+          - text: Die Aufforderungen haben keine Subjektkarte und beginnen mit dem Verb.
+            source: /aussage-und-aufforderung/imperativ/#neu
+          - text: Die Verbote beginnen mit Don't, danach steht das Verb ohne Endung.
+            source: /aussage-und-aufforderung/imperativ/#neu
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Open your books. Listen, please. Don't talk here. Don't read here.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Das Plakat hängt an der Wand, und am Rand der Satzleiste liegt jetzt eine gelbe Karte. Ellie fragt Sophie: „Does Peter like pizza?“ Auch hier springt der gelbe Helfer ins Spiel. Wie, zeigt das nächste Kapitel."

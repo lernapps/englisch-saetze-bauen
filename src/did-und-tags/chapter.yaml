@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: did und question tags
+summary: Der gelbe Helfer geht in die Vergangenheit. Du fragst und verneinst mit did und hängst mit einem question tag eine kleine Frage an einen Satz.
+pages: [das-brauchst-du, did, question-tags]
+selfAssessment:
+  pages:
+    - exercises:
+        - /did-und-tags/did/#did-waehlen
+        - /did-und-tags/did/#did-bilden
+    - exercises:
+        - /did-und-tags/question-tags/#tags-waehlen
+        - /did-und-tags/question-tags/#tags-bilden

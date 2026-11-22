@@ -1,0 +1,236 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Who do you talk to?"
+description: "Ellie fragt Sophie, mit wem sie spricht. Du lernst, dass die Präposition in englischen Fragen am Ende steht."
+competencies: [fragen-praeposition-ende]
+scope: "Die Seite zeigt Fragen mit einer Präposition. Im Deutschen steht die Präposition vorn (Mit wem sprichst du?), im Englischen bleibt sie am Satzende hängen (Who do you talk to?). Die Reihenfolge ist Fragewort, Helfer, Subjekt, Verb, Präposition. Gezeigt werden to, with, from und for. Nicht hier, weil sie auf späteren Seiten stehen: Fragen in der Vergangenheit und die förmliche Form mit whom."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellie fragt Sophie
+    blocks:
+      - type: figure
+        image: images/szene-praeposition-am-ende.svg
+        alt: "Ellie, Sophie und Peter stehen nebeneinander im Klassenzimmer. Ellie fragt Sophie in einer Sprechblase: „Who do you talk to?“"
+        caption: "Von links: Ellie (roter Pferdeschwanz) fragt, daneben Sophie (Zöpfe) und Peter (gelbe Jacke)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie fragt Sophie: „Who do you talk to?“ Sophie übersetzt sich die Frage im Kopf ins Deutsche."
+      - type: single-choice
+        id: praeposition-start
+        text: Wie heißt Ellies Frage auf Deutsch?
+        options:
+          - text: Mit wem sprichst du?
+            correct: true
+            info: To heißt hier „mit“, denn man spricht mit jemandem. Auf Deutsch steht „mit“ vorn.
+          - text: Wer spricht zu dir?
+            correct: false
+            info: Das wäre Who talks to you. Dort steht kein do, und you steht am Ende.
+          - text: Wen sprichst du?
+            correct: false
+            info: Es fehlt die Präposition. Im Satz steht to am Ende.
+        explanation: Auf Deutsch steht die Präposition vorn, im Englischen am Ende.
+        links:
+          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
+            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
+      - type: text
+        text: "**Das kannst du danach:** Du fragst nach Personen und Orten mit einer Präposition und setzt sie an das Ende."
+  - type: section
+    id: neu
+    title: Die Präposition bleibt hinten
+    blocks:
+      - type: text
+        text: "Auf der Satzleiste gibt es eine braune Karte für die **Präposition**, zum Beispiel to, with, from oder for. Sie bleibt in der Frage **am Ende** liegen. Alles davor ist wie bisher: Fragewort, Helfer, Subjekt, Verb."
+      - type: figure
+        image: images/satzleiste-praeposition.svg
+        alt: Eine Reihe mit Satzkarten. Türkis Who, gelb do, blau you, rot talk und am Ende braun to mit der Beschriftung Präposition.
+        caption: "Die braune Karte to bleibt am Ende der Frage."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Deutsch und Englisch
+        header: [Deutsch, Englisch]
+        rows:
+          - [Mit wem sprichst du?, Who do you talk to?]
+          - [Woher kommst du?, Where do you come from?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Fragewort, Helfer, Subjekt, Verb, Präposition.** Auf Deutsch steht die Präposition vorn, im Englischen bleibt sie am Ende: Who do you talk to?"
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [talk to, sprechen mit]
+          - [play with, spielen mit]
+          - [live with, wohnen bei]
+          - [study with, lernen mit]
+          - [eat with, essen mit]
+          - [come from, kommen aus]
+          - [for, für]
+          - [who, wer / wen]
+          - [where, wo / woher]
+          - [book, Buch]
+          - [this, dieses / das]
+          - [at school, in der Schule]
+          - [at, bei / an]
+          - [English, Englisch]
+          - [lunch, Mittagessen]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: praeposition-karten
+        text: Amir fragt Peter etwas. Lege die Karten zu einer Frage.
+        items:
+          - Who
+          - does
+          - Peter
+          - play
+          - with
+        explanation: Die Präposition with bleibt am Ende. Davor stehen Fragewort, Helfer, Subjekt und Verb.
+        links:
+          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
+            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
+      - type: language-task
+        id: praeposition-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle die richtige Präposition für das Ende der Frage.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Mit wem spielst du?
+            target: Who do you play [with]?
+            distractors: [[to, from]]
+          - cue: Bei wem wohnt Peter?
+            target: Who does Peter live [with]?
+            distractors: [[to, for]]
+          - cue: Mit wem spricht Ellie?
+            target: Who does Ellie talk [to]?
+            distractors: [[at, from]]
+          - cue: Für wen ist dieses Buch?
+            target: Who is this book [for]?
+            distractors: [[with, to]]
+        hint: Die Präposition steht am Ende der Frage. Welches Wort passt zu dem Verb?
+      - type: language-task
+        id: praeposition-bilden
+        languages: { source: de, target: en }
+        task: Schreibe die ganze Frage. Die Präposition steht am Ende.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: who · Amir · play · with
+            target: Who does Amir play with?
+            mistakes:
+              - answer: With who does Amir play?
+                message: Im Englischen bleibt die Präposition am Ende.
+              - answer: Who Amir plays with?
+                message: Der Helfer fehlt, und das Verb geht ohne s.
+          - cue: where · Peter · come · from
+            target: Where does Peter come from?
+            accepted: [Where is Peter from?]
+            mistakes:
+              - answer: From where does Peter come?
+                message: Im Englischen bleibt from am Ende.
+              - answer: Where does Peter comes from?
+                message: Das Verb geht ohne s, denn does trägt es schon.
+          - cue: who · you · study · with
+            target: Who do you study with?
+            mistakes:
+              - answer: Who you study with?
+                message: Der Helfer fehlt.
+              - answer: Who do you study?
+                message: Die Präposition fehlt am Ende.
+          - cue: who · Sophie · eat · lunch · with
+            target: Who does Sophie eat lunch with?
+            mistakes:
+              - answer: Who does Sophie eats lunch with?
+                message: Das Verb geht ohne s.
+        hint: Schreibe zuerst Fragewort, Helfer, Subjekt und Verb. Die Präposition kommt zuletzt.
+      - type: language-task
+        id: praeposition-korrektur
+        languages: { source: de, target: en }
+        task: In jeder Frage steckt ein Fehler. Schreibe die Frage richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: With who do you play?
+            target: Who do you play with?
+            mistakes:
+              - answer: With who do you play?
+                message: Noch nicht ganz. Wohin gehört das Wort with im Englischen?
+          - cue: Where you come from?
+            target: Where do you come from?
+            mistakes:
+              - answer: Where you come from?
+                message: Noch nicht ganz. Welche Karte fehlt zwischen Where und you?
+        hint: Prüfe, wo die Präposition steht und ob der Helfer da ist.
+      - type: language-task
+        id: praeposition-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe die Frage auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Bei wem wohnst du?
+            target: Who do you live with?
+            mistakes:
+              - answer: With who do you live?
+                message: Im Englischen bleibt die Präposition am Ende.
+          - source: Woher kommt Sophie?
+            target: Where does Sophie come from?
+            accepted: [Where is Sophie from?]
+            mistakes:
+              - answer: Where comes Sophie from?
+                message: Das Verb braucht den Helfer, es darf nicht nach vorn springen.
+          - source: Mit wem lernt Ellie Englisch?
+            target: Who does Ellie study English with?
+            accepted: [Who does Ellie learn English with?]
+            mistakes:
+              - answer: Who does Ellie study with English?
+                message: Die Präposition steht ganz am Ende.
+        hint: Übersetze zuerst Fragewort, Helfer, Subjekt und Verb. Die Präposition kommt ans Ende.
+      - type: language-task
+        id: praeposition-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: who-do-you-eat-lunch-with.mp3
+            target: Who do you eat lunch with?
+          - audio: who-does-amir-talk-to-at-school.mp3
+            target: Who does Amir talk to at school?
+          - audio: where-does-mr-hill-come-from.mp3
+            target: Where does Mr Hill come from?
+  - type: section
+    id: anwenden
+    title: Fragen im Klassenzimmer
+    blocks:
+      - type: speaking-task
+        id: praeposition-nachsprechen
+        language: en
+        items:
+          - audio: who-does-peter-play-with.mp3
+            text: Who does Peter play with?
+          - audio: who-do-you-live-with.mp3
+            text: Who do you live with?
+          - audio: who-does-ellie-study-with.mp3
+            text: Who does Ellie study with?
+        hint: Hör die Frage zuerst. Sprich dann langsam nach.
+      - type: open-task
+        id: praeposition-fragen
+        task: "Amir interviewt die Klasse. Schreibe drei Fragen, die mit einer Präposition am Ende hängen, zum Beispiel mit to, with oder from."
+        points:
+          - text: In jeder Frage steht die Präposition ganz am Ende.
+            source: /fragen-mit-do/praeposition-am-ende/#neu
+          - text: Vor der Präposition stehen Fragewort, Helfer, Subjekt und Verb in dieser Reihenfolge.
+            source: /fragen-mit-do/praeposition-am-ende/#neu
+          - text: Es sind ganze Fragen mit Fragezeichen am Ende.
+            kind: form
+        solution: |
+          Who do you talk to? Where does Peter come from? Who does Ellie play with?
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Die Klasse hat viele Fragen gestellt. Am nächsten Tag will Mr Hill wissen, was die Kinder gestern getan haben. Er fragt: „Did you play football yesterday?“ Hier steht did statt do. Warum, zeigt das nächste Kapitel."

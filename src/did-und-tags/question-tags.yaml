@@ -1,0 +1,254 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "You like it, don't you?"
+description: "Ellie hängt eine kleine Frage an ihren Satz. Du lernst question tags: Aus positiv wird negativ, und der Helfer kommt zurück."
+competencies: [question-tags]
+scope: "Die Seite zeigt question tags. Ein question tag ist eine kleine Frage am Ende eines Satzes, ein Spiegel: Auf eine positive Aussage folgt ein negativer tag, auf eine negative Aussage ein positiver tag. Der tag nimmt den Helfer der Aussage (do, does, did) oder bei be das Wort be wieder auf und nennt das Subjekt als Pronomen (Peter plays football, doesn't he?). Gezeigt werden do, does, did, is und are. Nicht hier, weil sie auf späteren Seiten stehen: tags mit Modalverben und die Betonung mit do."
+blocks:
+  - type: section
+    id: einstieg
+    title: Ellie fragt nach
+    blocks:
+      - type: figure
+        image: images/szene-question-tags.svg
+        alt: "Ellie, Sophie und Amir stehen nebeneinander im Klassenzimmer. Ellie sagt in einer Sprechblase: „You like it, don't you?“"
+        caption: "Von links: Ellie (roter Pferdeschwanz) spricht, daneben Sophie (Zöpfe) und Amir (Brille)."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Ellie zeigt Sophie ihre neue Zeichnung der Schule und sagt: „You like it, don't you?“ Sophie lächelt und nickt."
+      - type: single-choice
+        id: tags-start
+        text: Was will Ellie mit der kleinen Frage am Ende?
+        options:
+          - text: Sie möchte, dass Sophie ihr zustimmt.
+            correct: true
+            info: Der tag fragt „oder?“. Ellie glaubt, dass Sophie die Zeichnung mag, und will es hören.
+          - text: Sie fragt, wo Sophie die Zeichnung gesehen hat.
+            correct: false
+            info: Dann würde Ellie Where fragen. Ein question tag fragt nach Zustimmung.
+          - text: Sie fragt, wer die Zeichnung gemacht hat.
+            correct: false
+            info: Dann würde Ellie Who fragen. Ein question tag fragt nach Zustimmung.
+        explanation: Ein question tag ist eine kleine Frage am Ende. Sie heißt „oder?“ oder „nicht wahr?“ und will Zustimmung.
+        links:
+          - title: Lernlandkarte Englisch · Question tags
+            url: https://lernapps.net/apps/map/englisch/c/question-tags/
+      - type: text
+        text: "**Das kannst du danach:** Du hängst an eine Aussage einen question tag und wählst den richtigen Helfer."
+  - type: section
+    id: neu
+    title: Der Spiegel am Satzende
+    blocks:
+      - type: text
+        text: "Ein **question tag** ist wie ein kleiner **Spiegel** am Ende des Satzes. Er dreht den Satz um: Aus **positiv** wird **negativ**, aus **negativ** wird **positiv**. Der Helfer kommt dabei zurück, und danach steht das Subjekt als Pronomen, also als kurzes Wort wie he, she oder they: aus Peter wird he."
+      - type: figure
+        image: images/satzleiste-tag.svg
+        alt: Zwei Reihen mit Satzkarten. Oben You like it mit dem Spiegel don't you am Ende. Unten You don't like it mit dem Spiegel do you am Ende. Der Helfer wechselt zwischen positiv und negativ.
+        caption: "Der Spiegel am Satzende dreht den Satz um: positiv, dann negativ, und umgekehrt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Question tags
+        header: [Aussage, tag]
+        rows:
+          - [You like tea., "don't you?"]
+          - [Peter plays football., "doesn't he?"]
+          - [Ellie ate pizza., "didn't she?"]
+          - [Amir is happy., "isn't he?"]
+          - [You are tired., "aren't you?"]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Positiv, dann negativ. Negativ, dann positiv.** Der tag nimmt den Helfer der Aussage wieder auf (do, does, did) oder bei **be** das Wort be. Danach steht das Pronomen: Peter wird he, Ellie wird she."
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [like, mögen]
+          - [play, spielen]
+          - [eat – ate, essen – aß]
+          - [watch – watched, anschauen – schaute an]
+          - [football, Fußball]
+          - [pizza, Pizza]
+          - [tea, Tee]
+          - [film, Film]
+          - [read, lesen]
+          - [book, Buch]
+          - [happy, froh]
+          - [tired, müde]
+          - [yesterday, gestern]
+          - [lunch, Mittagessen]
+          - [at school, in der Schule]
+          - [question tag, kleine Frage am Satzende]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: matching
+        id: tags-zuordnen
+        text: Welcher question tag gehört zu welchem Satz?
+        pairs:
+          - left: Amir likes tea,
+            right: doesn't he?
+          - left: You don't play football,
+            right: do you?
+          - left: Peter and Amir play football,
+            right: don't they?
+          - left: Ellie isn't tired,
+            right: is she?
+        explanation: Der tag nimmt den Helfer der Aussage wieder auf und dreht den Satz um. Aus positiv wird negativ, aus negativ wird positiv.
+        links:
+          - title: Lernlandkarte Englisch · Question tags
+            url: https://lernapps.net/apps/map/englisch/c/question-tags/
+      - type: language-task
+        id: tags-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den richtigen question tag.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: Ellie likes pizza, ... she?
+            target: Ellie likes pizza, [doesn't] she?
+            distractors: [[don't, does]]
+          - cue: Peter doesn't play football, ... he?
+            target: Peter doesn't play football, [does] he?
+            distractors: [[doesn't, did]]
+          - cue: Sophie and Amir watched a film, ... they?
+            target: Sophie and Amir watched a film, [didn't] they?
+            distractors: [[don't, did]]
+          - cue: Mr Hill is happy, ... he?
+            target: Mr Hill is happy, [isn't] he?
+            distractors: [[doesn't, is]]
+        hint: Schau auf den Helfer der Aussage und dreh ihn um. Aus positiv wird negativ.
+      - type: language-task
+        id: tags-bilden
+        languages: { source: de, target: en }
+        task: Schreibe nur den question tag.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: Amir plays football, ...
+            target: doesn't he?
+            mistakes:
+              - answer: don't he?
+                message: Amir ist „er“. Der Helfer heißt does, also doesn't.
+              - answer: does he?
+                message: Die Aussage ist positiv. Dann ist der tag negativ.
+              - answer: isn't he?
+                message: In der Aussage steht kein be. Es kommt der Helfer does zurück.
+          - cue: You don't like pizza, ...
+            target: do you?
+            mistakes:
+              - answer: don't you?
+                message: Die Aussage ist schon negativ. Dann ist der tag positiv.
+          - cue: Peter ate lunch, ...
+            target: didn't he?
+            mistakes:
+              - answer: doesn't he?
+                message: Die Aussage steht in der Vergangenheit. Der Helfer heißt did.
+              - answer: did he?
+                message: Die Aussage ist positiv. Dann ist der tag negativ.
+          - cue: Sophie is tired, ...
+            target: isn't she?
+            mistakes:
+              - answer: doesn't she?
+                message: In der Aussage steht is. Bei be kommt is zurück, nicht does.
+              - answer: isn't Sophie?
+                message: Nach dem Helfer steht ein Pronomen, kein Name.
+        hint: Welcher Helfer steckt in der Aussage? Dreh ihn um und nimm das Pronomen.
+      - type: language-task
+        id: tags-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - cue: You watch a film, do you?
+            target: You watch a film, don't you?
+            accepted: ["You don't watch a film, do you?"]
+            mistakes:
+              - answer: You watch a film, do you?
+                message: Noch nicht ganz. Die Aussage ist positiv. Wie muss der tag dann sein?
+          - cue: Ellie reads a book, don't she?
+            target: Ellie reads a book, doesn't she?
+            mistakes:
+              - answer: Ellie reads a book, don't she?
+                message: Noch nicht ganz. Ellie ist „sie“. Welcher Helfer gehört zu she?
+        hint: Prüfe, ob der tag den Satz umdreht und ob der Helfer zur Person passt.
+      - type: language-task
+        id: tags-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe den Satz auf Englisch.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - source: Du magst Pizza, oder?
+            target: You like pizza, don't you?
+            mistakes:
+              - answer: You like pizza, do you?
+                message: Die Aussage ist positiv, darum ist der tag negativ.
+          - source: Ellie ist müde, oder?
+            target: Ellie is tired, isn't she?
+            accepted: ["Ellie's tired, isn't she?"]
+            mistakes:
+              - answer: Ellie is tired, doesn't she?
+                message: Bei is kommt is zurück, nicht does.
+          - source: Peter hat gestern Fußball gespielt, oder?
+            target: Peter played football yesterday, didn't he?
+            mistakes:
+              - answer: Peter played football yesterday, doesn't he?
+                message: Die Aussage steht in der Vergangenheit. Der Helfer heißt did.
+        hint: Frag dich, welcher Helfer in der Aussage steckt, und dreh ihn um.
+      - type: language-task
+        id: tags-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint, apostrophe: hint }
+        items:
+          - audio: ellie-eats-pizza-doesnt-she.mp3
+            target: Ellie eats pizza, doesn't she?
+          - audio: you-dont-like-tea-do-you.mp3
+            target: You don't like tea, do you?
+          - audio: peter-watched-a-film-didnt-he.mp3
+            target: Peter watched a film, didn't he?
+  - type: section
+    id: anwenden
+    title: Spiegel für eine Postkarte
+    blocks:
+      - type: speaking-task
+        id: tags-nachsprechen
+        language: en
+        items:
+          - audio: sophie-is-happy-isnt-she.mp3
+            text: Sophie is happy, isn't she?
+          - audio: amir-plays-football-at-school-doesnt-he.mp3
+            text: Amir plays football at school, doesn't he?
+          - audio: you-didnt-eat-lunch-did-you.mp3
+            text: You didn't eat lunch, did you?
+        hint: Hör den Satz zuerst. Sprich dann langsam nach. Der tag klingt wie eine kleine Frage.
+      - type: open-task
+        id: tags-spiegel
+        task: "Ellie schreibt Sätze für eine Postkarte an Sophie. Schreibe drei Sätze mit question tag, einen im simple present, einen im simple past und einen mit is oder are."
+        points:
+          - text: In jedem Satz steht am Ende ein question tag mit Komma davor.
+            source: /did-und-tags/question-tags/#neu
+          - text: Positive Sätze haben einen negativen tag, negative Sätze einen positiven.
+            source: /did-und-tags/question-tags/#neu
+          - text: Der Helfer des tags passt zum Satz (do, does, did oder is, are) und danach steht ein Pronomen.
+            source: /did-und-tags/question-tags/#neu
+          - text: Es sind ganze Sätze mit Fragezeichen am Ende.
+            kind: form
+        solution: |
+          You like pizza, don't you? Peter played football, didn't he? Ellie is happy, isn't she?
+  - type: section
+    id: weiter
+    title: Alles zusammen an der Satzleiste
+    blocks:
+      - type: text
+        text: "Mr Hill hängt zum Schluss alle Karten noch einmal an die Wand. Du hast Aussage, Frage, Verneinung, Subjektfrage und question tag gesehen. Schau, welche Plätze es gibt:"
+      - type: figure
+        image: images/satzleiste-ganz.svg
+        alt: Fünf Reihen mit Satzkarten zu einem Satz mit Amir. Aussage, Frage mit gelbem Helfer vorn, Verneinung mit gelbem Helfer vor dem Verb, Subjektfrage mit türkisem Who und question tag am Ende.
+        caption: "Alle Plätze der Satzleiste. Der gelbe Helfer wandert: nach vorn, vor das Verb und ans Ende."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Der gelbe Helfer fehlt in der Aussage, weil das simple present ihn dort nicht braucht, und bei der Subjektfrage, weil dort das Fragewort das Subjekt ersetzt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."

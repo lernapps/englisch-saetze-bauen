@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Aussage und Aufforderung
+summary: Mr Hill hängt eine Satzleiste mit bunten Karten an die Wand. Du baust englische Sätze in der richtigen Reihenfolge, gibst Aufforderungen und verbietest etwas mit don't.
+pages: [das-brauchst-du, wortstellung, imperativ]
+selfAssessment:
+  pages:
+    - exercises:
+        - /aussage-und-aufforderung/wortstellung/#wortstellung-bilden
+        - /aussage-und-aufforderung/wortstellung/#wortstellung-uebersetzen
+    - exercises:
+        - /aussage-und-aufforderung/imperativ/#imperativ-waehlen
+        - /aussage-und-aufforderung/imperativ/#imperativ-bilden

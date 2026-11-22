@@ -1,0 +1,260 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Who, what, where, when, why, how, whose"
+description: "Peter fragt Ellie, wo Amir wohnt. Du lernst, mit sieben Fragewörtern zu fragen und das Fragewort vor den Helfer zu stellen."
+competencies: [fragewoerter]
+scope: "Die Seite zeigt Fragen mit den Fragewörtern who, what, where, when, why, how und whose. Die Reihenfolge ist Fragewort, Helfer, Subjekt, Verb (Where does Amir live?), das Verb steht ohne Endung. Bei be steht is oder are direkt hinter dem Fragewort (Who is he?). Nicht hier, weil sie auf späteren Seiten stehen: Fragen nach dem Subjekt ohne Helfer, Fragen mit Präposition am Ende und Fragen in der Vergangenheit."
+blocks:
+  - type: section
+    id: einstieg
+    title: Peter fragt Ellie
+    blocks:
+      - type: figure
+        image: images/szene-fragewoerter.svg
+        alt: "Peter, Amir, Sophie und Ellie stehen nebeneinander im Klassenzimmer. Peter fragt in einer Sprechblase: „Where does Amir live?“"
+        caption: "Von links: Peter (gelbe Jacke) fragt, daneben Amir (Brille), Sophie (Zöpfe) und Ellie (roter Pferdeschwanz). Peter fragt Ellie."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: text
+        text: "Peter will mehr über Amir wissen und fragt Ellie: „Where does Amir live?“ Ein Yes oder No reicht als Antwort nicht."
+      - type: single-choice
+        id: fragewoerter-start
+        text: Was will Peter wissen?
+        options:
+          - text: Wo Amir wohnt.
+            correct: true
+            info: Where heißt „wo“. Peter fragt nach dem Ort, an dem Amir wohnt.
+          - text: Wann Amir kommt.
+            correct: false
+            info: Wann heißt when, nicht where.
+          - text: Wer Amir ist.
+            correct: false
+            info: Wer heißt who, nicht where.
+        explanation: Das Fragewort sagt, wonach gefragt wird. Where fragt nach dem Ort.
+        links:
+          - title: Lernlandkarte Englisch · Fragewörter
+            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
+      - type: text
+        text: "**Das kannst du danach:** Du fragst mit sieben Fragewörtern und weißt, wo sie in der Satzleiste stehen."
+  - type: section
+    id: neu
+    title: Das Fragewort stellt sich davor
+    blocks:
+      - type: text
+        text: "Das Fragewort ist eine neue Karte in Türkis. Sie legt sich **vor den Helfer**. Dahinter steht alles wie in einer Frage mit do: Helfer, Subjekt, Verb ohne Endung."
+      - type: figure
+        image: images/satzleiste-fragewort.svg
+        alt: Zwei Reihen mit Satzkarten. Oben die Frage Does Amir live here mit gelbem Helfer. Unten Where does Amir live mit türkisem Fragewort Where vor dem Helfer does.
+        caption: "Das türkise Fragewort Where legt sich vor den gelben Helfer. Der Rest bleibt gleich."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Klassenzimmer-Poster · Die sieben Fragewörter
+        header: [Fragewort, Bedeutung, Beispiel]
+        rows:
+          - [who, wer, Who is he?]
+          - [what, was, What does Ellie read?]
+          - [where, wo, Where is the book?]
+          - [when, wann, When is the film?]
+          - [why, warum, Why is Peter happy?]
+          - [how, wie, How are you?]
+          - [whose, wessen, Whose book is this?]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Fragewort, Helfer, Subjekt, Verb.** Das Verb geht ohne Endung: What does Ellie read? Bei be (is, are) steht be gleich hinter dem Fragewort: Who is he?"
+      - type: table
+        caption: Klassenzimmer-Poster · Wörter dieser Seite
+        header: [Wort oder Ausdruck, Bedeutung]
+        rows:
+          - [play, spielen]
+          - [live, wohnen]
+          - [here, hier]
+          - [eat, essen]
+          - [like, mögen]
+          - [watch, anschauen]
+          - [read, lesen]
+          - [football, Fußball]
+          - [tea, Tee]
+          - [pizza, Pizza]
+          - [film, Film]
+          - [book, Buch]
+          - [at school, in der Schule]
+          - [in the park, im Park]
+          - [on Friday, am Freitag]
+          - [on Sunday, am Sonntag]
+          - [this, dieses / das]
+          - [at home, zu Hause]
+          - [every day, jeden Tag]
+          - [happy, froh]
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: ordering
+        id: fragewoerter-karten
+        text: Peter fragt Sophie etwas. Lege die Karten zu einer Frage.
+        items:
+          - Where
+          - does
+          - Sophie
+          - live
+        explanation: Das Fragewort kommt zuerst, dann der Helfer, dann das Subjekt und zuletzt das Verb ohne Endung.
+        links:
+          - title: Lernlandkarte Englisch · Fragewörter
+            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
+      - type: matching
+        id: fragewoerter-zuordnen
+        text: Welches Fragewort passt zu welcher Antwort?
+        pairs:
+          - left: In the park.
+            right: Where
+          - left: On Friday.
+            right: When
+          - left: Pizza.
+            right: What
+          - left: Ellie.
+            right: Who
+        explanation: Das Fragewort richtet sich danach, was die Antwort sagt. Ein Ort ist where, eine Zeit when, eine Sache what und eine Person who.
+        links:
+          - title: Lernlandkarte Englisch · Fragewörter
+            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
+      - type: language-task
+        id: fragewoerter-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle das richtige Fragewort.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Wo spielt Peter Fußball?
+            target: "[Where] does Peter play football?"
+            distractors: [[When, Who]]
+          - cue: Was isst Ellie in der Schule?
+            target: "[What] does Ellie eat at school?"
+            distractors: [[Where, Who]]
+          - cue: Wann schaut Amir einen Film an?
+            target: "[When] does Amir watch a film?"
+            distractors: [[Where, Why]]
+          - cue: Wessen Tee ist das?
+            target: "[Whose] tea is this?"
+            distractors: [[Who, What]]
+        hint: Frage dich, was die Antwort sagen soll. Ein Ort, eine Zeit, eine Sache oder eine Person?
+      - type: language-task
+        id: fragewoerter-bilden
+        languages: { source: de, target: en }
+        task: Schreibe die ganze Frage. Denke an den Helfer.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: where · Sophie · live
+            target: Where does Sophie live?
+            mistakes:
+              - answer: Where Sophie lives?
+                message: Zwischen dem Fragewort und dem Subjekt fehlt der Helfer.
+              - answer: Where does Sophie lives?
+                message: Das Verb geht ohne s, denn does trägt es schon.
+              - answer: Where lives Sophie?
+                message: Das Verb darf nicht nach vorn springen. Es braucht den Helfer.
+          - cue: what · Peter · eat · at school
+            target: What does Peter eat at school?
+            mistakes:
+              - answer: What Peter eats at school?
+                message: Zwischen dem Fragewort und dem Subjekt fehlt der Helfer.
+              - answer: What does Peter eats at school?
+                message: Das Verb geht ohne s.
+          - cue: when · you · watch · a film
+            target: When do you watch a film?
+            mistakes:
+              - answer: When does you watch a film?
+                message: Bei you heißt der Helfer do.
+              - answer: When you watch a film?
+                message: Der Helfer fehlt.
+          - cue: why · Ellie · like · tea
+            target: Why does Ellie like tea?
+            mistakes:
+              - answer: Why Ellie likes tea?
+                message: Der Helfer fehlt, und das Verb geht ohne s.
+              - answer: Why do Ellie like tea?
+                message: Ellie ist „sie“. Der Helfer heißt does.
+        hint: Schreibe zuerst das Fragewort, dann den Helfer, dann das Subjekt und das Verb ohne Endung.
+      - type: language-task
+        id: fragewoerter-korrektur
+        languages: { source: de, target: en }
+        task: In jeder Frage steckt ein Fehler. Schreibe die Frage richtig.
+        form: { case: hint, punctuation: hint }
+        items:
+          - cue: Where you live?
+            target: Where do you live?
+            mistakes:
+              - answer: Where you live?
+                message: Noch nicht ganz. Welche Karte fehlt zwischen Where und you?
+          - cue: What does Amir plays?
+            target: What does Amir play?
+            mistakes:
+              - answer: What does Amir plays?
+                message: Noch nicht ganz. Schau auf das Verb. Wer trägt schon das s?
+        hint: Prüfe, ob der Helfer da ist und ob das Verb ohne Endung steht.
+      - type: language-task
+        id: fragewoerter-uebersetzen
+        languages: { source: de, target: en }
+        task: Schreibe die Frage auf Englisch.
+        form: { case: hint, punctuation: hint }
+        items:
+          - source: Wo wohnt Ellie?
+            target: Where does Ellie live?
+            mistakes:
+              - answer: Where lives Ellie?
+                message: Das Verb darf nicht nach vorn springen. Es braucht den Helfer.
+          - source: Was isst du in der Schule?
+            target: What do you eat at school?
+            accepted: [What do you eat in school?]
+            mistakes:
+              - answer: What does you eat at school?
+                message: Bei you heißt der Helfer do.
+          - source: Wann spielt Peter Fußball?
+            target: When does Peter play football?
+        hint: Welches Fragewort passt? Dann Helfer, Subjekt, Verb.
+      - type: language-task
+        id: fragewoerter-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: hint, punctuation: hint }
+        items:
+          - audio: where-does-amir-play-football-on-sunday.mp3
+            target: Where does Amir play football on Sunday?
+          - audio: what-do-you-eat-at-school-every-day.mp3
+            target: What do you eat at school every day?
+          - audio: when-does-ellie-read-a-book.mp3
+            target: When does Ellie read a book?
+  - type: section
+    id: anwenden
+    title: Quizfragen für Mr Hill
+    blocks:
+      - type: speaking-task
+        id: fragewoerter-nachsprechen
+        language: en
+        items:
+          - audio: why-does-peter-like-football.mp3
+            text: Why does Peter like football?
+          - audio: what-does-sophie-eat-at-home.mp3
+            text: What does Sophie eat at home?
+          - audio: do-ellie-and-amir-live-here.mp3
+            text: Do Ellie and Amir live here?
+        hint: Hör die Frage zuerst. Sprich dann langsam nach und betone das Fragewort.
+      - type: open-task
+        id: fragewoerter-quiz
+        task: "Mr Hill sammelt Fragen für das Klassenquiz. Schreibe drei Fragen an Sophie, Ellie, Peter oder Amir mit drei verschiedenen Fragewörtern."
+        points:
+          - text: Jede Frage beginnt mit einem Fragewort (who, what, where, when, why, how oder whose).
+            source: /fragen-mit-do/fragewoerter/#neu
+          - text: Hinter dem Fragewort steht der Helfer (do oder does), dann das Subjekt und das Verb ohne Endung.
+            source: /fragen-mit-do/fragewoerter/#neu
+          - text: Es sind ganze Fragen mit Fragezeichen am Ende.
+            kind: form
+        solution: |
+          Where does Sophie live? What does Peter eat at school? When do you watch a film?
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mr Hill liest die Quizfragen vor. Bei „Who likes tea?“ stutzt Peter. Dort fehlt der Helfer. Warum, zeigt die nächste Seite."
