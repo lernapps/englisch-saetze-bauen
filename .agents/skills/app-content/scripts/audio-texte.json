@@ -18,7 +18,6 @@
   "src/audio/when-does-ellie-read-a-book.mp3": "When does Ellie read a book?",
   "src/audio/why-does-peter-like-football.mp3": "Why does Peter like football?",
   "src/audio/what-does-sophie-eat-at-home.mp3": "What does Sophie eat at home?",
-  "src/audio/where-do-ellie-and-amir-live.mp3": "Where do Ellie and Amir live?",
   "src/audio/who-likes-pizza-at-school.mp3": "Who likes pizza at school?",
   "src/audio/what-does-amir-like-at-home.mp3": "What does Amir like at home?",
   "src/audio/who-eats-lunch-with-ellie.mp3": "Who eats lunch with Ellie?",
@@ -52,5 +51,6 @@
   "src/audio/read-your-book-amir.mp3": "Read your book, Amir.",
   "src/audio/sit-down-and-listen-sophie.mp3": "Sit down and listen, Sophie.",
   "src/audio/is-ellie-happy-yes-she-is.mp3": "Is Ellie happy? Yes, she is.",
-  "src/audio/what-does-sophie-watch-at-school.mp3": "What does Sophie watch at school?"
+  "src/audio/what-does-sophie-watch-at-school.mp3": "What does Sophie watch at school?",
+  "src/audio/where-do-ellie-and-amir-live-peter.mp3": "Where do Ellie and Amir live, Peter?"
 }

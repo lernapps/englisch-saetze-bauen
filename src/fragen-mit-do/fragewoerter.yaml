@@ -236,8 +236,8 @@ blocks:
             text: Why does Peter like football?
           - audio: what-does-sophie-eat-at-home.mp3
             text: What does Sophie eat at home?
-          - audio: where-do-ellie-and-amir-live.mp3
-            text: Where do Ellie and Amir live?
+          - audio: where-do-ellie-and-amir-live-peter.mp3
+            text: Where do Ellie and Amir live, Peter?
         hint: Hör die Frage zuerst. Sprich dann langsam nach und betone das Fragewort.
       - type: open-task
         id: fragewoerter-quiz

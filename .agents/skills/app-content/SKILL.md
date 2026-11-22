@@ -94,6 +94,7 @@ Aus #470 und #472 übernommen:
 - Englische Aufgaben und Cues enthalten kein deutsches Wort.
 - Mit `(a|b)` gleichwertige richtige Antworten zulassen; Kurzformen zulassen; `case: wrong` nur dort, wo die Seite Großschreibung unterrichtet.
 - Audio: das Ausklingen der Stimme am Satzende abschneiden, Namen am Satzende zweisilbig.
+- Audio: das Verb live am Satzende spricht die Stimme wie das Adjektiv („leive“): live nie ans Satzende, ein Name oder Wort dahinter (Where do Ellie and Amir live, Peter?).
 - Bilder: Beschriftungen innerhalb des `viewBox`; die Bildunterschrift nennt, wer wer ist; das `alt` verrät nie die Lösung.
 - Der Merke-Kasten nennt andere Verben als die Übungen, sonst schreiben die Kinder nur ab.
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
