@@ -235,7 +235,7 @@ Mr Hill liest die Quizfragen vor. Bei „Who likes tea?“ stutzt Peter. Dort fe
 - Sätze:
 1. Audio → Why does Peter like football?
 2. Audio → What does Sophie eat at home?
-3. Audio → Where do Ellie and Amir live?
+3. Audio → Where do Ellie and Amir live, Peter?
 - Tipp der App: Hör die Frage zuerst. Sprich dann langsam nach und betone das Fragewort.
 - Link: [../?via=tutor#fragewoerter-nachsprechen](../?via=tutor#fragewoerter-nachsprechen)
 
