@@ -155,3 +155,16 @@ Hörsätze, die auf ein einsilbiges Wort enden und deshalb gezielt angehört wer
 - Who likes pizza at school? (`who-likes-pizza-at-school.mp3`)
 - You didn't eat lunch, did you? (`you-didnt-eat-lunch-did-you.mp3`)
 - You don't like tea, do you? (`you-dont-like-tea-do-you.mp3`)
+
+### Geschnittene Dateien (Fehllaut-Schnitt, `regen_audio.py` mit `valley_cut`, alle 54 Dateien neu erzeugt)
+
+Der Trockenlauf (`DRY=1`, Ausgabe in ein Wegwerf-Verzeichnis) und der echte Lauf melden dieselben vier Schnitte:
+
+- Is Mr Hill happy? Yes, he is. (`is-mr-hill-happy-yes-he-is.mp3`): bei 1935 ms, 95 ms entfernt (4,7 %)
+- Is Ellie happy? Yes, she is. (`is-ellie-happy-yes-she-is.mp3`): bei 1515 ms, 85 ms entfernt (5,3 %)
+- When does Ellie read a book? (`when-does-ellie-read-a-book.mp3`): bei 1335 ms, 25 ms entfernt (1,8 %)
+- Please read the book. (`please-read-the-book.mp3`): bei 1205 ms, 25 ms entfernt (2,0 %)
+
+### Hörsätze mit mehrsilbigem Ende (Risiko: eine Silbe wird angeschnitten)
+
+Gezielt anhören, auch wenn nichts geschnitten wurde: Do you play football every Saturday? · Do Ellie and Amir play football? · Sophie reads a book at home on Monday. · Where does Amir play football on Sunday? · Why does Peter like football? · Who eats lunch with Ellie? · Who lives with Sophie? · Did Peter eat pizza at school yesterday? · Sophie didn't watch a film yesterday. · Did Ellie and Peter go home yesterday? · Ellie plays football at school on Friday. · Peter eats pizza in the park on Sunday. · Please listen, Amir. · Sit down and listen.
