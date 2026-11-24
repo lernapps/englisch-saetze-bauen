@@ -40,6 +40,7 @@ Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Kart
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken. Jede Seite bringt einen neuen Schritt (`explainer-one-step`).
 - Geschichte: Mr Hill hängt neben den Zeitstrahl der Klasse eine Satzleiste mit Karten an die Wand; Sophie, Ellie, Peter und Amir legen Sätze, fragen sich aus und schreiben Fragen für ein Klassenquiz. Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“.
 - Anrede „du“.
+- Figuren werden im Seitentext nicht vorgestellt: keine Altersangaben, keine Verwandtschaft, kein Datum, kein „wohnt bei der Familie Parker“. Die Startseite (`src/app.yaml`, `intro`) nennt sie nur mit Namen; eine Figur wird auf einer Seite nur benannt, wo die Aufgabe sie braucht. Wer wer ist, sagen nur die Bildunterschriften (Haare, Jacke).
 
 ## Terminology
 
@@ -100,6 +101,7 @@ Aus #470 und #472 übernommen:
 - Als Auswahl nur echte Lernerfehler, keine Unwörter.
 - Hinweise und Meldungen der Selbsteinschätzung nennen weder „Spalte“ noch „Poster“ noch „oben“.
 Aus dieser App (Lerner-Check der Musterseite, Sprachprüfung, Orchestrator-Prüfung):
+- Keine Einführung der Figuren und keine Altersangaben in Seitentexten (Rückmeldung der Ersteller:in): kein Absatz „Wer legt die Karten?“, keine Vokabel „Mr Hill (der Englischlehrer)“.
 - Die Auswahl der richtigen Antwort darf nicht an der Länge zu erkennen sein; Antwortsätze gleich lang und gleich konkret.
 - Die Farben der Satzkarten sind nicht die Farben der Jacken der Kinder: der Text sagt es einmal.
 - Ein Begriff (Subjekt, Verb, Objekt, not, they) steht auf der Seite, bevor eine Übung ihn braucht.

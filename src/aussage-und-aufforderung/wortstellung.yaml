@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“"
+        text: "Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“"
       - type: single-choice
         id: wortstellung-start
         text: "Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?"

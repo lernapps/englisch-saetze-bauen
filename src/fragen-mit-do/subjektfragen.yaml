@@ -98,8 +98,6 @@ blocks:
             source: "lernen"
           - target: "English"
             source: "Englisch"
-          - target: "Mr Hill"
-            source: "Mr Hill (der Englischlehrer)"
           - target: "with"
             source: "mit / bei"
           - target: "in the park"

@@ -67,8 +67,6 @@ blocks:
             source: "ja"
           - target: "eat"
             source: "essen"
-          - target: "Mr Hill"
-            source: "Mr Hill (der Englischlehrer)"
           - target: "False"
             source: "nein"
           - target: "like"
