@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Morgen heißt tomorrow, nicht yesterday.
         explanation: Did und yesterday sagen beide, dass es um die Vergangenheit geht.
-        links:
-          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
       - type: text
         text: "**Das kannst du danach:** Du fragst und verneinst in der Vergangenheit und weißt, warum das Verb dabei kein -ed hat."
   - type: section
@@ -114,9 +111,6 @@ blocks:
           - a film
           - yesterday
         explanation: Der Helfer Did kommt zuerst, dann das Subjekt, dann das Verb in der Grundform, das Objekt und die Zeit.
-        links:
-          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
       - type: language-task
         id: did-waehlen
         languages: { source: de, target: en }

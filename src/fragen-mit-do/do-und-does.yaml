@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Pizza steht am Ende, genau wie im Satz von Sophie.
         explanation: Zum Fragen kommt ein Helfer nach vorn. Das Verb braucht dann kein s mehr.
-        links:
-          - title: "Lernlandkarte Englisch · Simple present: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-present-fragen/
       - type: text
         text: "**Das kannst du danach:** Du stellst im simple present (der Gegenwart) Fragen und sagst, was jemand nicht tut. Und du weißt, was dabei mit dem Verb passiert."
   - type: section
@@ -121,9 +118,6 @@ blocks:
           - play
           - football
         explanation: Der Helfer kommt zuerst, dann das Subjekt, dann das Verb ohne s und zuletzt das Objekt.
-        links:
-          - title: "Lernlandkarte Englisch · Simple present: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-present-fragen/
       - type: language-task
         id: do-und-does-helfer
         languages: { source: de, target: en }

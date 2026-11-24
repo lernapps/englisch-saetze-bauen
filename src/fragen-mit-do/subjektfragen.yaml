@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Das wäre eine Antwort auf when. Gefragt ist aber, wer etwas tut.
         explanation: Who fragt nach einer Person. Die Antwort nennt die Person.
-        links:
-          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
-            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
       - type: text
         text: "**Das kannst du danach:** Du fragst nach dem Subjekt ohne do und unterscheidest solche Fragen von Fragen nach dem Objekt."
   - type: section
@@ -125,9 +122,6 @@ blocks:
             correct: false
             info: Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
         explanation: Fehlt der Helfer, fragt die Frage nach dem Subjekt. Steht ein Helfer da, fragt sie nach dem Objekt.
-        links:
-          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
-            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
       - type: language-task
         id: subjektfragen-waehlen
         languages: { source: de, target: en }

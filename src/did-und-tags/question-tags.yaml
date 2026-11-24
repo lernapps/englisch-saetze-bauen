@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Dann würde Ellie Who fragen. Ein question tag fragt nach Zustimmung.
         explanation: Ein question tag ist eine kleine Frage am Ende. Sie heißt „oder?“ oder „nicht wahr?“ und will Zustimmung.
-        links:
-          - title: Lernlandkarte Englisch · Question tags
-            url: https://lernapps.net/apps/map/englisch/c/question-tags/
       - type: text
         text: "**Das kannst du danach:** Du hängst an eine Aussage einen question tag und wählst den richtigen Helfer."
   - type: section
@@ -114,9 +111,6 @@ blocks:
           - left: Ellie isn't tired,
             right: is she?
         explanation: Der tag nimmt den Helfer der Aussage wieder auf und dreht den Satz um. Aus positiv wird negativ, aus negativ wird positiv.
-        links:
-          - title: Lernlandkarte Englisch · Question tags
-            url: https://lernapps.net/apps/map/englisch/c/question-tags/
       - type: language-task
         id: tags-waehlen
         languages: { source: de, target: en }

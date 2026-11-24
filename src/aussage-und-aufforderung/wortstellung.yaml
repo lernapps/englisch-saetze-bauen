@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Die Wörter sind richtig, aber die Reihenfolge nicht. Football gehört direkt hinter das Verb.
         explanation: Im Englischen hat jeder Teil des Satzes seinen festen Platz.
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: text
         text: "**Das kannst du danach:** Du baust englische Aussagesätze in der richtigen Reihenfolge und stellst den Ort vor die Zeit."
   - type: section
@@ -121,9 +118,6 @@ blocks:
           - in the park
           - on Saturday
         explanation: "Subjekt, Verb, Objekt, Ort, Zeit: Der Ort steht vor der Zeit."
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: matching
         id: wortstellung-zuordnen
         text: Sophie legt einen Satz. Welche Karte gehört zu welchem Satzteil?
@@ -139,9 +133,6 @@ blocks:
           - left: on Sunday
             right: Zeit
         explanation: Jeder Satzteil hat eine Karte. Wer etwas tut, ist das Subjekt. Wann es geschieht, ist die Zeit.
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: language-task
         id: wortstellung-bilden
         languages: { source: de, target: en }

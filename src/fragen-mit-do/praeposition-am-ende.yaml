@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Es fehlt die Präposition. Im Satz steht to am Ende.
         explanation: Auf Deutsch steht die Präposition vorn, im Englischen am Ende.
-        links:
-          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
-            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
       - type: text
         text: "**Das kannst du danach:** Du fragst nach Personen und Orten mit einer Präposition und setzt sie an das Ende."
   - type: section
@@ -106,9 +103,6 @@ blocks:
           - play
           - with
         explanation: Die Präposition with bleibt am Ende. Davor stehen Fragewort, Helfer, Subjekt und Verb.
-        links:
-          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
-            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
       - type: language-task
         id: praeposition-waehlen
         languages: { source: de, target: en }

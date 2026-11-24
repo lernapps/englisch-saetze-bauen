@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: The book steht in beiden Sätzen, es ist das Objekt.
         explanation: Wenn man jemanden direkt auffordert, braucht man keine Subjektkarte.
-        links:
-          - title: Lernlandkarte Englisch · Imperativ
-            url: https://lernapps.net/apps/map/englisch/c/imperativ/
       - type: text
         text: "**Das kannst du danach:** Du sagst auf Englisch, was jemand tun soll und was er nicht tun soll."
   - type: section
@@ -111,9 +108,6 @@ blocks:
           - run
           - in the classroom
         explanation: Die gelbe Karte Don't steht vorn, dann das Verb ohne Endung und dann der Ort.
-        links:
-          - title: Lernlandkarte Englisch · Imperativ
-            url: https://lernapps.net/apps/map/englisch/c/imperativ/
       - type: language-task
         id: imperativ-waehlen
         languages: { source: de, target: en }

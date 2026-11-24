@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Es fehlt das Subjekt. Nach Yes kommt I und dann der Helfer.
         explanation: Die Kurzantwort nimmt nur den Helfer der Frage mit.
-        links:
-          - title: Lernlandkarte Englisch · Kurzantworten
-            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
       - type: text
         text: "**Das kannst du danach:** Du antwortest auf Ja-Nein-Fragen kurz und richtig."
   - type: section
@@ -104,9 +101,6 @@ blocks:
           - left: Are Sophie and Amir happy?
             right: No, they aren't.
         explanation: Die Antwort wiederholt den Helfer der Frage, bei Fragen mit be das Wort is oder are.
-        links:
-          - title: Lernlandkarte Englisch · Kurzantworten
-            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
       - type: language-task
         id: kurzantworten-helfer
         languages: { source: de, target: en }

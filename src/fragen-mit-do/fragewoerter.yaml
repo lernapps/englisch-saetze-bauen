@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Wer heißt who, nicht where.
         explanation: Das Fragewort sagt, wonach gefragt wird. Where fragt nach dem Ort.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: text
         text: "**Das kannst du danach:** Du fragst mit sieben Fragewörtern und weißt, wo sie in der Satzleiste stehen."
   - type: section
@@ -120,9 +117,6 @@ blocks:
           - Sophie
           - live
         explanation: Das Fragewort kommt zuerst, dann der Helfer, dann das Subjekt und zuletzt das Verb ohne Endung.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: matching
         id: fragewoerter-zuordnen
         text: Welches Fragewort passt zu welcher Antwort?
@@ -136,9 +130,6 @@ blocks:
           - left: Ellie.
             right: Who
         explanation: Das Fragewort richtet sich danach, was die Antwort sagt. Ein Ort ist where, eine Zeit when, eine Sache what und eine Person who.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: language-task
         id: fragewoerter-waehlen
         languages: { source: de, target: en }
