@@ -9,17 +9,17 @@ blocks:
     title: Der Helfer springt nach vorn
     blocks:
       - type: text
-        text: "In einem Sachtext steht der Satz „Never before had humans walked on another world.“ Er klingt wie eine Frage, ist aber keine."
+        text: "In einem Sachtext steht der Satz „Seldom do we see such a crowd.“ Er klingt wie eine Frage, ist aber keine."
       - type: single-choice
         id: inversion-start
-        text: "Vergleiche „Humans had never walked on another world.“ mit „Never before had humans walked on another world.“ Was hat sich verändert?"
+        text: "Vergleiche „We seldom see such a crowd.“ mit „Seldom do we see such a crowd.“ Was hat sich verändert?"
         options:
-          - text: Das Wort had steht jetzt vor dem Subjekt humans.
+          - text: Das Wort do steht jetzt vor dem Subjekt we.
             correct: true
-            info: Der Helfer had ist nach vorn gesprungen, direkt hinter das Wort never before. Das Subjekt humans steht dahinter.
-          - text: Das Verb walked ist verschwunden.
+            info: Der Helfer do ist neu und steht direkt hinter dem Wort seldom. Das Subjekt we steht dahinter.
+          - text: Das Verb see ist verschwunden.
             correct: false
-            info: Walked steht in beiden Sätzen. Es ist die Verbform, die nach dem Helfer had folgt.
+            info: See steht in beiden Sätzen. Es folgt nach dem Subjekt we.
           - text: Aus dem Satz ist eine Frage geworden.
             correct: false
             info: Am Ende steht ein Punkt, und die Umkehr betont das Wort never.
@@ -126,13 +126,13 @@ blocks:
           - [Dauer des Mondspaziergangs, 2 Stunden 31 Minuten 40 Sekunden]
           - [Zuschauer am Fernseher, geschätzt 600 Millionen]
       - type: text
-        text: "Quelle: Wikipedia (englisch) „Apollo 11“, geöffnet am 24. November 2026. Der Text ist selbst geschrieben und folgt nur den Fakten der Quelle. Die Regel stützt sich auf Wikipedia (englisch) „Negative inversion“."
+        text: "Quelle: Wikipedia (englisch) „Apollo 11“, geöffnet am 24. November 2026. Der Text ist selbst geschrieben und folgt nur den Fakten der Quelle. Die Zahlen zu den Zuschauern sind Schätzungen der Quelle. Die Regel stützt sich auf Wikipedia (englisch) „Negative inversion“."
   - type: section
     id: neu
     title: Verneinendes Wort vorn, Helfer vor dem Subjekt
     blocks:
       - type: text
-        text: "Im Lesestück stehen Sätze wie „Never before had humans walked on another world.“ Ein Wort mit verneinender Bedeutung (never, seldom, hardly, not only) steht am Satzanfang. Auf der Satzleiste liegt die gelbe Helferkarte jetzt vor der Karte Subjekt: Der Helfer springt vor das Subjekt, genau wie in einer Frage. Das Verb steht danach wie im normalen Satz, nur ohne Endung, wenn do, does oder did dabei ist. Das gilt nur, wenn das verneinende Wort vorn steht und für den ganzen Satz gilt."
+        text: "Im Lesestück stehen Sätze wie „Never before had humans walked on another world.“ Ein Wort mit verneinender Bedeutung (never, seldom, hardly, not only) steht am Satzanfang. Diese Umkehr heißt Inversion. Auf der Satzleiste liegt die gelbe Helferkarte jetzt vor der Karte Subjekt: Der Helfer springt vor das Subjekt, genau wie in einer Frage. Das Verb steht danach wie im normalen Satz, nur ohne Endung, wenn do, does oder did dabei ist. Das gilt nur, wenn das verneinende Wort vorn steht und für den ganzen Satz gilt. Als Helfer zählen hier auch have, has und had: Never have I seen it."
       - type: figure
         image: images/satzleiste-inversion.svg
         alt: Zwei Reihen mit Satzkarten. Oben der normale Satz I have never seen it mit den Karten I, have, never, seen, it. Unten der umgekehrte Satz Never have I seen it, in dem never vorn steht und die Helferkarte have vor dem Subjekt I liegt.
@@ -224,7 +224,7 @@ blocks:
         form: { case: hint, punctuation: ok }
         items:
           - cue: He has never lost a game.
-            target: Never has he lost a game.
+            target: Never has he lost (a|any) (game|match).
             mistakes:
               - answer: Never he has lost a game.
                 message: Der Helfer has muss vor das Subjekt he springen.
@@ -233,14 +233,14 @@ blocks:
               - answer: Has never he lost a game.
                 message: Das verneinende Wort never muss am Anfang stehen, danach der Helfer has.
           - cue: She seldom makes a mistake.
-            target: Seldom does she make (a mistake|mistakes).
+            target: Seldom does she (ever |)make (a mistake|mistakes).
             mistakes:
               - answer: Seldom she makes a mistake.
                 message: Nach seldom kommt der Helfer vor das Subjekt. Hier ist es does.
               - answer: Seldom does she makes a mistake.
                 message: Does trägt das -s. Das Verb steht ohne Endung.
           - cue: They not only won the cup, but they also broke the record.
-            target: Not only did they win the cup, but (they |)also broke the record.
+            target: Not only did they win the cup, but (they |)also broke (the|a) record.
             mistakes:
               - answer: Not only they won the cup, but they also broke the record.
                 message: Nach not only kommt der Helfer vor das Subjekt.
@@ -312,4 +312,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Damit kennst du den Helfer an allen seinen Plätzen: in der Frage, in der Verneinung, am Satzende im question tag, vor dem Verb zur Betonung und vor dem Subjekt nach einem verneinenden Wort. Wenn du englische Reden und Bücher liest, begegnet er dir wieder."
+        text: "Damit kennst du den Helfer an seinen Plätzen: in der Frage, in der Verneinung, am Satzende im question tag, vor dem Verb zur Betonung und vor dem Subjekt nach einem verneinenden Wort. Wenn du englische Reden und Bücher liest, begegnet er dir wieder."

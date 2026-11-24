@@ -9,14 +9,14 @@ blocks:
     title: Zweifel und Belege
     blocks:
       - type: text
-        text: "In einem Zeitungsartikel steht der Satz „She did win two Nobel Prizes.“ Den Helfer did kennst du aus Fragen und Verneinungen. Beim Lesen klingt er hier lauter als die Wörter um ihn herum."
+        text: "In einem Zeitungsartikel steht der Satz „She did make the discoveries.“ Den Helfer did kennst du aus Fragen und Verneinungen. Beim Lesen klingt er hier lauter als die Wörter um ihn herum."
       - type: single-choice
         id: emphase-start
-        text: Was bewirkt did in einer Aussage wie „She did win two Nobel Prizes.“? Betonen heißt hervorheben.
+        text: Was bewirkt did in einer Aussage wie „She did make the discoveries.“? Betonen heißt hervorheben.
         options:
           - text: Es macht aus dem Satz eine Frage.
             correct: false
-            info: Eine Frage beginnt mit dem Helfer, wie in Did she win two prizes? Hier steht she vorn.
+            info: Eine Frage beginnt mit dem Helfer, wie in Did she make the discoveries? Hier steht she vorn.
           - text: Es hebt hervor, dass die Aussage stimmt.
             correct: true
             info: Der Helfer steht hier nicht für eine Frage oder eine Verneinung. Er verstärkt die Aussage, meist gegen einen Zweifel.
@@ -111,12 +111,18 @@ blocks:
             source: Auszeichnung
           - target: role
             source: Rolle
-          - target: disappear
-            source: verschwinden
+          - target: keep working
+            source: weiterarbeiten
           - target: speak for themselves
             source: für sich sprechen
           - target: found
-            source: gründen
+            source: "gründen (founded: gründete)"
+          - target: wife
+            source: Ehefrau
+          - target: famous
+            source: berühmt
+          - target: ray
+            source: Strahl
       - type: table
         caption: Marie Curie in Zahlen
         header: [Jahr, Ereignis]
@@ -136,7 +142,7 @@ blocks:
         text: "Im Lesestück hast du Sätze wie „She did make the discoveries.“ gelesen. Auf der Satzleiste der früheren Kapitel liegen die Karten Subjekt, Verb und Objekt. Der Helfer ist die gelbe Karte. In der betonten Aussage liegt sie direkt vor dem Verb, trägt den Ton, und das Verb steht ohne Endung."
       - type: figure
         image: images/satzleiste-emphase.svg
-        alt: Zwei Reihen mit Satzkarten. Oben die Aussage She won two prizes mit der Verbform won. Unten die betonte Aussage She DID win two prizes mit gelber Helferkarte DID vor dem Verb win.
+        alt: Zwei Reihen mit Satzkarten. Oben die Aussage She earned the prize mit der Verbform earned. Unten die betonte Aussage She DID earn the prize mit gelber Helferkarte DID vor dem Verb earn.
         caption: "Die betonte Aussage hat eine Karte mehr. Die Vergangenheit liegt jetzt beim Helfer."
         source: eigene Zeichnung
         licence: CC-BY-4.0
@@ -170,11 +176,23 @@ blocks:
             correct: false
             info: Henri Becquerel war auch dabei.
         explanation: Der Preis von 1903 ging an drei Personen. Der zweite Preis kam 1911.
-      - type: true-false
+      - type: multiple-choice
         id: emphase-richtigfalsch
-        text: Marie Curie bekam zwei Nobelpreise, beide in Physik.
-        answer: false
-        explanation: Der erste Preis (1903) war für Physik, der zweite (1911) für Chemie.
+        text: Welche Sätze aus dem Lesestück betonen etwas mit did? Wähle alle aus.
+        options:
+          - text: She did make the discoveries.
+            correct: true
+            info: Der Helfer did steht vor dem Verb make und hebt die Aussage hervor.
+          - text: Marie kept working.
+            correct: false
+            info: Hier steht kein Helfer. Es ist ein normaler Satz in der Vergangenheit.
+          - text: She did earn the awards.
+            correct: true
+            info: Der Helfer did steht vor dem Verb earn und hebt die Aussage hervor.
+          - text: In 1895 she married the scientist Pierre Curie.
+            correct: false
+            info: Das ist ein normaler Aussagesatz ohne Helfer.
+        explanation: Betont sind die Sätze, in denen did direkt vor dem Verb in der Grundform steht und nicht verneint.
       - type: single-choice
         id: emphase-belegen
         text: Welcher Satz aus dem Lesestück zeigt, dass Marie Curie nach dem Tod ihres Mannes weiterarbeitete?
@@ -213,7 +231,7 @@ blocks:
         form: { case: ok, punctuation: ok }
         items:
           - cue: Marie didn't win the prize.
-            target: (Yes, |)(Marie|Marie Curie|She) (really |)did win (the|that) (Nobel |)prize.
+            target: (Yes, |)(Marie|Marie Curie|She) (really |)did win (the prize|that prize|the Nobel Prize|it).
             mistakes:
               - answer: Marie does win the prize.
                 message: Der Kritiker spricht in der Vergangenheit. Welcher Helfer passt?
@@ -222,7 +240,7 @@ blocks:
               - answer: Marie win the prize.
                 message: Es fehlt der Helfer did vor dem Verb.
           - cue: He doesn't know the facts.
-            target: (Yes, |)(He|The critic) (really |)does know (the|all the) facts.
+            target: (Yes, |)(He|The critic) (really |)does know (the facts|all the facts|the answer|them).
             mistakes:
               - answer: He does knows the facts.
                 message: Does trägt das -s. Das Verb heißt know.
@@ -233,7 +251,7 @@ blocks:
               - answer: He did know the facts.
                 message: Der Kritiker spricht in der Gegenwart (doesn't). Welcher Helfer passt?
           - cue: They didn't come to Paris.
-            target: (Yes, |)(They|The Curies) (really |)did come to Paris.
+            target: (Yes, |)(They|The Curies) (really |)did come( to Paris|).
             mistakes:
               - answer: They did came to Paris.
                 message: Did trägt die Vergangenheit. Das Verb heißt come.

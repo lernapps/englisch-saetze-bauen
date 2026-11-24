@@ -8,7 +8,7 @@ phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 2 }
 ---
 
 # Increment: increment-04-stufe-9-10
@@ -98,6 +98,8 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
       Creator: Ja, Plan ok. Umfang ok für 9-10 (Lesestück 320-380 Wörter, 7 Übungen); nur die Hörsätze kurz halten.
 
 ### Content method
+
+**Gesamtcheck Kapitel 4 (Sub-Agent, Kind Klasse 9/10, beide Seiten, 360 und 1280 px, alle Übungen, Selbsteinschätzungen) und Sprachprüfung `inversion` (Sub-Agent), behoben:** Aussagen im Lesestück nur nach Quelle (Treibstoff „spätere Besatzungen“, „stepped onto the surface about …“, geschätzte Zuschauer, erstes Mal), Randglossare vollständig (u. a. usable, powered flight, crew, viewer, wife, famous), Abbruch statt abbrechen; Einstieg der Seite `emphase-do` zeigt einen Satz aus dem Lesestück, die Frage „Welche Sätze betonen“ prüft das Erkennen; Bild-Alt-Text; Titel `inversion` einheitlich („Umkehr nach never, hardly und not only“); Satzleiste und Helfer (auch have, has, had) und „Inversion“ im Text benannt; mehr richtige Fassungen (really, the answer, any game, ever, a record) in den Aufgaben; Beispielsätze der Regel und der Übungen getrennt; Diktat neu; Schluss von Kapitel 3 kündigt zwei weitere Plätze an; Startseite nennt Kapitel 4. Nicht behebbar (Vorlage): Standardmeldung bei klar falschen Antworten, Auswahllücken ohne Erklärung, Felder sperren nach richtiger Antwort. Offen und nur gemeldet: Figuren der Kapitel 1 bis 3 bleiben Kindergeschichte (gewollt, Stufe 5-6).
 
 **Prüfung der Musterseite `emphase-do` (Lerner-Check mit Sub-Agent, Kind Klasse 9/10, 360 und 1280 px; Sprachprüfung Englisch/Deutsch mit Sub-Agent), behoben:** Merke und scope zu be und Modalverben richtig (kein do, trotzdem betonbar); Figur mit regelmäßigem Verb (earned/earn) statt won; Bildunterschrift; nicht betonte did im Lesestück entfernt („Pierre made …“, „Marie kept working.“) und Hinweis im Abschnitt `lesen`, worauf zu achten ist; Aussagen im Text nur nach Quelle (1920 Curie-Institut, Universität); Randglossare ergänzt; Antwort nicht an der Position der Option erkennbar (richtige Option steht nicht immer zuerst); Zahlenkasten gibt die Lösung der ersten Frage nicht mehr; Beleg-Frage mit gleichartigen Optionen; Wahr-falsch-Aufgabe ohne Lücke im Text; weitere richtige Fassungen im Widerspruch (really, Yes, Marie Curie), `case: ok` für Großbuchstaben bei der Betonung, mehr Meldungen (falsche Zeit, kein Helfer, Helfer gestrichen), Hinweise beim Diktat; Schreibauftrag zeigt den Leserbrief, drei Sätze; Merke ergänzt (Betonung schriftlich und mündlich, Unterschied zu Frage und Verneinung); „Satzleiste“ eingeführt. Nicht behebbar (Vorlage): Standardmeldung „Deine Fassung kann trotzdem richtig sein“ bei klar falschen Antworten, Meldungen der Auswahllücken nur als Zahl, Knopf „KI“ und Abdecken-Knöpfe ohne Erklärung, Siegel „CC-BY-4.0“ über der Beschriftung bei 360 px.
 
