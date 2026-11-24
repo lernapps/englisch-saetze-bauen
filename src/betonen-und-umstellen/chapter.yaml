@@ -1,0 +1,4 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: Betonen und umstellen
+summary: Mit dem Helfer kannst du auch etwas betonen und Sätze umdrehen. An zwei Sachtexten übst du, mit do, does und did eine Aussage zu verstärken und nach Wörtern wie never die Wortstellung umzukehren.
+pages: [emphase-do]

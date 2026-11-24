@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: plan
+phase: code
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -34,6 +34,7 @@ Die Lernenden (Klasse 9-10) betonen eine Aussage mit do, does oder did und verst
 - Kapitel 4 „Betonen und umstellen“ mit zwei Seiten: `emphase-do` (Betonung mit do) und `inversion`, je eine Seite je Baustein der Karte (Stufe 9-10, Schritt 1). Keine Wiederholungsseite: Alle `requires` (`simple-past-fragen`, `wortstellung`, `simple-present-fragen`) werden in Kapitel 1 bis 3 der App geübt.
 - Form der Stufe 9-10 nach `konventionen.md`: je Seite ein Lesestück (300 bis 600 Wörter) als Kern, eigener Text nach Fakten, Randglossar als Vokabelblock, Aufgaben in drei Stufen (Verstehen, Belegen mit Zeile, Meinung/Schreiben), keine erfundenen Kinder, sachlicher Ton, Anrede „du“ (guess: Absprache für 9-10 steht aus; die Orchestrator-Session hat „du“ nicht widersprochen).
 - Fälle (guess, Wahl nach Quellenlage): `emphase-do` am Fall Marie Curie (Zweifel und Belege, Nobelpreise 1903 und 1911), `inversion` an der Mondlandung von Apollo 11 (Daten zur Landung). Beide Fälle real, neutral, belegbar aus Wikipedia (nur Fakten); die Beispiele „aus Reden und Literatur“ des Issues ersetzt der eigene Text, weil keine Sätze aus fremden Texten übernommen werden dürfen.
+- `scope`: bleibt wie in der App (`src/app.yaml` hat `scope`, darum jede neue Seite einen `scope`), weil die Seiten `open-task` haben; der `scope` der App wird um Betonung und Inversion ergänzt.
 - Figuren: Sophie, Ellie, Peter, Amir kommen nicht mehr vor; die Seiten sprechen „du“ an und führen keine Kinder ein.
 - Bild: ein neues Bild je Seite nur, wo es etwas zeigt (Satzleiste mit dem Helfer: Betonung und Umstellung); die Satzleisten-Familie wächst um `satzleiste-emphase` und `satzleiste-inversion`.
 
@@ -92,8 +93,9 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
 - [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
 - [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
-- [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
+- [x] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
+      Creator: Ja, Plan ok. Umfang ok für 9-10 (Lesestück 320-380 Wörter, 7 Übungen); nur die Hörsätze kurz halten.
 
 ### Content method
 
@@ -117,17 +119,17 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
 
 ### Tasks
 
-- [ ] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
-- [ ] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
+- [x] `git switch -c increment/<NN>-<short name>` from `main`. Commit this plan on it.
+- [x] Load skill `lernapps-cli`. Update the app as its section "Update" says. Commit the update alone and fix its
       findings before any content. The update replaces the `lernapps-*` skills: read again those you use.
-- [ ] Load skill `lernapps-explainer` and the content guide.
-- [ ] Load skill `lernapps-content-questions`. Read whole, with your file tool:
+- [x] Load skill `lernapps-explainer` and the content guide.
+- [x] Load skill `lernapps-content-questions`. Read whole, with your file tool:
       `.agents/skills/lernapps-explainer/references/blocks.md` and
       `.agents/skills/lernapps-explainer/references/exercises.md`. A foreign language: also
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
-- [ ] Decide whether the app needs `scope`, as "`scope`" in
+- [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-- [ ] Folge 1, Musterseite: Kapitel betonen-und-umstellen (chapter.yaml, in app.yaml eintragen) und Seite emphase-do (Lesestück Marie Curie, Randglossar als Vokabelblock, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-emphase); Fakten gegen die Quellen prüfen. Kein Sub-Agent (gemeinsame Dateien).
+- [x] Folge 1, Musterseite: Kapitel betonen-und-umstellen (chapter.yaml, in app.yaml eintragen) und Seite emphase-do (Lesestück Marie Curie, Randglossar als Vokabelblock, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-emphase); Fakten gegen die Quellen prüfen. Kein Sub-Agent (gemeinsame Dateien).
 - [ ] Folge 2: Seite inversion (Lesestück Landung auf dem Mond, Randglossar, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-inversion) nach dem Muster von emphase-do; Kapitel und Selbsteinschätzung nachführen. Kein Sub-Agent.
 <!-- tasks: slices (2 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to

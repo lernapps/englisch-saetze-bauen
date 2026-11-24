@@ -5,7 +5,7 @@ description: Use for any content work in this app - researching, writing, extend
 
 # Content guide of this app
 
-„Sätze bauen: Aussage, Frage und Verneinung mit do“: Explainer (Strang-App `englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele) über Wortstellung, Imperativ, Fragen, Verneinung mit dem Helfer do, Kurzantworten und question tags. Auftrag: Issue lernapps/apps#473 (Epic lernapps/apps#489, Konventionen dort). Die erste Version baut nur Stufe 5-6 (Kapitel 1 bis 3); Kapitel 4 „Betonen und umstellen“ (Stufe 9-10: `emphase-do`, `inversion`) kommt als Inkrement `increment/<NN>-<name>`.
+„Sätze bauen: Aussage, Frage und Verneinung mit do“: Explainer (Strang-App `englisch/grammatik`, Format 2, Sprache Deutsch, englische Beispiele) über Wortstellung, Imperativ, Fragen, Verneinung mit dem Helfer do, Kurzantworten und question tags. Auftrag: Issue lernapps/apps#473 (Epic lernapps/apps#489, Konventionen dort). Die erste Version baut nur Stufe 5-6 (Kapitel 1 bis 3); Kapitel 4 „Betonen und umstellen“ (Stufe 9-10: `emphase-do`, `inversion`) ist das Inkrement `increment/04-stufe-9-10`.
 
 ## Curriculum
 
@@ -31,6 +31,10 @@ Alle neun sind Lücken der Karte, Band 5-6. Eine Seite je Baustein, Ordnung nach
    - `simple-past-fragen` → `did-und-tags/did`
    - `question-tags` → `did-und-tags/question-tags`
 
+4. Kapitel `betonen-und-umstellen` („Betonen und umstellen“, Stufe 9-10; keine Wiederholungsseite, alle `requires` übt die App schon)
+   - `emphase-do` → `betonen-und-umstellen/emphase-do` (Musterseite der Stufe 9-10, Lesestück Marie Curie)
+   - `inversion` → `betonen-und-umstellen/inversion` (Lesestück Mondlandung Apollo 11)
+
 Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Karte (nicht umformulieren). Übungs-IDs: Präfix = Seite (`do-und-does-…`), Diktat `<seite>-hoeren`, Nachsprechen `<seite>-nachsprechen`.
 
 ## Content structure
@@ -40,6 +44,7 @@ Die „Ich kann“-Sätze stehen in `src/<kapitel>/<seite>.yaml` wie in der Kart
 - Länge: höchstens 350 Wörter Text, höchstens 4 Textblöcke hintereinander, Bild oder Übung in den ersten vier Blöcken. Jede Seite bringt einen neuen Schritt (`explainer-one-step`).
 - Geschichte: Mr Hill hängt neben den Zeitstrahl der Klasse eine Satzleiste mit Karten an die Wand; Sophie, Ellie, Peter und Amir legen Sätze, fragen sich aus und schreiben Fragen für ein Klassenquiz. Figuren und Orte wie in #470 (nicht ändern): Sophie (blond, Zöpfe, grüne Jacke, aus Deutschland, wohnt bei den Parkers, 11 bis 12), Ellie Parker (11, roter Pferdeschwanz, rote Jacke), Peter Parker (9, kurze braune Haare, gelbe Jacke), Amir (11, schwarze Locken, Brille, blaue Jacke), Mr Hill (graue Haare, braune Jacke), Mrs Parker. Millbrook School, Schultag ab 8:45. Geburtstage: Peter 5. Mai, Ellie 10. Juli, Amir 12. Oktober, Sophie 14. Oktober. Tabellen heißen „Klassenzimmer-Poster · …“ und „Schulkalender · …“.
 - Anrede „du“.
+- **Stufe 9-10 (Kapitel 4, Konventionen Abschnitt 8):** Abschnitte `einstieg` (Vorwissen-Frage mit drei Optionen), `lesen` (Lesestück), `neu` (Regel an der Satzleiste), `uebung` (Verstehen, Belegen mit Zeile, Form, Diktat), `anwenden` (Nachsprechen, Schreibauftrag), `weiter`. Das Lesestück ist ein eigener Text (320 bis 380 Wörter) nach Fakten einer geöffneten Quelle, in drei Abschnitten A, B, C mit je einem Randglossar (`vocabulary`, Wörter über A1/A2) und einem Zahlenkasten (`table`, „… in Zahlen“) mit den Daten; unter dem Text steht die Quellenzeile. Keine Figuren, keine Szenen-SVG; das einzige Bild ist die Satzleiste. Hörsätze neu und kurz, nicht aus dem Lesestück kopiert. `punctuation: ok`, Anrede „du“.
 - Figuren werden im Seitentext nicht vorgestellt: keine Altersangaben, keine Verwandtschaft, kein Datum, kein „wohnt bei der Familie Parker“. Die Startseite (`src/app.yaml`, `intro`) nennt sie nur mit Namen; eine Figur wird auf einer Seite nur benannt, wo die Aufgabe sie braucht. Wer wer ist, sagen nur die Bildunterschriften (Haare, Jacke).
 
 ## Terminology
@@ -69,14 +74,14 @@ Aufbau leicht → schwer: wählen/zuordnen/ordnen → Lücke → schreiben mit C
 
 - **Satzleiste** (eine SVG-Familie `src/images/satzleiste-<seite>.svg`, eigene Zeichnung, `CC-BY-4.0`, gleich auf jeder Seite; Hintergrund #f4efe2, Schrift mindestens 16 im 480er viewBox): Karten Subjekt #2c6fd8, Verb #c0392b, Objekt #138d75, Ort #d35400, Zeit #8e44ad, Helfer #e6b800 (dunkle Schrift), not #7f8c8d, Fragewort #17a2b8, Präposition #6d4c41 (braun), Antwort (Yes/No) #5d6d7e. Aussage: Karten von links nach rechts S – V – O – Ort – Zeit. Frage: der Helfer springt (Bogen) vor das Subjekt, das Verb steht ohne Endung. Verneinung: not neben dem Helfer vor dem Verb. Subjektfrage: Subjektkarte wird zur Fragewortkarte, kein Helfer. Question tag: gestrichelte Linie als Spiegel am Satzende. In Aufgaben zeigt die Satzleiste nur die Legende, nie das Ergebnis.
 - Skizzen der Familie: `.vibe/sketches/satzleiste-*.svg`.
-- Gebaut (je eine Reihe oder mehrere Reihen untereinander): `satzleiste-aussage` (wortstellung), `-imperativ`, `-frage` (Aussage, Frage, Verneinung; do-und-does), `-kurzantworten`, `-fragewort`, `-subjektfrage`, `-praeposition`, `-did`, `-tag`, `-ganz` (Rückblick am Ende von question-tags, alle Plätze). Erzeugt mit einem Skript, das die Karten setzt (Kartenbreite folgt der Wortlänge, Beschriftung unter jeder Karte, Schrift 16 bis 17 im 480er viewBox); ein neues Bild ist eine neue Zeile in diesem Skript oder eine Kopie der SVG mit anderen Wörtern.
+- Gebaut (je eine Reihe oder mehrere Reihen untereinander): `satzleiste-aussage` (wortstellung), `-imperativ`, `-frage` (Aussage, Frage, Verneinung; do-und-does), `-kurzantworten`, `-fragewort`, `-subjektfrage`, `-praeposition`, `-did`, `-tag`, `-ganz` (Rückblick am Ende von question-tags, alle Plätze). Erzeugt mit einem Skript, das die Karten setzt (Kartenbreite folgt der Wortlänge, Beschriftung unter jeder Karte, Schrift 16 bis 17 im 480er viewBox); Kapitel 4: `satzleiste-emphase` (betonte Aussage, gelbe Helferkarte vor dem Verb) und `satzleiste-inversion` (der Helfer springt hinter das verneinende Wort); ein neues Bild ist eine neue Zeile in diesem Skript oder eine Kopie der SVG mit anderen Wörtern.
 - Szenen (gebaut: `szene-wortstellung`, `-imperativ`, `-do-und-does`, `-kurzantworten`, `-fragewoerter`, `-subjektfragen`, `-praeposition-am-ende`, `-did`, `-question-tags`; Sprechblase zeigt nur die Frage, nie die Antwort): je Seite eine `szene-<seite>.svg` mit den Figuren, kopiert als `<g id>` aus `millbrook-klassenzimmer.svg` von #470 (hello-millbrook) und gleich gelassen; keine Fotos, keine Figuren aus Büchern, Filmen oder Marken. Quelle „eigene Zeichnung“, Lizenz `CC-BY-4.0`. `alt` sagt, was die Szene zeigt, nie die Lösung; die Bildunterschrift nennt, wer wer ist.
 - Jede Figur funktioniert bei 360 px (viewBox, Beschriftung innerhalb).
 - Poster mit Grammatik (Satzkarten, Helfer, Frage und Antwort) sind `table`-Blöcke. Die Tabelle „Klassenzimmer-Poster · Wörter dieser Seite“ ist ein Vokabelblock (`type: vocabulary`, `languages: { source: de, target: en }`, `entries` mit `target` und `source`; seit app-templates 0.14, mit Abdecken-Knöpfen): sie steht auf allen neun Seiten mit Übungen (nicht auf den Wiederholungsseiten). Neue Wörter einer Seite kommen als Eintrag dorthin; nur Vokabeln gehören in den Vokabelblock, Tabellen mit Bildung oder Regeln bleiben `table`.
 
 ## Sources
 
-Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; „does“ und „did“ sind Formen von do). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `Do-support` (do als Hilfsverb für Frage und Verneinung, wenn kein anderes Hilfsverb oder be da ist; danach die Grundform) und `Tag question` (Bildung und Gebrauch), geöffnet am 2026-11-21. Nicht geprüft: deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
+Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://lernapps.net/apps/map/englisch/grundwortschatz/` (A1/A2; Wörter der Übungen stammen daraus; „does“ und „did“ sind Formen von do). Fakten aus Wikipedia (nur Fakten, keine Sätze, CC BY-SA): `Do-support` (do als Hilfsverb für Frage und Verneinung, wenn kein anderes Hilfsverb oder be da ist; danach die Grundform) und `Tag question` (Bildung und Gebrauch), geöffnet am 2026-11-21. Kapitel 4: Wikipedia (en) `Marie Curie` (Geburtsjahr, Umzug nach Paris, Nobelpreise 1903 und 1911, erste Professorin der Universität Paris 1906, Tod von Pierre 1906, `radioactivity` von ihr geprägt, Curie-Institut) und `Do-support` (betontes do), geöffnet am 2026-11-24; für `inversion` zusätzlich `Apollo 11` und `Subject–auxiliary inversion` (Daten und Regel, Stand siehe Seite). Das Lesestück ist ein eigener Text, keine Sätze der Quelle. Nicht geprüft: deutsche Wikipedia, Klexikon. Beispielsätze sind eigene aus dem Alltag der Figuren. Audio: KI-Stimme `bf_emma` (britisch, weiblich), mit Skill `lernapps-audio` erzeugt und als KI-generiert markiert. Material der Ersteller:in: keines.
 
 ## Adding a chapter or round
 
@@ -166,6 +171,10 @@ Der Trockenlauf (`DRY=1`, Ausgabe in ein Wegwerf-Verzeichnis) und der echte Lauf
 - Is Ellie happy? Yes, she is. (`is-ellie-happy-yes-she-is.mp3`): bei 1515 ms, 85 ms entfernt (5,3 %)
 - When does Ellie read a book? (`when-does-ellie-read-a-book.mp3`): bei 1335 ms, 25 ms entfernt (1,8 %)
 - Please read the book. (`please-read-the-book.mp3`): bei 1205 ms, 25 ms entfernt (2,0 %)
+
+### Neue Hörsätze Kapitel 4 (Seite `emphase-do`)
+
+Enden auf ein einsilbiges Wort, gezielt anhören: She did love her work. (`she-did-love-her-work.mp3`) · Critics do forget one thing. (`critics-do-forget-one-thing.mp3`) · He did say that. (`he-did-say-that.mp3`, Fehllaut-Schnitt 25 ms) · I do think she deserved it. (`i-do-think-she-deserved-it.mp3`, Fehllaut-Schnitt 45 ms). Mehrsilbiges Ende: We do need more stories like hers. · She did change science.
 
 ### Hörsätze mit mehrsilbigem Ende (Risiko: eine Silbe wird angeschnitten)
 
