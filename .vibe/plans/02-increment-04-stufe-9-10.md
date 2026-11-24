@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: code
+phase: commit
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -138,9 +138,9 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
       Creator: Ja, inversion und der Rest dürfen nach diesem Muster folgen. Hörsätze bestätigt die Orchestrator-Session.
-- [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
-- [ ] Run `npx --no -- lernapps check` until it passes.
-- [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
+- [x] Update the content guide so that it describes the app as it is now (`app-content-matches`).
+- [x] Run `npx --no -- lernapps check` until it passes.
+- [x] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.
 
 ## Commit
 
