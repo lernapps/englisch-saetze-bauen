@@ -4,7 +4,7 @@
 # Archetype, as in the app's first plan. Allowed values: explainer, interactive, quiz.
 archetype: explainer
 # Current phase. Allowed values: explore, plan, code, commit.
-phase: explore
+phase: plan
 # prePushFailures: failed pre-push runs of this increment, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
@@ -66,8 +66,9 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
 - [x] Write under "Notes" the didactic approach per competency and the scope (in, out, data range).
 - [x] The increment needs a kind of content the guide does not cover (a new page structure, screen, component or kind
       of exercise): load skills `lernapps-explainer-design` and `lernapps-exercise-patterns`. Else skip this task.
-- [ ] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
+- [x] **Checkpoint:** research. Show in plain words: the new competencies by chapter, the didactic approach, the
       scope, every "(guess)", the sources and what is unchecked. Stop and wait. Changes: change them, then ask again.
+      Creator: Ja, Marie Curie und Apollo 11 passen; Daten gegen die Quellen prüfen, keine Sätze übernehmen. Ja, du in 9-10 ist abgesprochen und bleibt in der ganzen Reihe.
 
 ### Answers
 
@@ -83,24 +84,27 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
 
 ### Tasks
 
-- [ ] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
+- [x] Load skill `lernapps-content-growth`. Add the tasks of Code as slices, one per competency, in the guide's
       order, one call each: `npx --no -- lernapps plan add --at slices "<task>"`. Say in each which sub-agent may
       write it in parallel, if any.
-- [ ] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
+- [x] Write "Content method": the guide's patterns, figures and components per slice. Anything new: map it as skill
       `lernapps-explainer-design` says, and say why the guide's patterns do not fit.
-- [ ] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
-- [ ] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
+- [x] Draw a sketch of each new component or interactive exercise, in `.vibe/sketches/`.
+- [x] Show the creator, short: goal, new competencies by chapter, slices; in plain words what learners see and do and
       what is new. At most 2 questions.
 - [ ] **Checkpoint:** confirm the plan and the content method. Stop and wait for an explicit yes. Changes: change
       them, then ask again.
 
 ### Content method
 
-<!-- One line each: the guide's patterns, figures and components used, and where; anything new, what it does and
-cannot. Something new goes into the guide in the slice that adds it. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+**Muster der App, unverändert:** Inhaltsführer der App (`.agents/skills/app-content/SKILL.md`): gleiche Abschnitts-IDs (`einstieg`, `neu`, `uebung`, `anwenden`, `weiter`), Satzleiste als das eine wachsende Bild (Farben und Karten wie im Führer, gelber Helfer), Vokabelblock für Wörter, `language-task` (write mit cue, choice, Korrektur, Übersetzen), Diktat und Nachsprechen mit `bf_emma` über `regen_audio.py`, `open-task` mit `scope`, `punctuation: ok` (bekannte Eigenheit der Vorlage), Hörliste, Anrede „du“.
+**Neu für 9-10 (Konventionen Abschnitt 8), geht in den Inhaltsführer der Musterseite:** (a) Zusätzlicher Abschnitt `lesen` (Lesestück: eigener Text, 300 bis 600 Wörter, drei Abschnitte mit Randglossar als Vokabelblock nach jedem Abschnitt, höchstens drei Textblöcke hintereinander), Aufgaben in drei Stufen (Verstehen, Belegen mit Zeile, Anwenden/Meinung). Kein neuer Block, kein neuer Typ: nur `text`, `vocabulary`, `table` und die bekannten Fragearten; deshalb `prefer-built-in-block` erfüllt. Die Seitenstruktur ist neu: Grund, warum die Muster der Stufe 5-6 nicht reichen: dort trägt eine gezeichnete Szene den Einstieg, hier trägt ein Sachtext mit Daten und Quelle. (b) Keine Figuren, keine Szenen-SVG (Konvention 9-10); Bilder nur, wo sie etwas zeigen: je Seite die Satzleiste. (c) Quellenzeile unter dem Lesestück („Quelle: Wikipedia (en), geöffnet am …, nur Fakten“).
+**Je Folge:**
+- Folge 1 `emphase-do`: Lesestück „Zweifel an Marie Curie“ (~320 Wörter, Zeitungsstil, eigener Text nach Fakten); Zahlenkasten Marie Curie in Zahlen (1903 Physik gemeinsam mit Pierre Curie und Henri Becquerel, 1911 Chemie, 1906 erste Professorin der Universität Paris, erste Frau mit Nobelpreis); Regel: do/does/did + Grundform betont eine Aussage, oft gegen einen Zweifel („She did win …“, „I do think …“); nicht bei be und Modalverben; Übungen: 7 (Verstehen 2, Belegen 1, Form 3 bis 4, Diktat); Hörsätze eigene Sätze zum Thema; Schreibauftrag: Leserbrief mit zwei betonten Sätzen. Entscheidung (Konvention): Die Lernenden entscheiden, welche Aussage sie im Leserbrief verstärken.
+- Folge 2 `inversion`: Lesestück „Landung auf dem Mond“ (~380 Wörter, Sachtext mit Daten, eigener Text nach Fakten); Zahlenkasten Apollo 11 in Zahlen (16. Juli 1969 Start, 20. Juli Landung, 2 h 31 min 40 s Mondspaziergang, mehr als 21 Stunden auf der Oberfläche, 21,5 kg Gestein, 24. Juli Rückkehr, rund 600 Millionen Zuschauer, 25 Sekunden Treibstoff nach damaliger Anzeige); Regel: nach never, hardly (when), not only (but) tauscht der Helfer mit dem Subjekt wie in einer Frage; gehobenes Englisch in Texten und Reden; Übungen: 7; Schreibauftrag: zwei Sätze zu einem Datum der Mission mit Inversion.
+**Sub-Agenten:** keine für Folgen (gemeinsame Dateien, nur zwei Seiten); Gesamtcheck und Sprachprüfung am Ende mit Sub-Agenten (Kind der Stufe 9-10).
+**Prerequisites ohne Übung:** keine; `competencies: [emphase-do]` und `competencies: [inversion]`, kein `recap`.
+**Figuren (explainer-representation-explained):** `satzleiste-emphase`: zwei Reihen mit Karten, oben die Aussage (She won two prizes), unten dieselbe Aussage mit der gelben Helferkarte did vor dem Verb (der Helfer trägt den Ton, das Verb win ohne -ed); die Lernenden vergleichen die Reihen und finden, welche Karte neu ist. `satzleiste-inversion`: oben der normale Satz (I have never seen it), unten der umgekehrte (Never have I seen it); die Lernenden finden, welche Karte nach vorn springt und wo das Subjekt jetzt steht. Beide zeigen in Aufgaben nur die Legende, nie das Ergebnis.
 
 ## Code
 
@@ -123,7 +127,9 @@ page, which a link. -->
       `references/language-tasks.md` in the same folder. A component in the plan: also `references/components.md`.
 - [ ] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
-<!-- tasks: slices: one per competency, as written in Plan -->
+- [ ] Folge 1, Musterseite: Kapitel betonen-und-umstellen (chapter.yaml, in app.yaml eintragen) und Seite emphase-do (Lesestück Marie Curie, Randglossar als Vokabelblock, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-emphase); Fakten gegen die Quellen prüfen. Kein Sub-Agent (gemeinsame Dateien).
+- [ ] Folge 2: Seite inversion (Lesestück Landung auf dem Mond, Randglossar, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-inversion) nach dem Muster von emphase-do; Kapitel und Selbsteinschätzung nachführen. Kein Sub-Agent.
+<!-- tasks: slices (2 added): one per competency, as written in Plan -->
 - [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
