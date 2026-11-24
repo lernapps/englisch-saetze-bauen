@@ -9,17 +9,17 @@ blocks:
     title: Zweifel und Belege
     blocks:
       - type: text
-        text: "In einem Zeitungsartikel steht der Satz „She did win two Nobel Prizes.“ Den Helfer did kennst du aus Fragen und Verneinungen. Hier steht er in einer Aussage."
+        text: "In einem Zeitungsartikel steht der Satz „She did win two Nobel Prizes.“ Den Helfer did kennst du aus Fragen und Verneinungen. Beim Lesen klingt er hier lauter als die Wörter um ihn herum."
       - type: single-choice
         id: emphase-start
-        text: Was bewirkt did in einer Aussage wie „She did win two Nobel Prizes.“?
+        text: Was bewirkt did in einer Aussage wie „She did win two Nobel Prizes.“? Betonen heißt hervorheben.
         options:
-          - text: Es betont, dass die Aussage stimmt.
-            correct: true
-            info: Der Helfer steht hier nicht für eine Frage oder eine Verneinung. Er verstärkt die Aussage, meist gegen einen Zweifel.
           - text: Es macht aus dem Satz eine Frage.
             correct: false
             info: Eine Frage beginnt mit dem Helfer, wie in Did she win two prizes? Hier steht she vorn.
+          - text: Es hebt hervor, dass die Aussage stimmt.
+            correct: true
+            info: Der Helfer steht hier nicht für eine Frage oder eine Verneinung. Er verstärkt die Aussage, meist gegen einen Zweifel.
           - text: Es verneint den Satz.
             correct: false
             info: Zum Verneinen braucht der Helfer ein not, also did not oder didn't. Hier fehlt es.
@@ -30,6 +30,8 @@ blocks:
     id: lesen
     title: "Lesestück: Fact check Marie Curie"
     blocks:
+      - type: text
+        text: "Lies den Text und achte auf Sätze, in denen did, do oder does direkt vor einem Verb in der Grundform steht und etwas hervorhebt. Ein did mit not verneint nur und hebt nichts hervor."
       - type: text
         text: |
           **A. Eine Behauptung**
@@ -45,6 +47,10 @@ blocks:
             source: akademischer Abschluss
           - target: scientist
             source: Wissenschaftler, Wissenschaftlerin
+          - target: admit
+            source: zulassen, aufnehmen
+          - target: earn
+            source: verdienen, erwerben
           - target: Flying University
             source: „Fliegende Universität“, eine geheime polnische Hochschule
       - type: text
@@ -66,6 +72,10 @@ blocks:
             source: Forschung
           - target: radiation
             source: Strahlung
+          - target: couple
+            source: Ehepaar
+          - target: discovery
+            source: Entdeckung
           - target: record
             source: Aufzeichnung, Unterlagen
           - target: field
@@ -82,7 +92,7 @@ blocks:
         text: |
           **C. Das Ergebnis**
 
-          In 1911 she received a second Nobel Prize, this time in Chemistry, for the discovery of the elements radium and polonium. No person had ever won two Nobel Prizes before. Some doubt about her role did not disappear, but the facts are clear. She did make the discoveries, and she did earn the awards. We do think that the dates speak for themselves. In 1920 she founded the Curie Institute in Paris.
+          In 1911 she received a second Nobel Prize, this time in Chemistry, for the discovery of the elements radium and polonium. No person had ever won two Nobel Prizes before. Some people kept doubting her role, but the facts are clear. She did make the discoveries, and she did earn the awards. We do think that the dates speak for themselves. In 1920 she founded the Curie Institute in Paris.
       - type: vocabulary
         caption: Randglossar zu Abschnitt C
         languages: { source: de, target: en }
@@ -94,7 +104,11 @@ blocks:
           - target: element
             source: chemisches Element
           - target: doubt
-            source: Zweifel
+            source: Zweifel, anzweifeln
+          - target: date
+            source: Datum, Jahreszahl
+          - target: award
+            source: Auszeichnung
           - target: role
             source: Rolle
           - target: disappear
@@ -109,7 +123,7 @@ blocks:
         rows:
           - ["1867", geboren in Warschau]
           - ["1891", Umzug nach Paris]
-          - ["1903", "Nobelpreis für Physik, gemeinsam mit Pierre Curie und Henri Becquerel"]
+          - ["1903", Nobelpreis für Physik]
           - ["1906", erste Professorin der Universität Paris]
           - ["1911", Nobelpreis für Chemie]
       - type: text
@@ -119,7 +133,7 @@ blocks:
     title: "Betonung: der Helfer trägt den Ton"
     blocks:
       - type: text
-        text: "Im Lesestück hast du Sätze wie „She did make the discoveries.“ gelesen. Der Helfer steht in der Aussage direkt vor dem Verb. Er trägt den Ton, und das Verb steht ohne Endung."
+        text: "Im Lesestück hast du Sätze wie „She did make the discoveries.“ gelesen. Auf der Satzleiste der früheren Kapitel liegen die Karten Subjekt, Verb und Objekt. Der Helfer ist die gelbe Karte. In der betonten Aussage liegt sie direkt vor dem Verb, trägt den Ton, und das Verb steht ohne Endung."
       - type: figure
         image: images/satzleiste-emphase.svg
         alt: Zwei Reihen mit Satzkarten. Oben die Aussage She won two prizes mit der Verbform won. Unten die betonte Aussage She DID win two prizes mit gelber Helferkarte DID vor dem Verb win.
@@ -137,7 +151,7 @@ blocks:
         title: Merke
         blocks:
           - type: text
-            text: "**do, does, did plus Grundform, mit Betonung.** Wer zweifelt oder etwas Falsches glaubt, dem widerspricht man so. Bei be und bei Modalverben (can, will) setzt man kein do ein: Sie sind ihr eigener Helfer und werden einfach betont gesprochen (She IS right.)."
+            text: "**do, does, did plus Grundform, mit Betonung.** Wer zweifelt oder etwas Falsches glaubt, dem widerspricht man so. Geschrieben zeigt man die Betonung oft mit Großbuchstaben oder Kursivschrift (She DID win), gesprochen mit dem Ton. Anders als in der Frage bleibt das Subjekt vorn, und anders als in der Verneinung fehlt das not. Bei be und bei Modalverben (can, will) setzt man kein do ein: Sie sind ihr eigener Helfer und werden einfach betont gesprochen (She IS right.)."
   - type: section
     id: uebung
     title: Übung
@@ -158,9 +172,9 @@ blocks:
         explanation: Der Preis von 1903 ging an drei Personen. Der zweite Preis kam 1911.
       - type: true-false
         id: emphase-richtigfalsch
-        text: Beide Nobelpreise von Marie Curie gingen an sie allein.
+        text: Marie Curie bekam zwei Nobelpreise, beide in Physik.
         answer: false
-        explanation: Den Physikpreis von 1903 teilte sie mit zwei Männern. Der Preis für Chemie 1911 wird im Lesestück ohne weitere Namen genannt.
+        explanation: Der erste Preis (1903) war für Physik, der zweite (1911) für Chemie.
       - type: single-choice
         id: emphase-belegen
         text: Welcher Satz aus dem Lesestück zeigt, dass Marie Curie nach dem Tod ihres Mannes weiterarbeitete?
@@ -168,12 +182,12 @@ blocks:
           - text: Marie kept working.
             correct: true
             info: Der Satz folgt auf den Tod von Pierre im Jahr 1906. Danach wurde sie Professorin.
-          - text: Marie was born in Warsaw in 1867.
+          - text: In 1906 Pierre died in a road accident in Paris.
             correct: false
-            info: Das sagt, wann und wo sie geboren wurde, nicht, was nach 1906 geschah.
-          - text: In 1895 she married the scientist Pierre Curie.
+            info: Das ist das Ereignis, nicht die Antwort darauf, was Marie danach tat.
+          - text: Marie did share the prize with two men.
             correct: false
-            info: Das war elf Jahre vor Pierres Tod.
+            info: Das sagt etwas über den Preis von 1903, nicht über die Zeit nach 1906.
         explanation: Der Beleg ist der Satz direkt nach der Nachricht vom Unfall.
       - type: language-task
         id: emphase-waehlen
@@ -196,10 +210,10 @@ blocks:
         id: emphase-widerspruch
         languages: { source: de, target: en }
         task: Ein Kritiker zweifelt. Widersprich mit einer betonten Aussage.
-        form: { case: hint, punctuation: ok }
+        form: { case: ok, punctuation: ok }
         items:
           - cue: Marie didn't win the prize.
-            target: (Marie|Marie Curie|She) did win the prize.
+            target: (Yes, |)(Marie|Marie Curie|She) (really |)did win (the|that) (Nobel |)prize.
             mistakes:
               - answer: Marie does win the prize.
                 message: Der Kritiker spricht in der Vergangenheit. Welcher Helfer passt?
@@ -208,7 +222,7 @@ blocks:
               - answer: Marie win the prize.
                 message: Es fehlt der Helfer did vor dem Verb.
           - cue: He doesn't know the facts.
-            target: He does know the facts.
+            target: (Yes, |)(He|The critic) (really |)does know (the|all the) facts.
             mistakes:
               - answer: He does knows the facts.
                 message: Does trägt das -s. Das Verb heißt know.
@@ -219,7 +233,7 @@ blocks:
               - answer: He did know the facts.
                 message: Der Kritiker spricht in der Gegenwart (doesn't). Welcher Helfer passt?
           - cue: They didn't come to Paris.
-            target: They did come to Paris.
+            target: (Yes, |)(They|The Curies) (really |)did come to Paris.
             mistakes:
               - answer: They did came to Paris.
                 message: Did trägt die Vergangenheit. Das Verb heißt come.
@@ -229,8 +243,8 @@ blocks:
       - type: language-task
         id: emphase-korrektur
         languages: { source: de, target: en }
-        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
-        form: { case: hint, punctuation: ok }
+        task: "In jedem Satz steckt ein Fehler. Schreibe den Satz richtig. Die Betonung bleibt: do, does oder did bleibt im Satz."
+        form: { case: ok, punctuation: ok }
         items:
           - cue: She does makes great discoveries.
             target: She does make great discoveries.
@@ -255,8 +269,8 @@ blocks:
       - type: language-task
         id: emphase-hoeren
         languages: { source: de, target: en }
-        task: Hör zu und schreibe, was du hörst.
-        form: { case: hint, punctuation: ok }
+        task: "Hör zu und schreibe, was du hörst. Der Helfer ist betont: Schreibe ihn mit."
+        form: { case: ok, punctuation: ok }
         items:
           - audio: she-did-love-her-work.mp3
             target: She did love her work.
@@ -269,7 +283,7 @@ blocks:
             target: He did say that.
   - type: section
     id: anwenden
-    title: Dein Leserbrief
+    title: Sprechen und schreiben
     blocks:
       - type: speaking-task
         id: emphase-nachsprechen
@@ -281,16 +295,16 @@ blocks:
             text: We do need more stories like hers.
           - audio: she-did-change-science.mp3
             text: She did change science.
-        hint: Hör den Satz zuerst. Sprich dann nach und betone den Helfer. Das Wort deserve heißt verdienen.
+        hint: Hör den Satz zuerst. Sprich dann nach und betone den Helfer, so wie in einer Antwort auf einen Zweifel. Das Wort deserve heißt verdienen. Die Sätze zeigen dir auch, wie du den Leserbrief unten beginnen kannst.
       - type: open-task
         id: emphase-leserbrief
-        task: "Eine Leserin schreibt, Marie Curie habe nichts Besonderes geleistet. Schreibe der Zeitung drei Sätze. Mindestens zwei davon verstärken mit do, does oder did eine Tatsache aus dem Lesestück."
+        task: "Eine Leserin schreibt an die Zeitung: „Marie Curie was only the wife of a famous scientist.“ Schreibe eine Antwort in drei Sätzen. Mindestens zwei davon verstärken mit do, does oder did eine Tatsache aus dem Lesestück."
         points:
           - text: Zwei Sätze enthalten do, does oder did vor dem Verb in der Grundform.
             source: /betonen-und-umstellen/emphase-do/#neu
           - text: Die Tatsachen stimmen mit dem Lesestück überein (zum Beispiel Nobelpreise, Professorin).
             source: /betonen-und-umstellen/emphase-do/#lesen
-          - text: Es sind ganze Sätze mit Punkt am Ende.
+          - text: Die Antwort hat drei ganze Sätze mit Punkt am Ende.
             kind: form
         solution: |
           I do think you are wrong. Marie Curie did receive a second Nobel Prize. She did become the first woman professor at the University of Paris.
