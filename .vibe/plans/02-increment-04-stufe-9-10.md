@@ -132,11 +132,12 @@ Neu, Strang `englisch/grammatik`, Band 9-10, Schritt 1, beide Lücken der Karte 
 - [x] Decide whether the app needs `scope`, as "`scope`" in
       `.agents/skills/lernapps-explainer/references/structure.md` says. Write the choice under "Key decisions".
 - [x] Folge 1, Musterseite: Kapitel betonen-und-umstellen (chapter.yaml, in app.yaml eintragen) und Seite emphase-do (Lesestück Marie Curie, Randglossar als Vokabelblock, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-emphase); Fakten gegen die Quellen prüfen. Kein Sub-Agent (gemeinsame Dateien).
-- [ ] Folge 2: Seite inversion (Lesestück Landung auf dem Mond, Randglossar, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-inversion) nach dem Muster von emphase-do; Kapitel und Selbsteinschätzung nachführen. Kein Sub-Agent.
+- [x] Folge 2: Seite inversion (Lesestück Landung auf dem Mond, Randglossar, Übungen in drei Stufen, Diktat und Nachsprechen, Schreibauftrag, Bild satzleiste-inversion) nach dem Muster von emphase-do; Kapitel und Selbsteinschätzung nachführen. Kein Sub-Agent.
 <!-- tasks: slices (2 added): one per competency, as written in Plan -->
-- [ ] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
+- [x] **Checkpoint:** the pattern page, after the first slice. A slice in a pattern the app already has: show it to
       the creator and go on. A new pattern: load skill `lernapps-learner-check`, do its learner check, fix what it
       finds, then ask the creator whether the others may follow it, and wait.
+      Creator: Ja, inversion und der Rest dürfen nach diesem Muster folgen. Hörsätze bestätigt die Orchestrator-Session.
 - [ ] Update the content guide so that it describes the app as it is now (`app-content-matches`).
 - [ ] Run `npx --no -- lernapps check` until it passes.
 - [ ] Look at every changed screen, at 360 px and on a desktop, as "Look at the app" of skill `lernapps-cli` says.

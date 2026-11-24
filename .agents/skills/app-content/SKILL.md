@@ -67,6 +67,7 @@ Aufbau leicht → schwer: wählen/zuordnen/ordnen → Lücke → schreiben mit C
 - Entscheiden mit Begründung: `single-choice`/`true-false`, die Rückmeldung nennt die Karte („Das Verb trägt kein Gepäck mehr“).
 - Hören und schreiben: `language-task` mit `audio` (Diktat, je Seite höchstens drei ganze Sätze); Nachsprechen: `speaking-task`; freies Schreiben: `open-task`.
 - Typische Fehler (jeweils `mistakes`): Does he plays; Do he play; Plays he; I not like (ohne do); Do you are (do bei be); Yes, I like. statt Yes, I do.; What does he plays; Where you live; Who does like pizza?; To who are you talking?; Did she played / Did she went; didn't + 2. Form; gleiche Polarität im question tag; falscher Helfer oder falsche Person im tag; Zeit vor Ort; Subjektkarte vergessen im Imperativ („You open“), Don't to run.
+- Stufe 9-10 (Kapitel 4), Aufgaben in drei Stufen: Verstehen am Lesestück (`single-choice`, `true-false`, richtige Option nicht immer an erster Stelle), Belegen mit Zeile (`single-choice` mit Sätzen aus dem Text, gleichartige Optionen), Form (`language-task`: `choice` mit Distraktoren, `write` mit cue für Betonung beziehungsweise Umkehr, Korrektur; Diktat; Muster `emphase-widerspruch`: aus „didn't“ wird betontes did; `inversion-bilden`: normaler Satz → Umkehr). Typische Fehler: does/did + 3. Form oder 2. Form (She does makes, did won), Betonung ohne Helfer, Umkehr ohne Helfer (Never he has), Helfer und Verb doppelt (Not only did she sang), falscher Helfer (does statt did). `case: ok` bei der Betonung (Großbuchstaben).
 - Keine Komponente (`prefer-built-in-block`); Ziehen von Karten wäre ein Wunsch für ein Inkrement.
 - Keine Datendateien: jede Tatsache steht einmal in ihrer Seite.
 
@@ -90,7 +91,8 @@ Karte `https://lernapps.net/apps/map/englisch.json`; Grundwortschatz `https://le
 3. Satzleiste um den neuen Platz erweitern und das Poster um die Zeilen der Seite.
 4. Übungen aus den Mustern oben, je mit `mistakes` und `hint`; 1 bis 3 ihrer Übungen in `selfAssessment` des Kapitels aufnehmen, wie Skill `lernapps-explainer-self-assessment` sagt (gebaut: je Seite `…-waehlen`/`…-bilden`, eine Übung ohne Bezug auf Tabelle oder Poster).
 5. Hörtexte: Datei `src/audio/<satz>.mp3` und Eintrag in `.agents/skills/app-content/scripts/audio-texte.json` (Datei → Satz), erzeugt mit dem Skript `regen_audio.py` (aus hello-millbrook, schneidet das Ausklingen ab); Sätze nicht zwischen Seiten wiederholen, Namen am Satzende zweisilbig (Sophie, Peter, Ellie, Amir); anhören lassen.
-6. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
+6. Stufe 9-10: ein Lesestück (eigener Text nach Fakten einer geöffneten Quelle, 3 Abschnitte, Randglossar nach jedem Abschnitt, Zahlenkasten, Quellenzeile) vor der Regel; Fakten gegen die Quelle prüfen; keine Figuren.
+7. Wörter gegen den Grundwortschatz prüfen; `npx --no -- lernapps check`; committen.
 
 ## Rules learned from mistakes
 
