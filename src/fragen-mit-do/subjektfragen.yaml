@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Das wäre eine Antwort auf when. Gefragt ist aber, wer etwas tut.
         explanation: Who fragt nach einer Person. Die Antwort nennt die Person.
-        links:
-          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
-            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
       - type: text
         text: "**Das kannst du danach:** Du fragst nach dem Subjekt ohne do und unterscheidest solche Fragen von Fragen nach dem Objekt."
   - type: section
@@ -58,32 +55,52 @@ blocks:
         blocks:
           - type: text
             text: "**Wer tut etwas? Kein Helfer, das Verb mit -s: Who likes tea?** Was oder wen? Der Helfer bleibt, das Verb geht ohne Endung: What does Ellie like?"
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [who, wer]
-          - [what, was]
-          - [play, spielen]
-          - [like, mögen]
-          - [live, wohnen]
-          - [eat, essen]
-          - [football, Fußball]
-          - [tea, Tee]
-          - [pizza, Pizza]
-          - [here, hier]
-          - [at school, in der Schule]
-          - [at home, zu Hause]
-          - [lunch, Mittagessen]
-          - [read, lesen]
-          - [watch, anschauen]
-          - [film, Film]
-          - [study, lernen]
-          - [English, Englisch]
-          - [Mr Hill, Mr Hill (der Englischlehrer)]
-          - [with, mit / bei]
-          - [in the park, im Park]
-          - [on Saturday, am Samstag]
+        languages: { source: de, target: en }
+        entries:
+          - target: "who"
+            source: "wer"
+          - target: "what"
+            source: "was"
+          - target: "play"
+            source: "spielen"
+          - target: "like"
+            source: "mögen"
+          - target: "live"
+            source: "wohnen"
+          - target: "eat"
+            source: "essen"
+          - target: "football"
+            source: "Fußball"
+          - target: "tea"
+            source: "Tee"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "here"
+            source: "hier"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "lunch"
+            source: "Mittagessen"
+          - target: "read"
+            source: "lesen"
+          - target: "watch"
+            source: "anschauen"
+          - target: "film"
+            source: "Film"
+          - target: "study"
+            source: "lernen"
+          - target: "English"
+            source: "Englisch"
+          - target: "with"
+            source: "mit / bei"
+          - target: "in the park"
+            source: "im Park"
+          - target: "on Saturday"
+            source: "am Samstag"
   - type: section
     id: uebung
     title: Übung
@@ -105,9 +122,6 @@ blocks:
             correct: false
             info: Hier fragt What nach dem Objekt. Der Helfer does zeigt es an.
         explanation: Fehlt der Helfer, fragt die Frage nach dem Subjekt. Steht ein Helfer da, fragt sie nach dem Objekt.
-        links:
-          - title: Lernlandkarte Englisch · Subjekt- und Objektfragen
-            url: https://lernapps.net/apps/map/englisch/c/subjektfragen/
       - type: language-task
         id: subjektfragen-waehlen
         languages: { source: de, target: en }

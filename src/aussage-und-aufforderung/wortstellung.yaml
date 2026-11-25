@@ -15,7 +15,7 @@ blocks:
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Sophie (11) wohnt bei der Familie Parker, Ellie (11) ist ihre Gastschwester. Mr Hill ist ihr Englischlehrer. Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“"
+        text: "Sophie sagt, was sie am Freitag in der Schule isst: „I eat lunch at school on Friday.“"
       - type: single-choice
         id: wortstellung-start
         text: "Welcher Satz sagt auf Englisch: Ich spiele am Montag zu Hause Fußball?"
@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Die Wörter sind richtig, aber die Reihenfolge nicht. Football gehört direkt hinter das Verb.
         explanation: Im Englischen hat jeder Teil des Satzes seinen festen Platz.
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: text
         text: "**Das kannst du danach:** Du baust englische Aussagesätze in der richtigen Reihenfolge und stellst den Ort vor die Zeit."
   - type: section
@@ -61,31 +58,52 @@ blocks:
         blocks:
           - type: text
             text: "**Subjekt, Verb, Objekt, Ort, Zeit.** Sophie studies English at home on Monday. Der Ort steht vor der Zeit. Im Deutschen darfst du die Wörter oft umstellen, im Englischen ist die Reihenfolge fester. Bei he, she und it hängt ein **s** am Verb: plays."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [eat, essen]
-          - [watch, anschauen]
-          - [read, lesen]
-          - [teach, unterrichten]
-          - [study, lernen]
-          - [English, Englisch]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [lunch, Mittagessen]
-          - [a book, ein Buch]
-          - [a film, ein Film]
-          - [in the park, im Park]
-          - [at home, zu Hause]
-          - [at school, in der Schule]
-          - [in the classroom, im Klassenzimmer]
-          - [on Monday, am Montag]
-          - [on Friday, am Freitag]
-          - [on Saturday, am Samstag]
-          - [on Sunday, am Sonntag]
-          - [every day, jeden Tag]
+        languages: { source: de, target: en }
+        entries:
+          - target: "play"
+            source: "spielen"
+          - target: "eat"
+            source: "essen"
+          - target: "watch"
+            source: "anschauen"
+          - target: "read"
+            source: "lesen"
+          - target: "teach"
+            source: "unterrichten"
+          - target: "study"
+            source: "lernen"
+          - target: "English"
+            source: "Englisch"
+          - target: "football"
+            source: "Fußball"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "lunch"
+            source: "Mittagessen"
+          - target: "a book"
+            source: "ein Buch"
+          - target: "a film"
+            source: "ein Film"
+          - target: "in the park"
+            source: "im Park"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "in the classroom"
+            source: "im Klassenzimmer"
+          - target: "on Monday"
+            source: "am Montag"
+          - target: "on Friday"
+            source: "am Freitag"
+          - target: "on Saturday"
+            source: "am Samstag"
+          - target: "on Sunday"
+            source: "am Sonntag"
+          - target: "every day"
+            source: "jeden Tag"
   - type: section
     id: uebung
     title: Übung
@@ -100,9 +118,6 @@ blocks:
           - in the park
           - on Saturday
         explanation: "Subjekt, Verb, Objekt, Ort, Zeit: Der Ort steht vor der Zeit."
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: matching
         id: wortstellung-zuordnen
         text: Sophie legt einen Satz. Welche Karte gehört zu welchem Satzteil?
@@ -118,9 +133,6 @@ blocks:
           - left: on Sunday
             right: Zeit
         explanation: Jeder Satzteil hat eine Karte. Wer etwas tut, ist das Subjekt. Wann es geschieht, ist die Zeit.
-        links:
-          - title: Lernlandkarte Englisch · Wortstellung im Aussagesatz
-            url: https://lernapps.net/apps/map/englisch/c/wortstellung/
       - type: language-task
         id: wortstellung-bilden
         languages: { source: de, target: en }

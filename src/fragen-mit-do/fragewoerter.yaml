@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Wer heißt who, nicht where.
         explanation: Das Fragewort sagt, wonach gefragt wird. Where fragt nach dem Ort.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: text
         text: "**Das kannst du danach:** Du fragst mit sieben Fragewörtern und weißt, wo sie in der Satzleiste stehen."
   - type: section
@@ -63,30 +60,50 @@ blocks:
         blocks:
           - type: text
             text: "**Fragewort, Helfer, Subjekt, Verb.** Das Verb geht ohne Endung: What does Ellie read? Bei be (is, are) steht be gleich hinter dem Fragewort: Who is he?"
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [live, wohnen]
-          - [here, hier]
-          - [eat, essen]
-          - [like, mögen]
-          - [watch, anschauen]
-          - [read, lesen]
-          - [football, Fußball]
-          - [tea, Tee]
-          - [pizza, Pizza]
-          - [film, Film]
-          - [book, Buch]
-          - [at school, in der Schule]
-          - [in the park, im Park]
-          - [on Friday, am Freitag]
-          - [on Sunday, am Sonntag]
-          - [this, dieses / das]
-          - [at home, zu Hause]
-          - [every day, jeden Tag]
-          - [happy, froh]
+        languages: { source: de, target: en }
+        entries:
+          - target: "play"
+            source: "spielen"
+          - target: "live"
+            source: "wohnen"
+          - target: "here"
+            source: "hier"
+          - target: "eat"
+            source: "essen"
+          - target: "like"
+            source: "mögen"
+          - target: "watch"
+            source: "anschauen"
+          - target: "read"
+            source: "lesen"
+          - target: "football"
+            source: "Fußball"
+          - target: "tea"
+            source: "Tee"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "film"
+            source: "Film"
+          - target: "book"
+            source: "Buch"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "in the park"
+            source: "im Park"
+          - target: "on Friday"
+            source: "am Freitag"
+          - target: "on Sunday"
+            source: "am Sonntag"
+          - target: "this"
+            source: "dieses / das"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "every day"
+            source: "jeden Tag"
+          - target: "happy"
+            source: "froh"
   - type: section
     id: uebung
     title: Übung
@@ -100,9 +117,6 @@ blocks:
           - Sophie
           - live
         explanation: Das Fragewort kommt zuerst, dann der Helfer, dann das Subjekt und zuletzt das Verb ohne Endung.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: matching
         id: fragewoerter-zuordnen
         text: Welches Fragewort passt zu welcher Antwort?
@@ -116,9 +130,6 @@ blocks:
           - left: Ellie.
             right: Who
         explanation: Das Fragewort richtet sich danach, was die Antwort sagt. Ein Ort ist where, eine Zeit when, eine Sache what und eine Person who.
-        links:
-          - title: Lernlandkarte Englisch · Fragewörter
-            url: https://lernapps.net/apps/map/englisch/c/fragewoerter/
       - type: language-task
         id: fragewoerter-waehlen
         languages: { source: de, target: en }

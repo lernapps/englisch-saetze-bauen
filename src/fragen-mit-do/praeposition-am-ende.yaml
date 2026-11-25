@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Es fehlt die Präposition. Im Satz steht to am Ende.
         explanation: Auf Deutsch steht die Präposition vorn, im Englischen am Ende.
-        links:
-          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
-            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
       - type: text
         text: "**Das kannst du danach:** Du fragst nach Personen und Orten mit einer Präposition und setzt sie an das Ende."
   - type: section
@@ -58,25 +55,40 @@ blocks:
         blocks:
           - type: text
             text: "**Fragewort, Helfer, Subjekt, Verb, Präposition.** Auf Deutsch steht die Präposition vorn, im Englischen bleibt sie am Ende: Who do you talk to?"
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [talk to, sprechen mit]
-          - [play with, spielen mit]
-          - [live with, wohnen bei]
-          - [study with, lernen mit]
-          - [eat with, essen mit]
-          - [come from, kommen aus]
-          - [for, für]
-          - [who, wer / wen]
-          - [where, wo / woher]
-          - [book, Buch]
-          - [this, dieses / das]
-          - [at school, in der Schule]
-          - [at, bei / an]
-          - [English, Englisch]
-          - [lunch, Mittagessen]
+        languages: { source: de, target: en }
+        entries:
+          - target: "talk to"
+            source: "sprechen mit"
+          - target: "play with"
+            source: "spielen mit"
+          - target: "live with"
+            source: "wohnen bei"
+          - target: "study with"
+            source: "lernen mit"
+          - target: "eat with"
+            source: "essen mit"
+          - target: "come from"
+            source: "kommen aus"
+          - target: "for"
+            source: "für"
+          - target: "who"
+            source: "wer / wen"
+          - target: "where"
+            source: "wo / woher"
+          - target: "book"
+            source: "Buch"
+          - target: "this"
+            source: "dieses / das"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "at"
+            source: "bei / an"
+          - target: "English"
+            source: "Englisch"
+          - target: "lunch"
+            source: "Mittagessen"
   - type: section
     id: uebung
     title: Übung
@@ -91,9 +103,6 @@ blocks:
           - play
           - with
         explanation: Die Präposition with bleibt am Ende. Davor stehen Fragewort, Helfer, Subjekt und Verb.
-        links:
-          - title: Lernlandkarte Englisch · Fragen mit Präposition am Ende
-            url: https://lernapps.net/apps/map/englisch/c/fragen-praeposition-ende/
       - type: language-task
         id: praeposition-waehlen
         languages: { source: de, target: en }

@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Pizza steht am Ende, genau wie im Satz von Sophie.
         explanation: Zum Fragen kommt ein Helfer nach vorn. Das Verb braucht dann kein s mehr.
-        links:
-          - title: "Lernlandkarte Englisch · Simple present: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-present-fragen/
       - type: text
         text: "**Das kannst du danach:** Du stellst im simple present (der Gegenwart) Fragen und sagst, was jemand nicht tut. Und du weißt, was dabei mit dem Verb passiert."
   - type: section
@@ -62,31 +59,52 @@ blocks:
             text: "**Der Helfer trägt das Gepäck, das Verb geht ohne.** Does Mr Hill teach English? Nicht „teaches“. Don't ist **do not**, doesn't ist **does not**."
       - type: text
         text: "Zwei Namen zusammen sind **they**: Do Sophie and Ellie like tea? Bei **be** brauchst du keinen Helfer, hier springt is selbst nach vorn: Is Peter happy?"
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [play, spielen]
-          - [like, mögen]
-          - [live, wohnen]
-          - [eat, essen]
-          - [study, lernen]
-          - [watch, anschauen]
-          - [teach, unterrichten]
-          - [go, gehen]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [tea, Tee]
-          - [film, Film]
-          - [English, Englisch]
-          - [happy, froh]
-          - [here, hier]
-          - [at home, zu Hause]
-          - [home, nach Hause]
-          - [at school, in der Schule]
-          - [after school, nach der Schule]
-          - [every Saturday, jeden Samstag]
-          - [not, nicht]
+        languages: { source: de, target: en }
+        entries:
+          - target: "play"
+            source: "spielen"
+          - target: "like"
+            source: "mögen"
+          - target: "live"
+            source: "wohnen"
+          - target: "eat"
+            source: "essen"
+          - target: "study"
+            source: "lernen"
+          - target: "watch"
+            source: "anschauen"
+          - target: "teach"
+            source: "unterrichten"
+          - target: "go"
+            source: "gehen"
+          - target: "football"
+            source: "Fußball"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "tea"
+            source: "Tee"
+          - target: "film"
+            source: "Film"
+          - target: "English"
+            source: "Englisch"
+          - target: "happy"
+            source: "froh"
+          - target: "here"
+            source: "hier"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "home"
+            source: "nach Hause"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "after school"
+            source: "nach der Schule"
+          - target: "every Saturday"
+            source: "jeden Samstag"
+          - target: "not"
+            source: "nicht"
   - type: section
     id: uebung
     title: Übung
@@ -100,9 +118,6 @@ blocks:
           - play
           - football
         explanation: Der Helfer kommt zuerst, dann das Subjekt, dann das Verb ohne s und zuletzt das Objekt.
-        links:
-          - title: "Lernlandkarte Englisch · Simple present: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-present-fragen/
       - type: language-task
         id: do-und-does-helfer
         languages: { source: de, target: en }

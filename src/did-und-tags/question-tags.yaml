@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Dann würde Ellie Who fragen. Ein question tag fragt nach Zustimmung.
         explanation: Ein question tag ist eine kleine Frage am Ende. Sie heißt „oder?“ oder „nicht wahr?“ und will Zustimmung.
-        links:
-          - title: Lernlandkarte Englisch · Question tags
-            url: https://lernapps.net/apps/map/englisch/c/question-tags/
       - type: text
         text: "**Das kannst du danach:** Du hängst an eine Aussage einen question tag und wählst den richtigen Helfer."
   - type: section
@@ -61,26 +58,42 @@ blocks:
         blocks:
           - type: text
             text: "**Positiv, dann negativ. Negativ, dann positiv.** Der tag nimmt den Helfer der Aussage wieder auf (do, does, did) oder bei **be** das Wort be. Danach steht das Pronomen: Peter wird he, Ellie wird she."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [like, mögen]
-          - [play, spielen]
-          - [eat – ate, essen – aß]
-          - [watch – watched, anschauen – schaute an]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [tea, Tee]
-          - [film, Film]
-          - [read, lesen]
-          - [book, Buch]
-          - [happy, froh]
-          - [tired, müde]
-          - [yesterday, gestern]
-          - [lunch, Mittagessen]
-          - [at school, in der Schule]
-          - [question tag, kleine Frage am Satzende]
+        languages: { source: de, target: en }
+        entries:
+          - target: "like"
+            source: "mögen"
+          - target: "play"
+            source: "spielen"
+          - target: "eat – ate"
+            source: "essen – aß"
+          - target: "watch – watched"
+            source: "anschauen – schaute an"
+          - target: "football"
+            source: "Fußball"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "tea"
+            source: "Tee"
+          - target: "film"
+            source: "Film"
+          - target: "read"
+            source: "lesen"
+          - target: "book"
+            source: "Buch"
+          - target: "happy"
+            source: "froh"
+          - target: "tired"
+            source: "müde"
+          - target: "yesterday"
+            source: "gestern"
+          - target: "lunch"
+            source: "Mittagessen"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "question tag"
+            source: "kleine Frage am Satzende"
   - type: section
     id: uebung
     title: Übung
@@ -98,9 +111,6 @@ blocks:
           - left: Ellie isn't tired,
             right: is she?
         explanation: Der tag nimmt den Helfer der Aussage wieder auf und dreht den Satz um. Aus positiv wird negativ, aus negativ wird positiv.
-        links:
-          - title: Lernlandkarte Englisch · Question tags
-            url: https://lernapps.net/apps/map/englisch/c/question-tags/
       - type: language-task
         id: tags-waehlen
         languages: { source: de, target: en }
@@ -247,8 +257,8 @@ blocks:
       - type: figure
         image: images/satzleiste-ganz.svg
         alt: Fünf Reihen mit Satzkarten zu einem Satz mit Amir. Aussage, Frage mit gelbem Helfer vorn, Verneinung mit gelbem Helfer vor dem Verb, Subjektfrage mit türkisem Who und question tag am Ende.
-        caption: "Alle Plätze der Satzleiste. Der gelbe Helfer wandert: nach vorn, vor das Verb und ans Ende."
+        caption: "Die Plätze der Satzleiste bis jetzt. Der gelbe Helfer wandert: nach vorn, vor das Verb und ans Ende."
         source: eigene Zeichnung
         licence: CC-BY-4.0
       - type: text
-        text: "Der gelbe Helfer fehlt in der Aussage, weil das simple present ihn dort nicht braucht, und bei der Subjektfrage, weil dort das Fragewort das Subjekt ersetzt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen."
+        text: "Der gelbe Helfer fehlt in der Aussage, weil das simple present ihn dort nicht braucht, und bei der Subjektfrage, weil dort das Fragewort das Subjekt ersetzt. Sonst ist er in jeder Reihe, nur an verschiedenen Plätzen. Zwei weitere Plätze kommen im nächsten Kapitel: vor dem Verb zur Betonung und vor dem Subjekt nach einem Wort wie never."

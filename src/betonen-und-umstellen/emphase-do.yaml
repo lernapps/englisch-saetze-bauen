@@ -1,0 +1,334 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "She did win: Betonung mit do"
+description: "Zweifelt jemand an einer Tatsache, widerspricht man mit do, does oder did. An einem Fall aus der Wissenschaftsgeschichte lernst du, eine Aussage zu betonen."
+competencies: [emphase-do]
+scope: "Die Seite zeigt die Betonung mit do. Eine Aussage wird verstärkt, indem der Helfer do, does oder did vor das Verb tritt und betont gesprochen wird (She did win two prizes. I do think so.). Das Verb steht danach ohne Endung, das -s bleibt bei does und das -ed bei did. Die Betonung widerspricht meist einem Zweifel oder einer Annahme. Bei be und Modalverben setzt man kein do ein, sie werden einfach betont gesprochen (She IS right). Der Fall im Lesestück ist Marie Curie (Nobelpreise 1903 und 1911, Quelle Wikipedia, nur Fakten). Nicht hier, weil sie auf einer späteren Seite stehen: die Umkehr von Helfer und Subjekt nach never, hardly und not only."
+blocks:
+  - type: section
+    id: einstieg
+    title: Zweifel und Belege
+    blocks:
+      - type: text
+        text: "In einem Zeitungsartikel steht der Satz „She did make the discoveries.“ Den Helfer did kennst du aus Fragen und Verneinungen. Beim Lesen klingt er hier lauter als die Wörter um ihn herum."
+      - type: single-choice
+        id: emphase-start
+        text: Was bewirkt did in einer Aussage wie „She did make the discoveries.“? Betonen heißt hervorheben.
+        options:
+          - text: Es macht aus dem Satz eine Frage.
+            correct: false
+            info: Eine Frage beginnt mit dem Helfer, wie in Did she make the discoveries? Hier steht she vorn.
+          - text: Es hebt hervor, dass die Aussage stimmt.
+            correct: true
+            info: Der Helfer steht hier nicht für eine Frage oder eine Verneinung. Er verstärkt die Aussage, meist gegen einen Zweifel.
+          - text: Es verneint den Satz.
+            correct: false
+            info: Zum Verneinen braucht der Helfer ein not, also did not oder didn't. Hier fehlt es.
+        explanation: Der Helfer kann auch in einer Aussage stehen. Dann verstärkt er sie.
+      - type: text
+        text: "**Das kannst du danach:** Du verstärkst eine Aussage mit do, does oder did und erkennst solche Sätze in Texten."
+  - type: section
+    id: lesen
+    title: "Lesestück: Fact check Marie Curie"
+    blocks:
+      - type: text
+        text: "Lies den Text und achte auf Sätze, in denen did, do oder does direkt vor einem Verb in der Grundform steht und etwas hervorhebt. Ein did mit not verneint nur und hebt nichts hervor."
+      - type: text
+        text: |
+          **A. Eine Behauptung**
+
+          Some people say that Marie Curie was only the wife of a famous scientist. Is that true? Let's look at the facts. Marie was born in Warsaw in 1867. There she studied at a secret university that admitted women, the Flying University. In 1891 she moved to Paris, where she did earn her degrees. In 1895 she married the scientist Pierre Curie.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt A
+        languages: { source: de, target: en }
+        entries:
+          - target: secret
+            source: geheim
+          - target: degree
+            source: akademischer Abschluss
+          - target: scientist
+            source: Wissenschaftler, Wissenschaftlerin
+          - target: admit
+            source: zulassen, aufnehmen
+          - target: earn
+            source: verdienen, erwerben
+          - target: Flying University
+            source: „Fliegende Universität“, eine geheime polnische Hochschule
+      - type: text
+        text: |
+          **B. Was die Daten sagen**
+
+          Critics often claim that Pierre made all the important discoveries. The records tell a different story. Together the couple studied radioactivity, the rays that some materials send out. In December 1903 the Nobel Prize in Physics went to three people: Pierre Curie, Marie Curie and Henri Becquerel. It was a prize for their joint research on radiation. Marie did share the prize with two men, and she did coin a new word for their field: radioactivity. In 1906 Pierre died in a road accident in Paris. Marie kept working. That year she became the first woman professor at the University of Paris.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt B
+        languages: { source: de, target: en }
+        entries:
+          - target: critic
+            source: Kritiker, Kritikerin
+          - target: claim
+            source: behaupten
+          - target: joint
+            source: gemeinsam
+          - target: research
+            source: Forschung
+          - target: radiation
+            source: Strahlung
+          - target: couple
+            source: Ehepaar
+          - target: discovery
+            source: Entdeckung
+          - target: record
+            source: Aufzeichnung, Unterlagen
+          - target: field
+            source: Fachgebiet
+          - target: send out
+            source: aussenden
+          - target: road accident
+            source: Verkehrsunfall
+          - target: coin a word
+            source: ein Wort neu prägen
+          - target: professor
+            source: Professorin, Professor
+      - type: text
+        text: |
+          **C. Das Ergebnis**
+
+          In 1911 she received a second Nobel Prize, this time in Chemistry, for the discovery of the elements radium and polonium. No person had ever won two Nobel Prizes before. Some people kept doubting her role, but the facts are clear. She did make the discoveries, and she did earn the awards. We do think that the dates speak for themselves. In 1920 she founded the Curie Institute in Paris.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt C
+        languages: { source: de, target: en }
+        entries:
+          - target: chemistry
+            source: Chemie
+          - target: discovery
+            source: Entdeckung
+          - target: element
+            source: chemisches Element
+          - target: doubt
+            source: Zweifel, anzweifeln
+          - target: date
+            source: Datum, Jahreszahl
+          - target: award
+            source: Auszeichnung
+          - target: role
+            source: Rolle
+          - target: keep working
+            source: weiterarbeiten
+          - target: speak for themselves
+            source: für sich sprechen
+          - target: found
+            source: "gründen (founded: gründete)"
+          - target: wife
+            source: Ehefrau
+          - target: famous
+            source: berühmt
+          - target: ray
+            source: Strahl
+      - type: table
+        caption: Marie Curie in Zahlen
+        header: [Jahr, Ereignis]
+        rows:
+          - ["1867", geboren in Warschau]
+          - ["1891", Umzug nach Paris]
+          - ["1903", Nobelpreis für Physik]
+          - ["1906", erste Professorin der Universität Paris]
+          - ["1911", Nobelpreis für Chemie]
+      - type: text
+        text: "Quelle: Wikipedia (englisch) „Marie Curie“, geöffnet am 24. November 2026. Der Text ist selbst geschrieben und folgt nur den Fakten der Quelle."
+  - type: section
+    id: neu
+    title: "Betonung: der Helfer trägt den Ton"
+    blocks:
+      - type: text
+        text: "Im Lesestück hast du Sätze wie „She did make the discoveries.“ gelesen. Auf der Satzleiste der früheren Kapitel liegen die Karten Subjekt, Verb und Objekt. Der Helfer ist die gelbe Karte. In der betonten Aussage liegt sie direkt vor dem Verb, trägt den Ton, und das Verb steht ohne Endung."
+      - type: figure
+        image: images/satzleiste-emphase.svg
+        alt: Zwei Reihen mit Satzkarten. Oben die Aussage She earned the prize mit der Verbform earned. Unten die betonte Aussage She DID earn the prize mit gelber Helferkarte DID vor dem Verb earn.
+        caption: "Die betonte Aussage hat eine Karte mehr. Die Vergangenheit liegt jetzt beim Helfer."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: table
+        caption: Normal und betont
+        header: [Normal, Betont]
+        rows:
+          - [I like it., I **do** like it.]
+          - [He likes it., He **does** like it.]
+          - [We saw it., We **did** see it.]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**do, does, did plus Grundform, mit Betonung.** Wer zweifelt oder etwas Falsches glaubt, dem widerspricht man so. Geschrieben zeigt man die Betonung oft mit Großbuchstaben oder Kursivschrift (She DID win), gesprochen mit dem Ton. Anders als in der Frage bleibt das Subjekt vorn, und anders als in der Verneinung fehlt das not. Bei be und bei Modalverben (can, will) setzt man kein do ein: Sie sind ihr eigener Helfer und werden einfach betont gesprochen (She IS right.)."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: emphase-verstehen
+        text: Mit wem teilte Marie Curie den Nobelpreis für Physik von 1903?
+        options:
+          - text: Mit Pierre Curie und Henri Becquerel.
+            correct: true
+            info: Im Lesestück steht, dass der Preis an drei Personen ging.
+          - text: Mit niemandem, sie bekam ihn allein.
+            correct: false
+            info: Allein bekam sie erst den Preis für Chemie 1911.
+          - text: Nur mit ihrem Mann Pierre.
+            correct: false
+            info: Henri Becquerel war auch dabei.
+        explanation: Der Preis von 1903 ging an drei Personen. Der zweite Preis kam 1911.
+      - type: multiple-choice
+        id: emphase-richtigfalsch
+        text: Welche Sätze aus dem Lesestück betonen etwas mit did? Wähle alle aus.
+        options:
+          - text: She did make the discoveries.
+            correct: true
+            info: Der Helfer did steht vor dem Verb make und hebt die Aussage hervor.
+          - text: Marie kept working.
+            correct: false
+            info: Hier steht kein Helfer. Es ist ein normaler Satz in der Vergangenheit.
+          - text: She did earn the awards.
+            correct: true
+            info: Der Helfer did steht vor dem Verb earn und hebt die Aussage hervor.
+          - text: In 1895 she married the scientist Pierre Curie.
+            correct: false
+            info: Das ist ein normaler Aussagesatz ohne Helfer.
+        explanation: Betont sind die Sätze, in denen did direkt vor dem Verb in der Grundform steht und nicht verneint.
+      - type: single-choice
+        id: emphase-belegen
+        text: Welcher Satz aus dem Lesestück zeigt, dass Marie Curie nach dem Tod ihres Mannes weiterarbeitete?
+        options:
+          - text: Marie kept working.
+            correct: true
+            info: Der Satz folgt auf den Tod von Pierre im Jahr 1906. Danach wurde sie Professorin.
+          - text: In 1906 Pierre died in a road accident in Paris.
+            correct: false
+            info: Das ist das Ereignis, nicht die Antwort darauf, was Marie danach tat.
+          - text: Marie did share the prize with two men.
+            correct: false
+            info: Das sagt etwas über den Preis von 1903, nicht über die Zeit nach 1906.
+        explanation: Der Beleg ist der Satz direkt nach der Nachricht vom Unfall.
+      - type: language-task
+        id: emphase-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den Helfer und die Form des Verbs für die betonte Aussage.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Marie Curie hat den Preis wirklich gewonnen.
+            target: "Marie Curie [did] [win] the prize."
+            distractors: [[does, was], [won, wins]]
+          - cue: Er weiß die Antwort wirklich.
+            target: "He [does] [know] the answer."
+            distractors: [[did, do], [knows, knew]]
+          - cue: Wir lieben diese Geschichte wirklich.
+            target: "We [do] [love] this story."
+            distractors: [[does, did], [loves, loved]]
+        hint: Schau auf die Zeit und auf die Person. Das Verb steht nach dem Helfer in der Grundform.
+      - type: language-task
+        id: emphase-widerspruch
+        languages: { source: de, target: en }
+        task: Ein Kritiker zweifelt. Widersprich mit einer betonten Aussage.
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: Marie didn't win the prize.
+            target: (Yes, |)(Marie|Marie Curie|She) (really |)did win (the prize|that prize|the Nobel Prize|it).
+            mistakes:
+              - answer: Marie does win the prize.
+                message: Der Kritiker spricht in der Vergangenheit. Welcher Helfer passt?
+              - answer: Marie did won the prize.
+                message: Did zeigt schon die Vergangenheit. Danach steht das Verb in der Grundform, also win.
+              - answer: Marie win the prize.
+                message: Es fehlt der Helfer did vor dem Verb.
+          - cue: He doesn't know the facts.
+            target: (Yes, |)(He|The critic) (really |)does know (the facts|all the facts|the answer|them).
+            mistakes:
+              - answer: He does knows the facts.
+                message: Does trägt das -s. Das Verb heißt know.
+              - answer: He do know the facts.
+                message: Bei he heißt der Helfer does.
+              - answer: He know the facts.
+                message: Es fehlt der Helfer does. Er trägt die Betonung.
+              - answer: He did know the facts.
+                message: Der Kritiker spricht in der Gegenwart (doesn't). Welcher Helfer passt?
+          - cue: They didn't come to Paris.
+            target: (Yes, |)(They|The Curies) (really |)did come( to Paris|).
+            mistakes:
+              - answer: They did came to Paris.
+                message: Did trägt die Vergangenheit. Das Verb heißt come.
+              - answer: They came to Paris.
+                message: Richtig, aber die Betonung fehlt. Setze did vor das Verb.
+        hint: Aus dem Verneinungshelfer wird ein betonter Helfer. Lass das not weg.
+      - type: language-task
+        id: emphase-korrektur
+        languages: { source: de, target: en }
+        task: "In jedem Satz steckt ein Fehler. Schreibe den Satz richtig. Die Betonung bleibt: do, does oder did bleibt im Satz."
+        form: { case: ok, punctuation: ok }
+        items:
+          - cue: She does makes great discoveries.
+            target: She does make great discoveries.
+            mistakes:
+              - answer: She does makes great discoveries.
+                message: Does trägt schon das -s. Das Verb steht ohne Endung.
+              - answer: She makes great discoveries.
+                message: Richtig, aber die Betonung soll bleiben. Behalte does.
+          - cue: They did earned the awards.
+            target: They did earn the awards.
+            mistakes:
+              - answer: They did earned the awards.
+                message: Did zeigt schon die Vergangenheit. Das Verb steht ohne -ed.
+              - answer: They earned the awards.
+                message: Richtig, aber die Betonung soll bleiben. Behalte did.
+          - cue: He do like the story.
+            target: He does like the story.
+            mistakes:
+              - answer: He do like the story.
+                message: Noch nicht ganz. Welcher Helfer gehört zu he?
+        hint: Prüfe, ob der Helfer zur Person und zur Zeit passt und ob das Verb ohne Endung steht.
+      - type: language-task
+        id: emphase-hoeren
+        languages: { source: de, target: en }
+        task: "Hör zu und schreibe, was du hörst. Der Helfer ist betont: Schreibe ihn mit."
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: she-did-love-her-work.mp3
+            target: She did love her work.
+            mistakes:
+              - answer: She loved her work.
+                message: Du hast das betonte did überhört.
+          - audio: critics-do-forget-one-thing.mp3
+            target: Critics do forget one thing.
+          - audio: he-did-say-that.mp3
+            target: He did say that.
+  - type: section
+    id: anwenden
+    title: Sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: emphase-nachsprechen
+        language: en
+        items:
+          - audio: i-do-think-she-deserved-it.mp3
+            text: I do think she deserved it.
+          - audio: we-do-need-more-stories-like-hers.mp3
+            text: We do need more stories like hers.
+          - audio: she-did-change-science.mp3
+            text: She did change science.
+        hint: Hör den Satz zuerst. Sprich dann nach und betone den Helfer, so wie in einer Antwort auf einen Zweifel. Das Wort deserve heißt verdienen. Die Sätze zeigen dir auch, wie du den Leserbrief unten beginnen kannst.
+      - type: open-task
+        id: emphase-leserbrief
+        task: "Eine Leserin schreibt an die Zeitung: „Marie Curie was only the wife of a famous scientist.“ Schreibe eine Antwort in drei Sätzen. Mindestens zwei davon verstärken mit do, does oder did eine Tatsache aus dem Lesestück."
+        points:
+          - text: Zwei Sätze enthalten do, does oder did vor dem Verb in der Grundform.
+            source: /betonen-und-umstellen/emphase-do/#neu
+          - text: Die Tatsachen stimmen mit dem Lesestück überein (zum Beispiel Nobelpreise, Professorin).
+            source: /betonen-und-umstellen/emphase-do/#lesen
+          - text: Die Antwort hat drei ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          I do think you are wrong. Marie Curie did receive a second Nobel Prize. She did become the first woman professor at the University of Paris.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Mit dem Helfer kannst du auch einen Satz umdrehen. Auf der nächsten Seite liest du über die Landung auf dem Mond und siehst, wie Wörter wie never den Helfer nach vorn holen."

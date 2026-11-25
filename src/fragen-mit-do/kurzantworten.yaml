@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Es fehlt das Subjekt. Nach Yes kommt I und dann der Helfer.
         explanation: Die Kurzantwort nimmt nur den Helfer der Frage mit.
-        links:
-          - title: Lernlandkarte Englisch · Kurzantworten
-            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
       - type: text
         text: "**Das kannst du danach:** Du antwortest auf Ja-Nein-Fragen kurz und richtig."
   - type: section
@@ -59,23 +56,34 @@ blocks:
         blocks:
           - type: text
             text: "**Yes oder No, Subjekt, Helfer.** Die Antwort wiederholt den Helfer der Frage. Bei Fragen mit **be** wiederholst du is oder are. Aus Ellie wird she, aus Peter und Amir wird they."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [yes, ja]
-          - [eat, essen]
-          - [Mr Hill, Mr Hill (der Englischlehrer)]
-          - [no, nein]
-          - [like, mögen]
-          - [play, spielen]
-          - [tea, Tee]
-          - [pizza, Pizza]
-          - [football, Fußball]
-          - [happy, froh]
-          - [tired, müde]
-          - [isn't, ist nicht]
-          - [aren't, sind nicht]
+        languages: { source: de, target: en }
+        entries:
+          - target: "True"
+            source: "ja"
+          - target: "eat"
+            source: "essen"
+          - target: "False"
+            source: "nein"
+          - target: "like"
+            source: "mögen"
+          - target: "play"
+            source: "spielen"
+          - target: "tea"
+            source: "Tee"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "football"
+            source: "Fußball"
+          - target: "happy"
+            source: "froh"
+          - target: "tired"
+            source: "müde"
+          - target: "isn't"
+            source: "ist nicht"
+          - target: "aren't"
+            source: "sind nicht"
   - type: section
     id: uebung
     title: Übung
@@ -93,9 +101,6 @@ blocks:
           - left: Are Sophie and Amir happy?
             right: No, they aren't.
         explanation: Die Antwort wiederholt den Helfer der Frage, bei Fragen mit be das Wort is oder are.
-        links:
-          - title: Lernlandkarte Englisch · Kurzantworten
-            url: https://lernapps.net/apps/map/englisch/c/kurzantworten/
       - type: language-task
         id: kurzantworten-helfer
         languages: { source: de, target: en }

@@ -1,0 +1,315 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title: "Umkehr nach never, hardly und not only"
+description: "Nach Wörtern wie never, hardly und not only kehrt man Helfer und Subjekt um. An einem Sachtext über die erste Mondlandung lernst du, solche Sätze zu verstehen und zu bilden."
+competencies: [inversion]
+scope: "Die Seite zeigt die Inversion nach verneinenden Wörtern. Steht never, seldom, hardly oder not only am Satzanfang und gilt für den ganzen Satz, tauscht der Helfer den Platz mit dem Subjekt wie in einer Frage (Never have I seen it. Seldom does she complain. Not only did he win, but …). Gibt es im Satz keinen Helfer, tritt do, does oder did ein, und das Verb steht ohne Endung. Die Umkehr gehört zum gehobenen Englisch in Texten und Reden. Der Fall im Lesestück ist die erste Mondlandung von Apollo 11 (Quelle Wikipedia, nur Fakten). Nicht hier: die Umkehr in Bedingungssätzen (Had I known …), nach so und such und nach Ortsangaben."
+blocks:
+  - type: section
+    id: einstieg
+    title: Der Helfer springt nach vorn
+    blocks:
+      - type: text
+        text: "In einem Sachtext steht der Satz „Seldom do we see such a crowd.“ Er klingt wie eine Frage, ist aber keine."
+      - type: single-choice
+        id: inversion-start
+        text: "Vergleiche „We seldom see such a crowd.“ mit „Seldom do we see such a crowd.“ Was hat sich verändert?"
+        options:
+          - text: Das Wort do steht jetzt vor dem Subjekt we.
+            correct: true
+            info: Der Helfer do ist neu und steht direkt hinter dem Wort seldom. Das Subjekt we steht dahinter.
+          - text: Das Verb see ist verschwunden.
+            correct: false
+            info: See steht in beiden Sätzen. Es folgt nach dem Subjekt we.
+          - text: Aus dem Satz ist eine Frage geworden.
+            correct: false
+            info: Am Ende steht ein Punkt, und die Umkehr betont das Wort never.
+        explanation: Nach einem verneinenden Wort am Satzanfang tauschen Helfer und Subjekt die Plätze.
+      - type: text
+        text: "**Das kannst du danach:** Du erkennst und bildest Sätze, in denen nach never, hardly, seldom oder not only der Helfer vor dem Subjekt steht."
+  - type: section
+    id: lesen
+    title: "Lesestück: Landung auf dem Mond"
+    blocks:
+      - type: text
+        text: "Lies den Text und markiere in Gedanken die Sätze, die mit einem verneinenden Wort beginnen und bei denen der Helfer vor dem Subjekt steht."
+      - type: text
+        text: |
+          **A. Der Start**
+
+          On 16 July 1969 a rocket lifted off from Kennedy Space Center in Florida. On board were three astronauts: Neil Armstrong, Buzz Aldrin and Michael Collins. Their goal was the Moon. Never before had humans walked on another world. Four days later, on 20 July, the lunar module Eagle touched down on the Moon. Armstrong and Aldrin were inside. Collins stayed in orbit in the command module.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt A
+        languages: { source: de, target: en }
+        entries:
+          - target: on board
+            source: an Bord
+          - target: lift off
+            source: abheben, starten
+          - target: astronaut
+            source: Raumfahrer, Raumfahrerin
+          - target: lunar module
+            source: Mondlandefähre
+          - target: command module
+            source: Kommandokapsel
+          - target: orbit
+            source: Umlaufbahn
+          - target: touch down
+            source: aufsetzen, landen
+      - type: text
+        text: |
+          **B. Die Landung**
+
+          The landing was tense. Eagle came down with 216 pounds (98 kg) of usable fuel left. During the descent the instruments showed fuel for only 25 more seconds of powered flight before an abort would have become unsafe. Later analysis suggested that the real figure was probably closer to 50 seconds. Seldom did later crews land with so little fuel. Armstrong and Aldrin had a job to do. Not only did they walk on the surface, but they also collected 21.5 kg of lunar material.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt B
+        languages: { source: de, target: en }
+        entries:
+          - target: tense
+            source: angespannt
+          - target: fuel
+            source: Treibstoff
+          - target: descent
+            source: Abstieg
+          - target: usable
+            source: nutzbar
+          - target: powered flight
+            source: Flug mit Antrieb
+          - target: unsafe
+            source: nicht sicher
+          - target: abort
+            source: Abbruch (der Landung)
+          - target: suggest
+            source: nahelegen
+          - target: figure
+            source: Zahl, Wert
+          - target: collect
+            source: sammeln
+          - target: surface
+            source: Oberfläche
+          - target: analysis
+            source: Auswertung
+          - target: lunar material
+            source: Mondgestein
+      - type: text
+        text: |
+          **C. Die Welt schaut zu**
+
+          Armstrong stepped onto the surface on 21 July, about six and a half hours after the landing. All in all, the two men spent more than 21 hours on the Moon, and the moonwalk lasted 2 hours, 31 minutes and 40 seconds. An estimated 600 million people watched the moonwalk on television, about one fifth of the world's population. On 24 July the crew splashed down in the Pacific Ocean. For the first time, people on Earth watched humans walk on the Moon.
+      - type: vocabulary
+        caption: Randglossar zu Abschnitt C
+        languages: { source: de, target: en }
+        entries:
+          - target: step onto
+            source: betreten
+          - target: moonwalk
+            source: Mondspaziergang
+          - target: crew
+            source: Besatzung
+          - target: last
+            source: dauern
+          - target: all in all
+            source: insgesamt
+          - target: estimated
+            source: geschätzt
+          - target: population
+            source: Bevölkerung
+          - target: splash down
+            source: im Meer wassern
+          - target: viewer
+            source: Zuschauer, Zuschauerin
+      - type: table
+        caption: Apollo 11 in Zahlen
+        header: [Angabe, Wert]
+        rows:
+          - [Start, 16. Juli 1969]
+          - [Landung auf dem Mond, 20. Juli 1969]
+          - [Dauer des Mondspaziergangs, 2 Stunden 31 Minuten 40 Sekunden]
+          - [Zuschauer am Fernseher, geschätzt 600 Millionen]
+      - type: text
+        text: "Quelle: Wikipedia (englisch) „Apollo 11“, geöffnet am 24. November 2026. Der Text ist selbst geschrieben und folgt nur den Fakten der Quelle. Die Zahlen zu den Zuschauern sind Schätzungen der Quelle. Die Regel stützt sich auf Wikipedia (englisch) „Negative inversion“."
+  - type: section
+    id: neu
+    title: Verneinendes Wort vorn, Helfer vor dem Subjekt
+    blocks:
+      - type: text
+        text: "Im Lesestück stehen Sätze wie „Never before had humans walked on another world.“ Ein Wort mit verneinender Bedeutung (never, seldom, hardly, not only) steht am Satzanfang. Diese Umkehr heißt Inversion. Auf der Satzleiste liegt die gelbe Helferkarte jetzt vor der Karte Subjekt: Der Helfer springt vor das Subjekt, genau wie in einer Frage. Das Verb steht danach wie im normalen Satz, nur ohne Endung, wenn do, does oder did dabei ist. Das gilt nur, wenn das verneinende Wort vorn steht und für den ganzen Satz gilt. Als Helfer zählen hier auch have, has und had: Never have I seen it."
+      - type: figure
+        image: images/satzleiste-inversion.svg
+        alt: Zwei Reihen mit Satzkarten. Oben der normale Satz I have never seen it mit den Karten I, have, never, seen, it. Unten der umgekehrte Satz Never have I seen it, in dem never vorn steht und die Helferkarte have vor dem Subjekt I liegt.
+        caption: "Der verneinende Ausdruck zieht den Helfer nach vorn: Der Helfer springt vor das Subjekt."
+        source: eigene Zeichnung
+        licence: CC-BY-4.0
+      - type: vocabulary
+        caption: Die verneinenden Wörter
+        languages: { source: de, target: en }
+        entries:
+          - target: never
+            source: nie
+          - target: seldom
+            source: selten
+          - target: hardly … when
+            source: kaum … als
+          - target: not only … but also
+            source: nicht nur … sondern auch
+      - type: table
+        caption: Normal und umgekehrt
+        header: [Normal, Umgekehrt]
+        rows:
+          - [He has seldom lost., "Seldom **has** he lost."]
+          - [We had hardly left when it rained., "Hardly **had** we left when it rained."]
+          - ["She not only sang, but she also danced.", "Not only **did** she sing, but she also danced."]
+      - type: note
+        title: Merke
+        blocks:
+          - type: text
+            text: "**Verneinendes Wort vorn, dann Helfer, dann Subjekt.** Gibt es im Satz noch keinen Helfer (wie in sang), kommt do, does oder did dazu, und das Verb steht ohne Endung. Nur der erste Satzteil wird umgekehrt (…, but she also danced). Gibt es mehrere Helfer, springt nur der erste (Never would I have thought so). Die Umkehr klingt gehoben und kommt in Reden und Texten vor."
+  - type: section
+    id: uebung
+    title: Übung
+    blocks:
+      - type: single-choice
+        id: inversion-verstehen
+        text: Wo war Michael Collins, als Armstrong und Aldrin auf dem Mond landeten?
+        options:
+          - text: In der Mondlandefähre Eagle.
+            correct: false
+            info: Im Landemodul waren Armstrong und Aldrin.
+          - text: In der Kommandokapsel in der Mondumlaufbahn.
+            correct: true
+            info: Der Text sagt, dass Collins im Orbit blieb.
+          - text: Auf der Erde im Kontrollzentrum.
+            correct: false
+            info: Collins flog als dritter Astronaut mit.
+        explanation: Collins blieb in der Kommandokapsel im Orbit, während die beiden anderen landeten.
+      - type: true-false
+        id: inversion-richtigfalsch
+        text: Armstrong und Aldrin landeten mit mehr Treibstoff als die meisten späteren Missionen.
+        answer: false
+        explanation: "Der Text sagt: Seldom did later crews land with so little fuel. Spätere Besatzungen hatten also meist mehr Treibstoff."
+      - type: single-choice
+        id: inversion-belegen
+        text: Welcher Satz aus dem Lesestück belegt, dass die beiden Astronauten auf dem Mond mehr taten als nur zu gehen?
+        options:
+          - text: Collins stayed in orbit in the command module.
+            correct: false
+            info: Das beschreibt, wo Collins war, nicht, was die beiden auf der Oberfläche taten.
+          - text: On 24 July the crew splashed down in the Pacific Ocean.
+            correct: false
+            info: Das beschreibt die Rückkehr zur Erde.
+          - text: Not only did they walk on the surface, but they also collected 21.5 kg of lunar material.
+            correct: true
+            info: "Der Satz nennt zwei Tätigkeiten: gehen und Mondgestein sammeln."
+        explanation: Der Beleg ist der Satz mit not only, der beide Tätigkeiten nennt.
+      - type: language-task
+        id: inversion-waehlen
+        languages: { source: de, target: en }
+        mode: choice
+        task: Wähle den richtigen Helfer für die umgekehrte Wortstellung.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Ich habe nie einen solchen Ausblick gesehen.
+            target: "Never [have] I seen such a view."
+            distractors: [[has, did]]
+          - cue: Sie hilft selten anderen.
+            target: "Seldom [does] she help others."
+            distractors: [[do, is]]
+          - cue: Er gewann nicht nur, sondern half auch anderen.
+            target: "Not only [did] he win, but he also helped others."
+            distractors: [[does, has]]
+        hint: Schau, ob im normalen Satz schon ein Helfer steht. Sonst kommt do, does oder did.
+      - type: language-task
+        id: inversion-bilden
+        languages: { source: de, target: en }
+        task: Schreibe den Satz mit Umkehr nach dem verneinenden Wort.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: He has never lost a game.
+            target: Never has he lost (a|any) (game|match).
+            mistakes:
+              - answer: Never he has lost a game.
+                message: Der Helfer has muss vor das Subjekt he springen.
+              - answer: Never does he lost a game.
+                message: Im Satz steht schon der Helfer has. Er springt nach vorn, das Verb bleibt lost.
+              - answer: Has never he lost a game.
+                message: Das verneinende Wort never muss am Anfang stehen, danach der Helfer has.
+          - cue: She seldom makes a mistake.
+            target: Seldom does she (ever |)make (a mistake|mistakes).
+            mistakes:
+              - answer: Seldom she makes a mistake.
+                message: Nach seldom kommt der Helfer vor das Subjekt. Hier ist es does.
+              - answer: Seldom does she makes a mistake.
+                message: Does trägt das -s. Das Verb steht ohne Endung.
+          - cue: They not only won the cup, but they also broke the record.
+            target: Not only did they win the cup, but (they |)also broke (the|a) record.
+            mistakes:
+              - answer: Not only they won the cup, but they also broke the record.
+                message: Nach not only kommt der Helfer vor das Subjekt.
+              - answer: Not only they did win the cup, but they also broke the record.
+                message: Der Helfer did steht vor dem Subjekt, nicht dahinter.
+              - answer: Not only did they won the cup, but they also broke the record.
+                message: Did trägt die Vergangenheit. Das Verb steht in der Grundform, also win.
+        hint: Das verneinende Wort kommt nach vorn. Dann Helfer, Subjekt, Verb.
+      - type: language-task
+        id: inversion-korrektur
+        languages: { source: de, target: en }
+        task: In jedem Satz steckt ein Fehler. Schreibe den Satz richtig.
+        form: { case: hint, punctuation: ok }
+        items:
+          - cue: Hardly I had sat down when the phone rang.
+            target: Hardly had I sat down when the phone rang.
+            mistakes:
+              - answer: Hardly I had sat down when the phone rang.
+                message: Der Satz ist noch unverändert. Welches Wort muss vor das Subjekt I springen?
+          - cue: Not only he laughed, but he also cried.
+            target: Not only did he laugh, but he also cried.
+            mistakes:
+              - answer: Not only did he laughed, but he also cried.
+                message: Did trägt die Vergangenheit. Das Verb steht in der Grundform.
+              - answer: Not only he laughed, but he also cried.
+                message: Der Satz ist noch unverändert. Nach not only muss ein Helfer vor das Subjekt.
+        hint: Prüfe, ob der Helfer vor dem Subjekt steht und ob das Verb in der richtigen Form folgt.
+      - type: language-task
+        id: inversion-hoeren
+        languages: { source: de, target: en }
+        task: Hör zu und schreibe, was du hörst.
+        form: { case: ok, punctuation: ok }
+        items:
+          - audio: never-have-i-felt-so-tired.mp3
+            target: Never have I felt so tired.
+          - audio: seldom-does-he-speak-in-public.mp3
+            target: Seldom does he speak in public.
+          - audio: hardly-had-the-lesson-begun-when-the-bell-rang.mp3
+            target: Hardly had the lesson begun when the bell rang.
+  - type: section
+    id: anwenden
+    title: Sprechen und schreiben
+    blocks:
+      - type: speaking-task
+        id: inversion-nachsprechen
+        language: en
+        items:
+          - audio: never-before-had-i-seen-the-sea.mp3
+            text: Never before had I seen the sea.
+          - audio: seldom-do-we-hear-such-a-story.mp3
+            text: Seldom do we hear such a story.
+          - audio: not-only-did-he-come-but-he-stayed.mp3
+            text: Not only did he come, but he stayed.
+        hint: Hör den Satz zuerst. Sprich dann nach und betone das verneinende Wort am Anfang.
+      - type: open-task
+        id: inversion-schreiben
+        task: "Du schreibst für eine Schülerzeitung einen kurzen Text über die Mondlandung. Schreibe zwei Sätze mit Umkehr nach einem verneinenden Wort (never, seldom, hardly oder not only). Die Tatsachen findest du im Lesestück. Verwende eigene Worte."
+        points:
+          - text: In beiden Sätzen steht ein verneinendes Wort am Anfang, danach der Helfer und dann das Subjekt.
+            source: /betonen-und-umstellen/inversion/#neu
+          - text: Die Tatsachen stimmen mit dem Lesestück überein (zum Beispiel Collins im Orbit, 21,5 kg Mondgestein).
+            source: /betonen-und-umstellen/inversion/#lesen
+          - text: Es sind ganze Sätze mit Punkt am Ende.
+            kind: form
+        solution: |
+          Seldom did later crews land with so little fuel. Not only did the crew walk on the Moon, but they also brought back lunar material.
+  - type: section
+    id: weiter
+    title: Wie es weitergeht
+    blocks:
+      - type: text
+        text: "Damit kennst du den Helfer an seinen Plätzen: in der Frage, in der Verneinung, am Satzende im question tag, vor dem Verb zur Betonung und vor dem Subjekt nach einem verneinenden Wort. Wenn du englische Reden und Bücher liest, begegnet er dir wieder."

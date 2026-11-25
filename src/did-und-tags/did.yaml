@@ -30,9 +30,6 @@ blocks:
             correct: false
             info: Morgen heißt tomorrow, nicht yesterday.
         explanation: Did und yesterday sagen beide, dass es um die Vergangenheit geht.
-        links:
-          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
       - type: text
         text: "**Das kannst du danach:** Du fragst und verneinst in der Vergangenheit und weißt, warum das Verb dabei kein -ed hat."
   - type: section
@@ -60,28 +57,46 @@ blocks:
             text: "**Did trägt das -ed, das Verb geht ohne.** Did Ellie walk to school? Nicht „walked“. Didn't ist **did not**."
       - type: text
         text: "Einige Verben haben eine eigene Form, zum Beispiel ate (von eat) und went (von go). Auch dann geht das Verb nach did in die Grundform: Did Sophie go home? Nicht „went“. Die Kurzantwort nimmt did mit: Yes, I did. No, he didn't."
-      - type: table
+      - type: vocabulary
         caption: Klassenzimmer-Poster · Wörter dieser Seite
-        header: [Wort oder Ausdruck, Bedeutung]
-        rows:
-          - [play – played, spielen – spielte]
-          - [watch – watched, anschauen – schaute an]
-          - [study – studied, lernen – lernte]
-          - [eat – ate, essen – aß]
-          - [go – went, gehen – ging]
-          - [yesterday, gestern]
-          - [what, was]
-          - [football, Fußball]
-          - [pizza, Pizza]
-          - [film, Film]
-          - [English, Englisch]
-          - [home, nach Hause]
-          - [walk – walked, gehen – ging zu Fuß]
-          - [at school, in der Schule]
-          - [at home, zu Hause]
-          - [a film, ein Film]
-          - [after school, nach der Schule]
-          - [did not, nicht (Vergangenheit)]
+        languages: { source: de, target: en }
+        entries:
+          - target: "play – played"
+            source: "spielen – spielte"
+          - target: "watch – watched"
+            source: "anschauen – schaute an"
+          - target: "study – studied"
+            source: "lernen – lernte"
+          - target: "eat – ate"
+            source: "essen – aß"
+          - target: "go – went"
+            source: "gehen – ging"
+          - target: "yesterday"
+            source: "gestern"
+          - target: "what"
+            source: "was"
+          - target: "football"
+            source: "Fußball"
+          - target: "pizza"
+            source: "Pizza"
+          - target: "film"
+            source: "Film"
+          - target: "English"
+            source: "Englisch"
+          - target: "home"
+            source: "nach Hause"
+          - target: "walk – walked"
+            source: "gehen – ging zu Fuß"
+          - target: "at school"
+            source: "in der Schule"
+          - target: "at home"
+            source: "zu Hause"
+          - target: "a film"
+            source: "ein Film"
+          - target: "after school"
+            source: "nach der Schule"
+          - target: "did not"
+            source: "nicht (Vergangenheit)"
   - type: section
     id: uebung
     title: Übung
@@ -96,9 +111,6 @@ blocks:
           - a film
           - yesterday
         explanation: Der Helfer Did kommt zuerst, dann das Subjekt, dann das Verb in der Grundform, das Objekt und die Zeit.
-        links:
-          - title: "Lernlandkarte Englisch · Simple past: Fragen und Verneinung"
-            url: https://lernapps.net/apps/map/englisch/c/simple-past-fragen/
       - type: language-task
         id: did-waehlen
         languages: { source: de, target: en }
@@ -249,4 +261,4 @@ blocks:
     title: Wie es weitergeht
     blocks:
       - type: text
-        text: "Ellie hat gestern eine Zeichnung von der Millbrook School gemalt und zeigt sie Sophie. Sie sagt etwas mit einer kleinen Frage am Ende des Satzes. Wie sie gebaut ist, zeigt die nächste Seite."
+        text: "Ellie zeigt Sophie ihre Zeichnung und sagt etwas mit einer kleinen Frage am Ende des Satzes. Wie sie gebaut ist, zeigt die nächste Seite."
